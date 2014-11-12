@@ -1,45 +1,62 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.11'
+# extensions, reporting, printing
+#gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
+gem 'accountant_clerk' , path: "../accountant_clerk"
 
-# Use sqlite3 as the database for Active Record
+#gem 'print_clerk' , github: "rubyclerks/print_clerk"
+gem 'print_clerk' , path: "../print_clerk"
+
+#gem 'post_clerk' , github: "rubyclerks/post_clerk"
+gem 'post_clerk' , path: "../post_clerk"
+
+
+
 gem 'sqlite3'
-
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.2'
-
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
-
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem "office_clerk", :path => "../office_clerk"
 
-# Use unicorn as the app server
-# gem 'unicorn'
+#one wishes one would not need it. alas . . .
+gem 'rack-attack'
 
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
+group :development do
+  gem 'better_errors' , :platforms=>[:mri_20, :mri_21, :rbx]
+  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21,:rbx]
+  gem "i18n-tasks"
+  gem 'quiet_assets'
+  gem 'rails_layout'
+#  gem "jeweler", "> 1.6.4"
+end
+group :development, :test do
+  gem "spring"
+  gem "spring-commands-rspec"
+end
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+#asset / production reelated
+gem "therubyracer" 
+gem "libv8" , "3.16.14.3"
+gem "rb-readline"
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails'
+
+
+group :test do
+#  gem "poltergeist"
+#  gem "phantomjs"
+  gem "codeclimate-test-reporter"
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'capybara-screenshot'
+  gem 'database_cleaner'
+  gem "factory_girl_rails"
+  gem 'email_spec'
+  gem 'i18n-spec'
+  gem 'guard-bundler'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+end
