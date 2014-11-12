@@ -10,6 +10,9 @@ gem 'print_clerk' , path: "../print_clerk"
 #gem 'post_clerk' , github: "rubyclerks/post_clerk"
 gem 'post_clerk' , path: "../post_clerk"
 
+#misc
+gem "valid_email" , :require => 'valid_email/email_validator' #no mx checking
+gem 'db_fixtures_dump' , :github => 'rubyclerks/db_fixtures_dump' #backup
 
 
 gem 'sqlite3'
