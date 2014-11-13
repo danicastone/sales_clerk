@@ -14,6 +14,7 @@ gem 'post_clerk' , path: "../post_clerk"
 gem "valid_email" , :require => 'valid_email/email_validator' #no mx checking
 gem 'db_fixtures_dump' , :github => 'rubyclerks/db_fixtures_dump' #backup
 
+gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4"
 
 gem 'sqlite3'
 

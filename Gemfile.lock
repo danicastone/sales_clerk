@@ -1,4 +1,16 @@
 GIT
+  remote: git://github.com/activerecord-hackery/ransack.git
+  revision: d1fc95b3c21c8294e69c70e3995459d11dabfd67
+  branch: rails-4
+  specs:
+    ransack (1.2.3)
+      actionpack (>= 4.0)
+      activerecord (>= 4.0)
+      activesupport (>= 4.0)
+      i18n
+      polyamorous (~> 1.1)
+
+GIT
   remote: git://github.com/rubyclerks/db_fixtures_dump.git
   revision: 2d00815c8cb4a9bf143564a8a1de082b6e30282c
   specs:
@@ -202,6 +214,8 @@ GEM
       cocaine (~> 0.5.3)
       mime-types
     pdf-core (0.4.0)
+    polyamorous (1.1.0)
+      activerecord (>= 3.0)
     prawn (1.3.0)
       pdf-core (~> 0.4.0)
       ttfunk (~> 1.4.0)
@@ -348,6 +362,7 @@ DEPENDENCIES
   quiet_assets
   rack-attack
   rails_layout
+  ransack!
   rb-readline
   rspec-rails
   sdoc
