@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 # extensions, reporting, printing
 #gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
-gem 'accountant_clerk' , path: "../accountant_clerk"
+#gem 'accountant_clerk' , path: "../accountant_clerk"
 
 #gem 'print_clerk' , github: "rubyclerks/print_clerk"
-gem 'print_clerk' , path: "../print_clerk"
+#gem 'print_clerk' , path: "../print_clerk"
 
 #gem 'post_clerk' , github: "rubyclerks/post_clerk"
-gem 'post_clerk' , path: "../post_clerk"
+#gem 'post_clerk' , path: "../post_clerk"
 
 #misc
 gem "valid_email" , :require => 'valid_email/email_validator' #no mx checking
