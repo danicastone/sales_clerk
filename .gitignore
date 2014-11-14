@@ -28,3 +28,5 @@ pickle-email-*.html
 bower.json
 
 db/development.sqlite3.*
+
+.DS_Store
