@@ -285,37 +285,6 @@ h1.product-title {
   background-color: $highlight;
 }
 
-.carouselli {
-	margin-top: 50px;
-	margin: 50px auto 0;
-	width: 1000px;
-	text-align: center;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 93%;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #BDB6B6;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-     -moz-border-radius: 23px;
-          border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-.carousel-control.right {
-  right: 15px;
-}
 
 body {
     margin-top: 50px; 
@@ -324,14 +293,14 @@ body {
 
 .banner {
     text-align: center;
-    background: image-url("sales_clerk/violetti-lev.jpg") no-repeat center center;
+    background: image-url("kauppa/violetti-lev.jpg") no-repeat center center;
     background-size: cover;
     min-height: 500px;
     margin-top: 15px;
 }
 
 .taustalogo {
-  background: image-url("sales_clerk/kansi.jpg") no-repeat scroll;
+  background: image-url("kauppa/kansi.jpg") no-repeat scroll;
   height: 107px;
 }
 
@@ -405,8 +374,8 @@ background-color: #0A6779; }
   margin: 20px auto 0; }
 
 .btn-mega {
-  padding: 20px 32px;
-  font-size: 28px;
+  padding: 20px 38px;
+  font-size: 30px;
   line-height: 1.33;
   border-radius: 6px;
   }
