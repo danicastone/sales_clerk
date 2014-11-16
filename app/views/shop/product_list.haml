@@ -29,19 +29,19 @@
           .col-md-4
             -next unless product
             .product-container
-              %h4.product-name
-                = product.name
-              .row
-                .col-md-4
-                  .square-image
-                    =link_to shop_product_path(:link => product.link ) do
+              =link_to shop_product_path(:link => product.link ) do
+                %h4.product-name
+                  = product.name
+                .row
+                  .col-md-4
+                    .square-image
                       =image_tag product.main_picture.url
-                .col-md-8
-                  .product-fact
-                    =link_to shop_product_path( :link => product.link ) , :class => :info do
-                      %p Luonnollinen shampoo rasvoittuville hiuksille. Valmistuksessa on käytetty bretagnelaista Fucus vesiculosus ...
-                      .price.selling
-                        = product.price
-                        €
+                  .col-md-8
+                    .product-fact
+                      =link_to shop_product_path( :link => product.link ) , :class => :info do
+                        %p Luonnollinen shampoo rasvoittuville hiuksille. Valmistuksessa on käytetty bretagnelaista Fucus vesiculosus ...
+                        .price.selling
+                          = product.price
+                          €
     
               
