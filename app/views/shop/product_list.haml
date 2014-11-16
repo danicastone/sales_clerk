@@ -39,7 +39,7 @@
                   .col-md-8
                     .product-fact
                       =link_to shop_product_path( :link => product.link ) , :class => :info do
-                        %p Luonnollinen shampoo rasvoittuville hiuksille. Valmistuksessa on käytetty bretagnelaista Fucus vesiculosus ...
+                        %p= markdown product.description[0..120]
                         .price.selling
                           = product.price
                           €
