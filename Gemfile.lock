@@ -26,7 +26,7 @@ PATH
 PATH
   remote: ../office_clerk
   specs:
-    office_clerk (0.2)
+    office_clerk (0.3)
       barby
       bcrypt-ruby
       bootstrap-sass (~> 3.1.0)
