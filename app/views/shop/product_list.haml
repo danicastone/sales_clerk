@@ -5,6 +5,8 @@
         = link_to shop_group_path(group.link) do
           = image_tag group.main_picture.url(:list)
           %h5= group.name
+          -# .extrapic
+            = image_tag group.extra_picture.url(:product)
     
     .intro2
       %p.description= markdown @group.description
@@ -18,7 +20,7 @@
               -next unless group
               .group-wrapper.sub
                 =link_to shop_group_path(group.link) do
-                  = image_tag group.main_picture.url(:product)
+                  = image_tag group.main_picture.url(:product)                  
                   %h3= group.name
   .row.list
     -@products.in_groups_of(3).each do |three|
