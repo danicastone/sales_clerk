@@ -35,7 +35,7 @@ ul.cat {
   color: #E4DFDF; }
 
 .main {
-  max-width: 92%;
+  max-width: 96%;
   margin: 70px auto 0; }
 
 @import "bootstrap";
@@ -70,9 +70,6 @@ ul.cat {
   }  
 }
 
-
-
-
 .menus {
   padding: 8px;
   margin: 0 auto;
@@ -104,7 +101,20 @@ max-width: 100%;  }
 
 .group-wrapper.side img {
 height: auto;
-width: 200px;  }
+width: 220px;  }
+
+.group-wrapper.side h5 {
+  font-size: 19px;
+  padding: 7px;
+  width: 220px;
+}
+
+.group-wrapper.checkout h5 {
+color: #F19711;
+background: black;
+background: rgba(212, 232, 245, 0.45);
+text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
 
 .group-wrapper.side .extrapic img {
 height: auto;
@@ -118,18 +128,6 @@ width: 556px;  }
 	text-align: right;
 }
 
-.group-wrapper.side h5 {
-  font-size: 18px;
-  padding: 7px;
-	width: 200px;
-}
-
-.group-wrapper.checkout h5 {
-color: #F19711;
-background: black;
-background: rgba(212, 232, 245, 0.45);
-text-shadow: rgb(255, 255, 255) 0px 0px 10px;
-}
 
 .intro {
   padding-top: 20px;
