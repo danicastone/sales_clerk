@@ -1,18 +1,10 @@
-.row  
-  %ol.breadcrumb
-    %li
-      %a{ :href => "/"}= t(:home)
-    %li
-      = t(:basket)
-      
-  
 = bootstrap_form_for @order, :url => shop_checkout_path do |f|
   .row
     = f.alert_message t(:fix_errors) , error_summary: false
 
     .col-md-3
       .group-wrapper.side.checkout
-        %img{:src => "/assets/sales_clerk/basket.jpg"}/
+        %img{:src => "/assets/sales_clerk/checkout-im.jpg"}/
         %h5 Ostoskori
 
     .col-md-9

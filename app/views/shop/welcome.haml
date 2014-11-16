@@ -30,27 +30,30 @@
                         Auringosta Itään, Kuusta Länteen
                         %b.caret
                       %ul.dropdown-menu 
-                        %li Liikkeemme
-                        %li Toimitusehdot
+                        %li{:role => "presentation"} 
+                          %a{:href => "/page/liikkeemme", :role => "menuitem", :tabindex => "-1"} Liikkeemme
 
-                    %li#link-to-cart
-                      %a{href: shop_checkout_path}
+                        %li{:role => "presentation"} 
+                          %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"} Toimitusehdot
+
+                    %li#link-to-cart{"data-no-turbolink" => true}
+                      %a{href: office.shop_checkout_path}
                         = t(:basket)
-                        - if current_basket.items.count == 0
+                        - if current_basket_or_nil.nil? or current_basket.items.count == 0
                           = t(:empty)
                         -else
                           = current_basket.items.count
                           = t(:items)
                     %li.dropdown
                       %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
-                        = current_clerk ? current_clerk.email : "Login"
+                        = current_clerk ? current_clerk.email : t(:sign_in)
                         %b.caret
                       %ul.dropdown-menu
                         - if current_clerk
-                          %li= link_to t(:sign_out), sign_out_path
+                          %li= link_to t(:sign_out), office.sign_out_path
                         - else
-                          %li= link_to t(:sign_up), sign_up_path
-                          %li= link_to t(:sign_in), sign_in_path
+                          %li= link_to t(:sign_up), office.sign_up_path
+                          %li= link_to t(:sign_in), office.sign_in_path
         
       .row
         .banner
@@ -59,10 +62,10 @@
       .welcome
         .row
           .col-md-5.text-right
-            %img{:src => "/assets/sales_clerk/tervetuloa.gif"}/
+            %img{:src => "/assets/kauppa/tervetuloa.gif"}/
           .col-md-2
           .col-md-5
-            %button.btn.btn-primary.btn-mega{:type => "button"} Siirry verkkokauppaan 
+            %a.btn.btn-primary.btn-mega{:href => "/",:role => "button"} Siirry verkkokauppaan 
           
           
         - @groups.in_groups_of(3).each do |array|

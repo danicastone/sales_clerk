@@ -35,7 +35,7 @@ ul.cat {
   color: #E4DFDF; }
 
 .main {
-  max-width: 92%;
+  max-width: 96%;
   margin: 70px auto 0; }
 
 @import "bootstrap";
@@ -70,9 +70,6 @@ ul.cat {
   }  
 }
 
-
-
-
 .menus {
   padding: 8px;
   margin: 0 auto;
@@ -104,12 +101,12 @@ max-width: 100%;  }
 
 .group-wrapper.side img {
 height: auto;
-width: 200px;  }
+width: 220px;  }
 
 .group-wrapper.side h5 {
-  font-size: 18px;
+  font-size: 19px;
   padding: 7px;
-	width: 200px;
+  width: 220px;
 }
 
 .group-wrapper.checkout h5 {
@@ -119,6 +116,17 @@ background: rgba(212, 232, 245, 0.45);
 text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 }
 
+.group-wrapper.side .extrapic img {
+height: auto;
+width: 556px;  }
+
+.extrapic {
+	position: relative;
+  left: 562px;
+  bottom: 228px;
+	z-index: 10000;
+	text-align: right;
+}
 
 
 .intro {
@@ -165,7 +173,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 .product-container {
   margin-bottom: 31px;
   position: relative;
-  border: 1px solid #cae3fb;
+  border: 1px solid #5BE7E2;
   box-shadow: 2px 2px 5px #E8EDF0;
   overflow: hidden;	
   }
@@ -174,11 +182,11 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
   position: absolute;
   left: 0;
   padding: 10px;
-  color: $highlight;
+  color: #083688;
   font-size: 1.5rem;
   background: black;
   /* fallback color */
-  background: rgba(3, 142, 235, 0.12);
+  background: rgba(3, 142, 235, 0.42);
   margin: 0px;
 	width: 100%;
 	z-index: 1;
@@ -238,9 +246,9 @@ h1.product-title {
 }
 
 .price.selling {
-  color: $highlight;
+  color: #04617A;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.6rem;
 	text-align: right;
 }
 
@@ -285,37 +293,6 @@ h1.product-title {
   background-color: $highlight;
 }
 
-.carouselli {
-	margin-top: 50px;
-	margin: 50px auto 0;
-	width: 1000px;
-	text-align: center;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 93%;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #BDB6B6;
-  border: 3px solid #ffffff;
-  -webkit-border-radius: 23px;
-     -moz-border-radius: 23px;
-          border-radius: 23px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-.carousel-control.right {
-  right: 15px;
-}
 
 body {
     margin-top: 50px; 
@@ -324,14 +301,14 @@ body {
 
 .banner {
     text-align: center;
-    background: image-url("sales_clerk/violetti-lev.jpg") no-repeat center center;
+    background: image-url("kauppa/violetti-lev.jpg") no-repeat center center;
     background-size: cover;
     min-height: 500px;
     margin-top: 15px;
 }
 
 .taustalogo {
-  background: image-url("sales_clerk/kansi.jpg") no-repeat scroll;
+  background: image-url("kauppa/kansi.jpg") no-repeat scroll;
   height: 107px;
 }
 
@@ -362,6 +339,7 @@ background-color: #0A6779; }
   background-color: $highlight-2;
   color: #ffffff;
   text-align: center;
+  padding: 7px;
  }
 
 .alert-danger {
@@ -405,8 +383,8 @@ background-color: #0A6779; }
   margin: 20px auto 0; }
 
 .btn-mega {
-  padding: 20px 32px;
-  font-size: 28px;
+  padding: 20px 38px;
+  font-size: 30px;
   line-height: 1.33;
   border-radius: 6px;
   }

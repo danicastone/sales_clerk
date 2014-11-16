@@ -17,13 +17,6 @@ GIT
     db_fixtures_dump (0.0.9)
 
 PATH
-  remote: ../accountant_clerk
-  specs:
-    accountant_clerk (0.3)
-      flot-rails (~> 0.0.6)
-      office_clerk (~> 0.1)
-
-PATH
   remote: ../office_clerk
   specs:
     office_clerk (0.3)
@@ -45,18 +38,6 @@ PATH
       turbolinks
       will_paginate
       will_paginate-bootstrap
-
-PATH
-  remote: ../post_clerk
-  specs:
-    post_clerk (0.4)
-      office_clerk (~> 0.1)
-
-PATH
-  remote: ../print_clerk
-  specs:
-    print_clerk (0.2)
-      office_clerk (~> 0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -148,8 +129,6 @@ GEM
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
     ffi (1.9.6)
-    flot-rails (0.0.6)
-      jquery-rails
     formatador (0.2.5)
     guard (2.8.0)
       formatador (>= 0.2.4)
@@ -339,7 +318,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  accountant_clerk!
   better_errors
   binding_of_caller
   capybara
@@ -357,8 +335,6 @@ DEPENDENCIES
   i18n-tasks
   libv8 (= 3.16.14.3)
   office_clerk!
-  post_clerk!
-  print_clerk!
   quiet_assets
   rack-attack
   rails_layout
