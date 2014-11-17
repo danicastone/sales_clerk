@@ -1,0 +1,1899 @@
+---
+Purchase_1:
+  id: 1
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 08:55:35.272009000 Z
+  updated_at: 2014-01-29 09:55:35.272009000 Z
+Purchase_2:
+  id: 2
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 10:04:48.452596000 Z
+  updated_at: 2014-01-29 11:04:48.452596000 Z
+Purchase_3:
+  id: 3
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 14:20:15.100666000 Z
+  updated_at: 2014-01-29 15:20:15.100666000 Z
+Purchase_4:
+  id: 4
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 14:23:10.770812000 Z
+  updated_at: 2014-01-29 15:23:10.770812000 Z
+Purchase_5:
+  id: 5
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 16:00:43.104309000 Z
+  updated_at: 2014-01-29 17:00:43.104309000 Z
+Purchase_6:
+  id: 6
+  ordered_on: 2014-01-29
+  received_on: 2014-01-29
+  created_at: 2014-01-29 16:06:17.091173000 Z
+  updated_at: 2014-01-29 17:06:17.091173000 Z
+Purchase_7:
+  id: 8
+  ordered_on: 2014-01-30
+  received_on: 2014-01-30
+  created_at: 2014-01-30 13:22:26.780305000 Z
+  updated_at: 2014-01-30 14:22:26.780305000 Z
+Purchase_8:
+  id: 9
+  ordered_on: 2014-02-03
+  received_on: 2014-02-03
+  created_at: 2014-02-03 10:12:59.120307000 Z
+  updated_at: 2014-02-03 11:12:59.120307000 Z
+Purchase_9:
+  id: 10
+  ordered_on: 2014-02-04
+  received_on: 2014-02-04
+  created_at: 2014-02-04 15:20:17.575601000 Z
+  updated_at: 2014-02-04 16:20:17.575601000 Z
+Purchase_10:
+  id: 11
+  ordered_on: 2014-02-05
+  received_on: 2014-02-05
+  created_at: 2014-02-05 14:45:32.918573000 Z
+  updated_at: 2014-02-05 15:45:32.918573000 Z
+Purchase_11:
+  id: 12
+  ordered_on: 2014-02-06
+  received_on: 2014-02-06
+  created_at: 2014-02-06 09:32:04.336499000 Z
+  updated_at: 2014-02-06 10:32:04.336499000 Z
+Purchase_12:
+  id: 13
+  ordered_on: 2014-02-06
+  received_on: 2014-02-06
+  created_at: 2014-02-06 14:18:53.388929000 Z
+  updated_at: 2014-02-06 15:18:53.388929000 Z
+Purchase_13:
+  id: 14
+  ordered_on: 2014-02-08
+  received_on: 2014-02-08
+  created_at: 2014-02-08 08:50:06.142888000 Z
+  updated_at: 2014-02-08 09:50:06.142888000 Z
+Purchase_14:
+  id: 15
+  ordered_on: 2014-02-10
+  received_on: 2014-02-10
+  created_at: 2014-02-10 16:43:24.642927000 Z
+  updated_at: 2014-02-10 17:43:24.642927000 Z
+Purchase_15:
+  id: 16
+  ordered_on: 2014-02-11
+  received_on: 2014-02-11
+  created_at: 2014-02-11 14:31:33.185283000 Z
+  updated_at: 2014-02-11 15:31:33.185283000 Z
+Purchase_16:
+  id: 17
+  ordered_on: 2014-02-12
+  received_on: 2014-02-12
+  created_at: 2014-02-12 10:48:17.661325000 Z
+  updated_at: 2014-02-12 11:48:17.661325000 Z
+Purchase_17:
+  id: 18
+  ordered_on: 2014-02-12
+  received_on: 2014-02-12
+  created_at: 2014-02-12 11:05:13.098828000 Z
+  updated_at: 2014-02-12 12:05:13.098828000 Z
+Purchase_18:
+  id: 19
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 09:41:27.562752000 Z
+  updated_at: 2014-02-13 10:41:27.562752000 Z
+Purchase_19:
+  id: 20
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 09:45:08.463531000 Z
+  updated_at: 2014-02-13 10:45:08.463531000 Z
+Purchase_20:
+  id: 21
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 09:51:44.026538000 Z
+  updated_at: 2014-02-13 10:51:44.026538000 Z
+Purchase_21:
+  id: 22
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 09:52:38.263557000 Z
+  updated_at: 2014-02-13 10:52:38.263557000 Z
+Purchase_22:
+  id: 23
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:04:57.914799000 Z
+  updated_at: 2014-02-13 11:04:57.914799000 Z
+Purchase_23:
+  id: 24
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:10:40.466145000 Z
+  updated_at: 2014-02-13 11:10:40.466145000 Z
+Purchase_24:
+  id: 25
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:12:49.007251000 Z
+  updated_at: 2014-02-13 11:12:49.007251000 Z
+Purchase_25:
+  id: 26
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:19:15.851807000 Z
+  updated_at: 2014-02-13 11:19:15.851807000 Z
+Purchase_26:
+  id: 27
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:22:53.124435000 Z
+  updated_at: 2014-02-13 11:22:53.124435000 Z
+Purchase_27:
+  id: 28
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:31:53.436811000 Z
+  updated_at: 2014-02-13 11:31:53.436811000 Z
+Purchase_28:
+  id: 29
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 10:39:45.677359000 Z
+  updated_at: 2014-02-13 11:39:45.677359000 Z
+Purchase_29:
+  id: 30
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 12:09:56.677586000 Z
+  updated_at: 2014-02-13 13:09:56.677586000 Z
+Purchase_30:
+  id: 31
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 12:38:17.831373000 Z
+  updated_at: 2014-02-13 13:38:17.831373000 Z
+Purchase_31:
+  id: 32
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 12:55:54.891551000 Z
+  updated_at: 2014-02-13 13:55:54.891551000 Z
+Purchase_32:
+  id: 33
+  ordered_on: 2014-02-13
+  received_on: 2014-02-13
+  created_at: 2014-02-13 14:18:35.949096000 Z
+  updated_at: 2014-02-13 15:18:35.949096000 Z
+Purchase_33:
+  id: 34
+  ordered_on: 2014-02-14
+  received_on: 2014-02-14
+  created_at: 2014-02-14 12:49:05.594594000 Z
+  updated_at: 2014-02-14 13:49:05.594594000 Z
+Purchase_34:
+  id: 35
+  ordered_on: 2014-02-14
+  received_on: 2014-02-14
+  created_at: 2014-02-14 13:58:11.415514000 Z
+  updated_at: 2014-02-14 14:58:11.415514000 Z
+Purchase_35:
+  id: 36
+  ordered_on: 2014-02-17
+  received_on: 2014-02-17
+  created_at: 2014-02-17 10:34:18.996775000 Z
+  updated_at: 2014-02-17 11:34:18.996775000 Z
+Purchase_36:
+  id: 37
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 08:43:44.683982000 Z
+  updated_at: 2014-02-18 09:43:44.683982000 Z
+Purchase_37:
+  id: 38
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 08:50:08.052996000 Z
+  updated_at: 2014-02-18 09:50:08.052996000 Z
+Purchase_38:
+  id: 39
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 08:57:35.859327000 Z
+  updated_at: 2014-02-18 09:57:35.859327000 Z
+Purchase_39:
+  id: 40
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 09:02:18.478010000 Z
+  updated_at: 2014-02-18 10:02:18.478010000 Z
+Purchase_40:
+  id: 41
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 09:13:35.504691000 Z
+  updated_at: 2014-02-18 10:13:35.504691000 Z
+Purchase_41:
+  id: 42
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 09:18:00.169636000 Z
+  updated_at: 2014-02-18 10:18:00.169636000 Z
+Purchase_42:
+  id: 43
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 09:18:51.870682000 Z
+  updated_at: 2014-02-18 10:18:51.870682000 Z
+Purchase_43:
+  id: 44
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 15:50:26.876941000 Z
+  updated_at: 2014-02-18 16:50:26.876941000 Z
+Purchase_44:
+  id: 45
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 15:52:34.801855000 Z
+  updated_at: 2014-02-18 16:52:34.801855000 Z
+Purchase_45:
+  id: 46
+  ordered_on: 2014-02-18
+  received_on: 2014-02-18
+  created_at: 2014-02-18 15:54:28.485693000 Z
+  updated_at: 2014-02-18 16:54:28.485693000 Z
+Purchase_46:
+  id: 47
+  ordered_on: 2014-02-19
+  received_on: 2014-02-19
+  created_at: 2014-02-19 13:15:18.685263000 Z
+  updated_at: 2014-02-19 14:15:18.685263000 Z
+Purchase_47:
+  id: 48
+  ordered_on: 2014-02-25
+  received_on: 2014-02-25
+  created_at: 2014-02-25 09:02:51.034715000 Z
+  updated_at: 2014-02-25 10:02:51.034715000 Z
+Purchase_48:
+  id: 49
+  ordered_on: 2014-02-25
+  received_on: 2014-02-25
+  created_at: 2014-02-25 09:04:47.147841000 Z
+  updated_at: 2014-02-25 10:04:47.147841000 Z
+Purchase_49:
+  id: 50
+  ordered_on: 2014-02-27
+  received_on: 2014-02-27
+  created_at: 2014-02-27 09:04:43.527932000 Z
+  updated_at: 2014-02-27 10:04:43.527932000 Z
+Purchase_50:
+  id: 51
+  ordered_on: 2014-02-27
+  received_on: 2014-02-27
+  created_at: 2014-02-27 09:34:28.800514000 Z
+  updated_at: 2014-02-27 10:34:28.800514000 Z
+Purchase_51:
+  id: 52
+  ordered_on: 2014-02-27
+  received_on: 2014-02-27
+  created_at: 2014-02-27 11:22:43.657330000 Z
+  updated_at: 2014-02-27 12:22:43.657330000 Z
+Purchase_52:
+  id: 53
+  ordered_on: 2014-02-27
+  received_on: 2014-02-27
+  created_at: 2014-02-27 14:02:14.714010000 Z
+  updated_at: 2014-02-27 15:02:14.714010000 Z
+Purchase_53:
+  id: 54
+  created_at: 2014-02-28 11:06:14.953199000 Z
+  updated_at: 2014-02-28 12:06:14.953199000 Z
+Purchase_54:
+  id: 55
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 13:23:32.318674000 Z
+  updated_at: 2014-02-28 14:23:32.318674000 Z
+Purchase_55:
+  id: 56
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 14:52:04.922759000 Z
+  updated_at: 2014-02-28 15:52:04.922759000 Z
+Purchase_56:
+  id: 57
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 14:55:29.276263000 Z
+  updated_at: 2014-02-28 15:55:29.276263000 Z
+Purchase_57:
+  id: 58
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 15:10:22.952234000 Z
+  updated_at: 2014-02-28 16:10:22.952234000 Z
+Purchase_58:
+  id: 59
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 15:17:32.532702000 Z
+  updated_at: 2014-02-28 16:17:32.532702000 Z
+Purchase_59:
+  id: 60
+  ordered_on: 2014-02-28
+  received_on: 2014-02-28
+  created_at: 2014-02-28 16:05:26.737924000 Z
+  updated_at: 2014-02-28 17:05:26.737924000 Z
+Purchase_60:
+  id: 61
+  ordered_on: 2014-03-01
+  received_on: 2014-03-01
+  created_at: 2014-03-01 10:20:36.778061000 Z
+  updated_at: 2014-03-01 11:20:36.778061000 Z
+Purchase_61:
+  id: 62
+  ordered_on: 2014-03-03
+  received_on: 2014-03-03
+  created_at: 2014-03-03 09:20:38.018283000 Z
+  updated_at: 2014-03-03 10:20:38.018283000 Z
+Purchase_62:
+  id: 63
+  ordered_on: 2014-03-05
+  received_on: 2014-03-05
+  created_at: 2014-03-05 14:05:21.164597000 Z
+  updated_at: 2014-03-05 15:05:21.164597000 Z
+Purchase_63:
+  id: 64
+  ordered_on: 2014-03-05
+  received_on: 2014-03-05
+  created_at: 2014-03-05 16:14:00.205826000 Z
+  updated_at: 2014-03-05 17:14:00.205826000 Z
+Purchase_64:
+  id: 65
+  ordered_on: 2014-03-10
+  received_on: 2014-03-10
+  created_at: 2014-03-10 12:14:28.550167000 Z
+  updated_at: 2014-03-10 13:14:28.550167000 Z
+Purchase_65:
+  id: 66
+  ordered_on: 2014-03-10
+  received_on: 2014-03-10
+  created_at: 2014-03-10 12:19:09.004092000 Z
+  updated_at: 2014-03-10 13:19:09.004092000 Z
+Purchase_66:
+  id: 67
+  ordered_on: 2014-03-10
+  received_on: 2014-03-10
+  created_at: 2014-03-10 12:19:50.906919000 Z
+  updated_at: 2014-03-10 13:19:50.906919000 Z
+Purchase_67:
+  id: 68
+  ordered_on: 2014-03-10
+  received_on: 2014-03-10
+  created_at: 2014-03-10 15:51:02.698199000 Z
+  updated_at: 2014-03-10 16:51:02.698199000 Z
+Purchase_68:
+  id: 69
+  ordered_on: 2014-03-10
+  received_on: 2014-03-10
+  created_at: 2014-03-10 15:51:45.996059000 Z
+  updated_at: 2014-03-10 16:51:45.996059000 Z
+Purchase_69:
+  id: 70
+  ordered_on: 2014-03-11
+  received_on: 2014-03-11
+  created_at: 2014-03-11 13:00:27.770904000 Z
+  updated_at: 2014-03-11 14:00:27.770904000 Z
+Purchase_70:
+  id: 71
+  ordered_on: 2014-03-14
+  received_on: 2014-03-14
+  created_at: 2014-03-14 13:35:51.803336000 Z
+  updated_at: 2014-03-14 14:35:51.803336000 Z
+Purchase_71:
+  id: 72
+  ordered_on: 2014-03-17
+  received_on: 2014-03-17
+  created_at: 2014-03-17 12:23:20.589199000 Z
+  updated_at: 2014-03-17 13:23:20.589199000 Z
+Purchase_72:
+  id: 73
+  ordered_on: 2014-03-17
+  received_on: 2014-03-17
+  created_at: 2014-03-17 12:39:30.335970000 Z
+  updated_at: 2014-03-17 13:39:30.335970000 Z
+Purchase_73:
+  id: 74
+  ordered_on: 2014-03-19
+  received_on: 2014-03-19
+  created_at: 2014-03-19 13:12:23.451571000 Z
+  updated_at: 2014-03-19 14:12:23.451571000 Z
+Purchase_74:
+  id: 75
+  ordered_on: 2014-03-19
+  received_on: 2014-03-19
+  created_at: 2014-03-19 16:47:54.065689000 Z
+  updated_at: 2014-03-19 17:47:54.065689000 Z
+Purchase_75:
+  id: 76
+  ordered_on: 2014-03-20
+  received_on: 2014-03-20
+  created_at: 2014-03-20 09:22:38.031441000 Z
+  updated_at: 2014-03-20 10:22:38.031441000 Z
+Purchase_76:
+  id: 77
+  ordered_on: 2014-03-21
+  received_on: 2014-03-21
+  created_at: 2014-03-21 14:33:26.598791000 Z
+  updated_at: 2014-03-21 15:33:26.598791000 Z
+Purchase_77:
+  id: 78
+  ordered_on: 2014-03-22
+  received_on: 2014-03-22
+  created_at: 2014-03-22 08:42:21.717336000 Z
+  updated_at: 2014-03-22 09:42:21.717336000 Z
+Purchase_78:
+  id: 79
+  ordered_on: 2014-03-25
+  received_on: 2014-03-25
+  created_at: 2014-03-25 13:15:56.029323000 Z
+  updated_at: 2014-03-25 14:15:56.029323000 Z
+Purchase_79:
+  id: 80
+  ordered_on: 2014-03-26
+  received_on: 2014-03-26
+  created_at: 2014-03-26 16:41:21.577884000 Z
+  updated_at: 2014-03-26 17:41:21.577884000 Z
+Purchase_80:
+  id: 81
+  ordered_on: 2014-03-28
+  received_on: 2014-03-28
+  created_at: 2014-03-28 12:10:45.124872000 Z
+  updated_at: 2014-03-28 13:10:45.124872000 Z
+Purchase_81:
+  id: 82
+  ordered_on: 2014-03-31
+  received_on: 2014-03-31
+  created_at: 2014-03-31 11:22:08.664661000 Z
+  updated_at: 2014-03-31 12:22:08.664661000 Z
+Purchase_82:
+  id: 83
+  ordered_on: 2014-04-01
+  received_on: 2014-04-01
+  created_at: 2014-04-01 09:34:59.601032000 Z
+  updated_at: 2014-04-01 10:34:59.601032000 Z
+Purchase_83:
+  id: 84
+  ordered_on: 2014-04-01
+  received_on: 2014-04-01
+  created_at: 2014-04-01 09:36:36.438057000 Z
+  updated_at: 2014-04-01 10:36:36.438057000 Z
+Purchase_84:
+  id: 85
+  ordered_on: 2014-04-01
+  received_on: 2014-04-01
+  created_at: 2014-04-01 14:52:55.035427000 Z
+  updated_at: 2014-04-01 15:52:55.035427000 Z
+Purchase_85:
+  id: 86
+  ordered_on: 2014-04-02
+  received_on: 2014-04-02
+  created_at: 2014-04-02 19:04:30.845899000 Z
+  updated_at: 2014-04-02 20:04:30.845899000 Z
+Purchase_86:
+  id: 87
+  ordered_on: 2014-04-04
+  received_on: 2014-04-04
+  created_at: 2014-04-04 08:41:36.222196000 Z
+  updated_at: 2014-04-04 09:41:36.222196000 Z
+Purchase_87:
+  id: 88
+  ordered_on: 2014-04-04
+  received_on: 2014-04-04
+  created_at: 2014-04-04 10:18:51.575453000 Z
+  updated_at: 2014-04-04 11:18:51.575453000 Z
+Purchase_88:
+  id: 89
+  ordered_on: 2014-04-04
+  received_on: 2014-04-04
+  created_at: 2014-04-04 10:19:49.149053000 Z
+  updated_at: 2014-04-04 11:19:49.149053000 Z
+Purchase_89:
+  id: 90
+  ordered_on: 2014-04-04
+  received_on: 2014-04-04
+  created_at: 2014-04-04 11:58:08.260420000 Z
+  updated_at: 2014-04-04 12:58:08.260420000 Z
+Purchase_90:
+  id: 91
+  ordered_on: 2014-04-04
+  received_on: 2014-04-04
+  created_at: 2014-04-04 11:59:16.308565000 Z
+  updated_at: 2014-04-04 12:59:16.308565000 Z
+Purchase_91:
+  id: 92
+  ordered_on: 2014-04-07
+  received_on: 2014-04-07
+  created_at: 2014-04-07 06:09:04.600013000 Z
+  updated_at: 2014-04-07 07:09:04.600013000 Z
+Purchase_92:
+  id: 93
+  ordered_on: 2014-04-07
+  received_on: 2014-04-07
+  created_at: 2014-04-07 12:47:48.968078000 Z
+  updated_at: 2014-04-07 13:47:48.968078000 Z
+Purchase_93:
+  id: 94
+  ordered_on: 2014-04-07
+  received_on: 2014-04-07
+  created_at: 2014-04-07 12:57:58.100285000 Z
+  updated_at: 2014-04-07 13:57:58.100285000 Z
+Purchase_94:
+  id: 95
+  ordered_on: 2014-04-08
+  received_on: 2014-04-08
+  created_at: 2014-04-08 08:07:18.033605000 Z
+  updated_at: 2014-04-08 09:07:18.033605000 Z
+Purchase_95:
+  id: 96
+  ordered_on: 2014-04-08
+  received_on: 2014-04-08
+  created_at: 2014-04-08 09:16:29.248876000 Z
+  updated_at: 2014-04-08 10:16:29.248876000 Z
+Purchase_96:
+  id: 97
+  ordered_on: 2014-04-11
+  received_on: 2014-04-11
+  created_at: 2014-04-11 15:04:07.142547000 Z
+  updated_at: 2014-04-11 16:04:07.142547000 Z
+Purchase_97:
+  id: 98
+  ordered_on: 2014-04-14
+  received_on: 2014-04-14
+  created_at: 2014-04-14 10:06:18.279440000 Z
+  updated_at: 2014-04-14 11:06:18.279440000 Z
+Purchase_98:
+  id: 99
+  ordered_on: 2014-04-15
+  received_on: 2014-04-15
+  created_at: 2014-04-15 12:35:10.816597000 Z
+  updated_at: 2014-04-15 13:35:10.816597000 Z
+Purchase_99:
+  id: 100
+  ordered_on: 2014-04-17
+  received_on: 2014-04-17
+  created_at: 2014-04-17 09:34:40.853448000 Z
+  updated_at: 2014-04-17 10:34:40.853448000 Z
+Purchase_100:
+  id: 101
+  ordered_on: 2014-04-17
+  received_on: 2014-04-17
+  created_at: 2014-04-17 14:11:13.511991000 Z
+  updated_at: 2014-04-17 15:11:13.511991000 Z
+Purchase_101:
+  id: 102
+  ordered_on: 2014-04-17
+  received_on: 2014-04-17
+  created_at: 2014-04-17 14:27:59.141673000 Z
+  updated_at: 2014-04-17 15:27:59.141673000 Z
+Purchase_102:
+  id: 103
+  ordered_on: 2014-04-22
+  received_on: 2014-04-22
+  created_at: 2014-04-22 10:37:51.027261000 Z
+  updated_at: 2014-04-22 11:37:51.027261000 Z
+Purchase_103:
+  id: 104
+  ordered_on: 2014-04-22
+  received_on: 2014-04-22
+  created_at: 2014-04-22 13:53:16.195865000 Z
+  updated_at: 2014-04-22 14:53:16.195865000 Z
+Purchase_104:
+  id: 105
+  ordered_on: 2014-04-22
+  received_on: 2014-04-22
+  created_at: 2014-04-22 13:57:07.698783000 Z
+  updated_at: 2014-04-22 14:57:07.698783000 Z
+Purchase_105:
+  id: 106
+  ordered_on: 2014-04-22
+  received_on: 2014-04-22
+  created_at: 2014-04-22 14:52:15.861028000 Z
+  updated_at: 2014-04-22 15:52:15.861028000 Z
+Purchase_106:
+  id: 107
+  ordered_on: 2014-04-22
+  received_on: 2014-04-22
+  created_at: 2014-04-22 14:53:22.515772000 Z
+  updated_at: 2014-04-22 15:53:22.515772000 Z
+Purchase_107:
+  id: 108
+  ordered_on: 2014-04-24
+  received_on: 2014-04-24
+  created_at: 2014-04-24 09:04:08.276563000 Z
+  updated_at: 2014-04-24 10:04:08.276563000 Z
+Purchase_108:
+  id: 109
+  ordered_on: 2014-04-28
+  received_on: 2014-04-28
+  created_at: 2014-04-28 09:01:04.195835000 Z
+  updated_at: 2014-04-28 10:01:04.195835000 Z
+Purchase_109:
+  id: 110
+  ordered_on: 2014-04-28
+  received_on: 2014-04-28
+  created_at: 2014-04-28 10:01:30.333567000 Z
+  updated_at: 2014-04-28 11:01:30.333567000 Z
+Purchase_110:
+  id: 111
+  ordered_on: 2014-04-28
+  received_on: 2014-04-28
+  created_at: 2014-04-28 12:24:12.131773000 Z
+  updated_at: 2014-04-28 13:24:12.131773000 Z
+Purchase_111:
+  id: 112
+  ordered_on: 2014-05-03
+  received_on: 2014-05-03
+  created_at: 2014-05-03 09:17:31.949864000 Z
+  updated_at: 2014-05-03 10:17:31.949864000 Z
+Purchase_112:
+  id: 113
+  ordered_on: 2014-05-05
+  received_on: 2014-05-05
+  created_at: 2014-05-05 09:07:23.009243000 Z
+  updated_at: 2014-05-05 10:07:23.009243000 Z
+Purchase_113:
+  id: 114
+  ordered_on: 2014-05-05
+  received_on: 2014-05-05
+  created_at: 2014-05-05 09:08:52.963515000 Z
+  updated_at: 2014-05-05 10:08:52.963515000 Z
+Purchase_114:
+  id: 115
+  ordered_on: 2014-05-05
+  received_on: 2014-05-05
+  created_at: 2014-05-05 09:10:58.548909000 Z
+  updated_at: 2014-05-05 10:10:58.548909000 Z
+Purchase_115:
+  id: 116
+  ordered_on: 2014-05-05
+  received_on: 2014-05-05
+  created_at: 2014-05-05 09:12:11.201522000 Z
+  updated_at: 2014-05-05 10:12:11.201522000 Z
+Purchase_116:
+  id: 117
+  ordered_on: 2014-05-06
+  received_on: 2014-05-06
+  created_at: 2014-05-06 11:11:08.707508000 Z
+  updated_at: 2014-05-06 12:11:08.707508000 Z
+Purchase_117:
+  id: 118
+  ordered_on: 2014-05-07
+  received_on: 2014-05-07
+  created_at: 2014-05-07 14:32:55.290797000 Z
+  updated_at: 2014-05-07 15:32:55.290797000 Z
+Purchase_118:
+  id: 119
+  ordered_on: 2014-05-08
+  received_on: 2014-05-08
+  created_at: 2014-05-08 14:16:26.284969000 Z
+  updated_at: 2014-05-08 15:16:26.284969000 Z
+Purchase_119:
+  id: 120
+  ordered_on: 2014-05-08
+  received_on: 2014-05-08
+  created_at: 2014-05-08 14:17:59.543502000 Z
+  updated_at: 2014-05-08 15:17:59.543502000 Z
+Purchase_120:
+  id: 121
+  ordered_on: 2014-05-08
+  received_on: 2014-05-08
+  created_at: 2014-05-08 14:19:18.292056000 Z
+  updated_at: 2014-05-08 15:19:18.292056000 Z
+Purchase_121:
+  id: 122
+  ordered_on: 2014-05-12
+  received_on: 2014-05-12
+  created_at: 2014-05-12 10:32:05.427765000 Z
+  updated_at: 2014-05-12 11:32:05.427765000 Z
+Purchase_122:
+  id: 123
+  ordered_on: 2014-05-12
+  received_on: 2014-05-12
+  created_at: 2014-05-12 12:09:31.276224000 Z
+  updated_at: 2014-05-12 13:09:31.276224000 Z
+Purchase_123:
+  id: 124
+  ordered_on: 2014-05-12
+  received_on: 2014-05-12
+  created_at: 2014-05-12 13:27:34.096082000 Z
+  updated_at: 2014-05-12 14:27:34.096082000 Z
+Purchase_124:
+  id: 125
+  ordered_on: 2014-05-13
+  received_on: 2014-05-13
+  created_at: 2014-05-13 10:15:18.555743000 Z
+  updated_at: 2014-05-13 11:15:18.555743000 Z
+Purchase_125:
+  id: 126
+  ordered_on: 2014-05-13
+  received_on: 2014-05-13
+  created_at: 2014-05-13 11:56:36.559965000 Z
+  updated_at: 2014-05-13 12:56:36.559965000 Z
+Purchase_126:
+  id: 127
+  ordered_on: 2014-05-13
+  received_on: 2014-05-13
+  created_at: 2014-05-13 12:22:42.282477000 Z
+  updated_at: 2014-05-13 13:22:42.282477000 Z
+Purchase_127:
+  id: 128
+  created_at: 2014-05-15 09:25:45.317212000 Z
+  updated_at: 2014-05-15 10:25:45.317212000 Z
+Purchase_128:
+  id: 129
+  ordered_on: 2014-05-15
+  received_on: 2014-05-15
+  created_at: 2014-05-15 11:09:20.897486000 Z
+  updated_at: 2014-05-15 12:09:20.897486000 Z
+Purchase_129:
+  id: 130
+  ordered_on: 2014-05-15
+  received_on: 2014-05-15
+  created_at: 2014-05-15 15:19:28.432055000 Z
+  updated_at: 2014-05-15 16:19:28.432055000 Z
+Purchase_130:
+  id: 131
+  ordered_on: 2014-05-15
+  received_on: 2014-05-15
+  created_at: 2014-05-15 15:21:01.743047000 Z
+  updated_at: 2014-05-15 16:21:01.743047000 Z
+Purchase_131:
+  id: 132
+  ordered_on: 2014-05-16
+  received_on: 2014-05-16
+  created_at: 2014-05-16 13:36:49.669873000 Z
+  updated_at: 2014-05-16 14:36:49.669873000 Z
+Purchase_132:
+  id: 133
+  ordered_on: 2014-05-17
+  received_on: 2014-05-17
+  created_at: 2014-05-17 09:54:22.877248000 Z
+  updated_at: 2014-05-17 10:54:22.877248000 Z
+Purchase_133:
+  id: 134
+  ordered_on: 2014-05-17
+  received_on: 2014-05-17
+  created_at: 2014-05-17 10:58:22.259878000 Z
+  updated_at: 2014-05-17 11:58:22.259878000 Z
+Purchase_134:
+  id: 135
+  ordered_on: 2014-05-19
+  received_on: 2014-05-19
+  created_at: 2014-05-19 08:30:18.139416000 Z
+  updated_at: 2014-05-19 09:30:18.139416000 Z
+Purchase_135:
+  id: 136
+  ordered_on: 2014-05-19
+  received_on: 2014-05-19
+  created_at: 2014-05-19 11:03:10.456007000 Z
+  updated_at: 2014-05-19 12:03:10.456007000 Z
+Purchase_136:
+  id: 137
+  ordered_on: 2014-05-20
+  received_on: 2014-05-20
+  created_at: 2014-05-20 08:13:26.979005000 Z
+  updated_at: 2014-05-20 09:13:26.979005000 Z
+Purchase_137:
+  id: 138
+  ordered_on: 2014-05-20
+  received_on: 2014-05-20
+  created_at: 2014-05-20 09:00:23.697236000 Z
+  updated_at: 2014-05-20 10:00:23.697236000 Z
+Purchase_138:
+  id: 139
+  ordered_on: 2014-05-20
+  received_on: 2014-05-20
+  created_at: 2014-05-20 12:24:37.443172000 Z
+  updated_at: 2014-05-20 13:24:37.443172000 Z
+Purchase_139:
+  id: 140
+  ordered_on: 2014-05-21
+  received_on: 2014-05-21
+  created_at: 2014-05-21 08:21:15.102181000 Z
+  updated_at: 2014-05-21 09:21:15.102181000 Z
+Purchase_140:
+  id: 141
+  ordered_on: 2014-05-21
+  received_on: 2014-05-21
+  created_at: 2014-05-21 08:35:39.048623000 Z
+  updated_at: 2014-05-21 09:35:39.048623000 Z
+Purchase_141:
+  id: 142
+  created_at: 2014-05-21 09:13:45.760020000 Z
+  updated_at: 2014-05-21 10:13:45.760020000 Z
+Purchase_142:
+  id: 143
+  ordered_on: 2014-05-21
+  received_on: 2014-05-21
+  created_at: 2014-05-21 10:25:08.236359000 Z
+  updated_at: 2014-05-21 11:25:08.236359000 Z
+Purchase_143:
+  id: 144
+  ordered_on: 2014-05-23
+  received_on: 2014-05-23
+  created_at: 2014-05-23 09:27:36.961305000 Z
+  updated_at: 2014-05-23 10:27:36.961305000 Z
+Purchase_144:
+  id: 145
+  ordered_on: 2014-05-23
+  received_on: 2014-05-23
+  created_at: 2014-05-23 09:32:00.523470000 Z
+  updated_at: 2014-05-23 10:32:00.523470000 Z
+Purchase_145:
+  id: 146
+  ordered_on: 2014-05-23
+  received_on: 2014-05-23
+  created_at: 2014-05-23 09:35:32.431254000 Z
+  updated_at: 2014-05-23 10:35:32.431254000 Z
+Purchase_146:
+  id: 147
+  ordered_on: 2014-05-24
+  received_on: 2014-05-24
+  created_at: 2014-05-24 11:17:02.526141000 Z
+  updated_at: 2014-05-24 12:17:02.526141000 Z
+Purchase_147:
+  id: 148
+  ordered_on: 2014-05-26
+  received_on: 2014-05-26
+  created_at: 2014-05-26 09:23:24.387789000 Z
+  updated_at: 2014-05-26 10:23:24.387789000 Z
+Purchase_148:
+  id: 149
+  ordered_on: 2014-05-26
+  received_on: 2014-05-26
+  created_at: 2014-05-26 10:30:20.889124000 Z
+  updated_at: 2014-05-26 11:30:20.889124000 Z
+Purchase_149:
+  id: 150
+  ordered_on: 2014-05-27
+  received_on: 2014-05-27
+  created_at: 2014-05-27 14:27:12.491659000 Z
+  updated_at: 2014-05-27 15:27:12.491659000 Z
+Purchase_150:
+  id: 151
+  ordered_on: 2014-05-28
+  received_on: 2014-05-28
+  created_at: 2014-05-28 09:55:31.613095000 Z
+  updated_at: 2014-05-28 10:55:31.613095000 Z
+Purchase_151:
+  id: 152
+  ordered_on: 2014-05-30
+  received_on: 2014-05-30
+  created_at: 2014-05-30 10:21:43.438723000 Z
+  updated_at: 2014-05-30 11:21:43.438723000 Z
+Purchase_152:
+  id: 153
+  ordered_on: 2014-05-30
+  received_on: 2014-05-30
+  created_at: 2014-05-30 11:07:55.814335000 Z
+  updated_at: 2014-05-30 12:07:55.814335000 Z
+Purchase_153:
+  id: 154
+  ordered_on: 2014-05-31
+  received_on: 2014-05-31
+  created_at: 2014-05-31 10:31:06.894681000 Z
+  updated_at: 2014-05-31 11:31:06.894681000 Z
+Purchase_154:
+  id: 155
+  ordered_on: 2014-06-02
+  received_on: 2014-06-02
+  created_at: 2014-06-02 11:33:44.931580000 Z
+  updated_at: 2014-06-02 12:33:44.931580000 Z
+Purchase_155:
+  id: 156
+  ordered_on: 2014-06-02
+  received_on: 2014-06-02
+  created_at: 2014-06-02 12:39:29.934561000 Z
+  updated_at: 2014-06-02 13:39:29.934561000 Z
+Purchase_156:
+  id: 157
+  ordered_on: 2014-06-03
+  received_on: 2014-06-03
+  created_at: 2014-06-03 07:51:14.381842000 Z
+  updated_at: 2014-06-03 08:51:14.381842000 Z
+Purchase_157:
+  id: 158
+  ordered_on: 2014-06-03
+  received_on: 2014-06-03
+  created_at: 2014-06-03 11:16:47.491554000 Z
+  updated_at: 2014-06-03 12:16:47.491554000 Z
+Purchase_158:
+  id: 159
+  ordered_on: 2014-06-07
+  received_on: 2014-06-07
+  created_at: 2014-06-07 08:12:47.876426000 Z
+  updated_at: 2014-06-07 09:12:47.876426000 Z
+Purchase_159:
+  id: 160
+  ordered_on: 2014-06-07
+  received_on: 2014-06-07
+  created_at: 2014-06-07 08:22:29.623143000 Z
+  updated_at: 2014-06-07 09:22:29.623143000 Z
+Purchase_160:
+  id: 161
+  ordered_on: 2014-06-07
+  received_on: 2014-06-07
+  created_at: 2014-06-07 11:12:22.499619000 Z
+  updated_at: 2014-06-07 12:12:22.499619000 Z
+Purchase_161:
+  id: 162
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 09:18:44.140000000 Z
+  updated_at: 2014-06-09 10:18:44.140000000 Z
+Purchase_162:
+  id: 163
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 09:21:26.105798000 Z
+  updated_at: 2014-06-09 10:21:26.105798000 Z
+Purchase_163:
+  id: 164
+  created_at: 2014-06-09 11:30:28.960266000 Z
+  updated_at: 2014-06-09 12:30:28.960266000 Z
+Purchase_164:
+  id: 165
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 12:04:09.116091000 Z
+  updated_at: 2014-06-09 13:04:09.116091000 Z
+Purchase_165:
+  id: 166
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 12:22:46.804875000 Z
+  updated_at: 2014-06-09 13:22:46.804875000 Z
+Purchase_166:
+  id: 167
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 12:24:41.802347000 Z
+  updated_at: 2014-06-09 13:24:41.802347000 Z
+Purchase_167:
+  id: 168
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 12:25:54.436712000 Z
+  updated_at: 2014-06-09 13:25:54.436712000 Z
+Purchase_168:
+  id: 169
+  ordered_on: 2014-06-09
+  received_on: 2014-06-09
+  created_at: 2014-06-09 12:40:28.347005000 Z
+  updated_at: 2014-06-09 13:40:28.347005000 Z
+Purchase_169:
+  id: 170
+  ordered_on: 2014-06-10
+  received_on: 2014-06-10
+  created_at: 2014-06-10 10:34:31.284412000 Z
+  updated_at: 2014-06-10 11:34:31.284412000 Z
+Purchase_170:
+  id: 171
+  ordered_on: 2014-06-10
+  received_on: 2014-06-10
+  created_at: 2014-06-10 12:26:14.188734000 Z
+  updated_at: 2014-06-10 13:26:14.188734000 Z
+Purchase_171:
+  id: 172
+  ordered_on: 2014-06-10
+  received_on: 2014-06-10
+  created_at: 2014-06-10 14:44:02.334469000 Z
+  updated_at: 2014-06-10 15:44:02.334469000 Z
+Purchase_172:
+  id: 173
+  ordered_on: 2014-06-11
+  received_on: 2014-06-11
+  created_at: 2014-06-11 14:10:32.961533000 Z
+  updated_at: 2014-06-11 15:10:32.961533000 Z
+Purchase_173:
+  id: 174
+  ordered_on: 2014-06-11
+  received_on: 2014-06-11
+  created_at: 2014-06-11 14:12:37.989260000 Z
+  updated_at: 2014-06-11 15:12:37.989260000 Z
+Purchase_174:
+  id: 175
+  ordered_on: 2014-06-12
+  received_on: 2014-06-12
+  created_at: 2014-06-12 08:21:50.027615000 Z
+  updated_at: 2014-06-12 09:21:50.027615000 Z
+Purchase_175:
+  id: 176
+  created_at: 2014-06-12 08:23:36.868205000 Z
+  updated_at: 2014-06-12 09:23:36.868205000 Z
+Purchase_176:
+  id: 177
+  ordered_on: 2014-06-12
+  received_on: 2014-06-12
+  created_at: 2014-06-12 08:25:39.265923000 Z
+  updated_at: 2014-06-12 09:25:39.265923000 Z
+Purchase_177:
+  id: 178
+  ordered_on: 2014-06-12
+  received_on: 2014-06-12
+  created_at: 2014-06-12 08:27:24.862109000 Z
+  updated_at: 2014-06-12 09:27:24.862109000 Z
+Purchase_178:
+  id: 179
+  ordered_on: 2014-06-13
+  received_on: 2014-06-13
+  created_at: 2014-06-13 09:11:27.209597000 Z
+  updated_at: 2014-06-13 10:11:27.209597000 Z
+Purchase_179:
+  id: 180
+  ordered_on: 2014-06-13
+  received_on: 2014-06-13
+  created_at: 2014-06-13 10:54:11.193821000 Z
+  updated_at: 2014-06-13 11:54:11.193821000 Z
+Purchase_180:
+  id: 181
+  ordered_on: 2014-06-13
+  received_on: 2014-06-13
+  created_at: 2014-06-13 14:15:43.771033000 Z
+  updated_at: 2014-06-13 15:15:43.771033000 Z
+Purchase_181:
+  id: 182
+  ordered_on: 2014-06-13
+  received_on: 2014-06-13
+  created_at: 2014-06-13 16:50:11.580795000 Z
+  updated_at: 2014-06-13 17:50:11.580795000 Z
+Purchase_182:
+  id: 183
+  ordered_on: 2014-06-14
+  received_on: 2014-06-14
+  created_at: 2014-06-14 09:52:10.723658000 Z
+  updated_at: 2014-06-14 10:52:10.723658000 Z
+Purchase_183:
+  id: 184
+  ordered_on: 2014-06-17
+  received_on: 2014-06-17
+  created_at: 2014-06-17 13:47:44.727757000 Z
+  updated_at: 2014-06-17 14:47:44.727757000 Z
+Purchase_184:
+  id: 185
+  ordered_on: 2014-06-17
+  received_on: 2014-06-17
+  created_at: 2014-06-17 14:26:01.579304000 Z
+  updated_at: 2014-06-17 15:26:01.579304000 Z
+Purchase_185:
+  id: 186
+  ordered_on: 2014-06-17
+  received_on: 2014-06-17
+  created_at: 2014-06-17 14:28:07.136152000 Z
+  updated_at: 2014-06-17 15:28:07.136152000 Z
+Purchase_186:
+  id: 187
+  ordered_on: 2014-06-17
+  received_on: 2014-06-17
+  created_at: 2014-06-17 14:32:23.157153000 Z
+  updated_at: 2014-06-17 15:32:23.157153000 Z
+Purchase_187:
+  id: 188
+  ordered_on: 2014-06-18
+  received_on: 2014-06-18
+  created_at: 2014-06-18 10:30:44.657597000 Z
+  updated_at: 2014-06-18 11:30:44.657597000 Z
+Purchase_188:
+  id: 189
+  ordered_on: 2014-06-19
+  received_on: 2014-06-19
+  created_at: 2014-06-19 08:17:45.559690000 Z
+  updated_at: 2014-06-19 09:17:45.559690000 Z
+Purchase_189:
+  id: 190
+  ordered_on: 2014-06-19
+  received_on: 2014-06-19
+  created_at: 2014-06-19 10:34:59.886373000 Z
+  updated_at: 2014-06-19 11:34:59.886373000 Z
+Purchase_190:
+  id: 191
+  ordered_on: 2014-06-19
+  received_on: 2014-06-19
+  created_at: 2014-06-19 13:09:40.538015000 Z
+  updated_at: 2014-06-19 14:09:40.538015000 Z
+Purchase_191:
+  id: 192
+  created_at: 2014-06-19 13:18:44.166343000 Z
+  updated_at: 2014-06-19 14:18:44.166343000 Z
+Purchase_192:
+  id: 193
+  ordered_on: 2014-06-23
+  received_on: 2014-06-23
+  created_at: 2014-06-23 10:06:34.060099000 Z
+  updated_at: 2014-06-23 11:06:34.060099000 Z
+Purchase_193:
+  id: 194
+  ordered_on: 2014-06-23
+  received_on: 2014-06-23
+  created_at: 2014-06-23 10:08:12.035314000 Z
+  updated_at: 2014-06-23 11:08:12.035314000 Z
+Purchase_194:
+  id: 195
+  ordered_on: 2014-06-25
+  received_on: 2014-06-25
+  created_at: 2014-06-25 15:00:35.152881000 Z
+  updated_at: 2014-06-25 16:00:35.152881000 Z
+Purchase_195:
+  id: 196
+  ordered_on: 2014-07-03
+  received_on: 2014-07-03
+  created_at: 2014-07-03 07:53:58.415962000 Z
+  updated_at: 2014-07-03 08:53:58.415962000 Z
+Purchase_196:
+  id: 197
+  ordered_on: 2014-07-03
+  received_on: 2014-07-03
+  created_at: 2014-07-03 09:03:59.668997000 Z
+  updated_at: 2014-07-03 10:03:59.668997000 Z
+Purchase_197:
+  id: 198
+  ordered_on: 2014-07-07
+  received_on: 2014-07-07
+  created_at: 2014-07-07 08:24:14.532462000 Z
+  updated_at: 2014-07-07 09:24:14.532462000 Z
+Purchase_198:
+  id: 199
+  ordered_on: 2014-07-07
+  received_on: 2014-07-07
+  created_at: 2014-07-07 09:30:26.710263000 Z
+  updated_at: 2014-07-07 10:30:26.710263000 Z
+Purchase_199:
+  id: 200
+  ordered_on: 2014-07-09
+  received_on: 2014-07-09
+  created_at: 2014-07-09 14:19:11.352990000 Z
+  updated_at: 2014-07-09 15:19:11.352990000 Z
+Purchase_200:
+  id: 201
+  ordered_on: 2014-07-10
+  received_on: 2014-07-10
+  created_at: 2014-07-10 08:14:55.456782000 Z
+  updated_at: 2014-07-10 09:14:55.456782000 Z
+Purchase_201:
+  id: 202
+  ordered_on: 2014-07-12
+  received_on: 2014-07-12
+  created_at: 2014-07-12 09:20:05.742335000 Z
+  updated_at: 2014-07-12 10:20:05.742335000 Z
+Purchase_202:
+  id: 203
+  ordered_on: 2014-07-14
+  received_on: 2014-07-14
+  created_at: 2014-07-14 11:43:39.877230000 Z
+  updated_at: 2014-07-14 12:43:39.877230000 Z
+Purchase_203:
+  id: 204
+  ordered_on: 2014-07-15
+  received_on: 2014-07-15
+  created_at: 2014-07-15 08:34:54.531425000 Z
+  updated_at: 2014-07-15 09:34:54.531425000 Z
+Purchase_204:
+  id: 205
+  ordered_on: 2014-07-15
+  received_on: 2014-07-15
+  created_at: 2014-07-15 11:38:00.544573000 Z
+  updated_at: 2014-07-15 12:38:00.544573000 Z
+Purchase_205:
+  id: 206
+  ordered_on: 2014-07-16
+  received_on: 2014-07-16
+  created_at: 2014-07-16 10:05:44.082001000 Z
+  updated_at: 2014-07-16 11:05:44.082001000 Z
+Purchase_206:
+  id: 207
+  ordered_on: 2014-07-17
+  received_on: 2014-07-17
+  created_at: 2014-07-17 08:07:16.420879000 Z
+  updated_at: 2014-07-17 09:07:16.420879000 Z
+Purchase_207:
+  id: 208
+  ordered_on: 2014-07-17
+  received_on: 2014-07-17
+  created_at: 2014-07-17 12:06:46.506454000 Z
+  updated_at: 2014-07-17 13:06:46.506454000 Z
+Purchase_208:
+  id: 209
+  created_at: 2014-07-18 09:23:46.627338000 Z
+  updated_at: 2014-07-18 10:23:46.627338000 Z
+Purchase_209:
+  id: 210
+  ordered_on: 2014-07-21
+  received_on: 2014-07-21
+  created_at: 2014-07-21 11:54:10.050788000 Z
+  updated_at: 2014-07-21 12:54:10.050788000 Z
+Purchase_210:
+  id: 211
+  ordered_on: 2014-07-23
+  received_on: 2014-07-23
+  created_at: 2014-07-23 13:12:26.388685000 Z
+  updated_at: 2014-07-23 14:12:26.388685000 Z
+Purchase_211:
+  id: 212
+  ordered_on: 2014-07-23
+  received_on: 2014-07-23
+  created_at: 2014-07-23 14:57:30.420380000 Z
+  updated_at: 2014-07-23 15:57:30.420380000 Z
+Purchase_212:
+  id: 213
+  ordered_on: 2014-07-23
+  received_on: 2014-07-23
+  created_at: 2014-07-23 15:50:54.544262000 Z
+  updated_at: 2014-07-23 16:50:54.544262000 Z
+Purchase_213:
+  id: 214
+  ordered_on: 2014-07-24
+  received_on: 2014-07-24
+  created_at: 2014-07-24 15:48:31.150443000 Z
+  updated_at: 2014-07-24 16:48:31.150443000 Z
+Purchase_214:
+  id: 215
+  ordered_on: 2014-07-24
+  received_on: 2014-07-24
+  created_at: 2014-07-24 15:50:25.112672000 Z
+  updated_at: 2014-07-24 16:50:25.112672000 Z
+Purchase_215:
+  id: 216
+  ordered_on: 2014-07-25
+  received_on: 2014-07-25
+  created_at: 2014-07-25 10:06:51.161829000 Z
+  updated_at: 2014-07-25 11:06:51.161829000 Z
+Purchase_216:
+  id: 217
+  ordered_on: 2014-07-28
+  received_on: 2014-07-28
+  created_at: 2014-07-28 12:41:06.482995000 Z
+  updated_at: 2014-07-28 13:41:06.482995000 Z
+Purchase_217:
+  id: 218
+  ordered_on: 2014-07-29
+  received_on: 2014-07-29
+  created_at: 2014-07-29 08:29:51.854819000 Z
+  updated_at: 2014-07-29 09:29:51.854819000 Z
+Purchase_218:
+  id: 219
+  ordered_on: 2014-07-29
+  received_on: 2014-07-29
+  created_at: 2014-07-29 13:50:30.399681000 Z
+  updated_at: 2014-07-29 14:50:30.399681000 Z
+Purchase_219:
+  id: 220
+  ordered_on: 2014-07-30
+  received_on: 2014-07-30
+  created_at: 2014-07-30 08:31:57.541796000 Z
+  updated_at: 2014-07-30 09:31:57.541796000 Z
+Purchase_220:
+  id: 221
+  ordered_on: 2014-07-30
+  received_on: 2014-07-30
+  created_at: 2014-07-30 15:01:38.418350000 Z
+  updated_at: 2014-07-30 16:01:38.418350000 Z
+Purchase_221:
+  id: 222
+  ordered_on: 2014-07-30
+  received_on: 2014-07-30
+  created_at: 2014-07-30 16:53:43.947580000 Z
+  updated_at: 2014-07-30 17:53:43.947580000 Z
+Purchase_222:
+  id: 223
+  ordered_on: 2014-07-30
+  received_on: 2014-07-30
+  created_at: 2014-07-30 17:19:35.051026000 Z
+  updated_at: 2014-07-30 18:19:35.051026000 Z
+Purchase_223:
+  id: 224
+  ordered_on: 2014-07-31
+  received_on: 2014-07-31
+  created_at: 2014-07-31 08:39:50.726269000 Z
+  updated_at: 2014-07-31 09:39:50.726269000 Z
+Purchase_224:
+  id: 225
+  ordered_on: 2014-08-01
+  received_on: 2014-08-01
+  created_at: 2014-08-01 09:07:30.328869000 Z
+  updated_at: 2014-08-01 10:07:30.328869000 Z
+Purchase_225:
+  id: 226
+  ordered_on: 2014-08-01
+  received_on: 2014-08-01
+  created_at: 2014-08-01 09:08:40.185776000 Z
+  updated_at: 2014-08-01 10:08:40.185776000 Z
+Purchase_226:
+  id: 227
+  ordered_on: 2014-08-01
+  received_on: 2014-08-01
+  created_at: 2014-08-01 11:53:49.259448000 Z
+  updated_at: 2014-08-01 12:53:49.259448000 Z
+Purchase_227:
+  id: 228
+  ordered_on: 2014-08-01
+  received_on: 2014-08-01
+  created_at: 2014-08-01 11:55:07.148969000 Z
+  updated_at: 2014-08-01 12:55:07.148969000 Z
+Purchase_228:
+  id: 229
+  ordered_on: 2014-08-02
+  received_on: 2014-08-02
+  created_at: 2014-08-02 09:13:25.649165000 Z
+  updated_at: 2014-08-02 10:13:25.649165000 Z
+Purchase_229:
+  id: 230
+  ordered_on: 2014-08-04
+  received_on: 2014-08-04
+  created_at: 2014-08-04 09:09:00.473813000 Z
+  updated_at: 2014-08-04 10:09:00.473813000 Z
+Purchase_230:
+  id: 231
+  ordered_on: 2014-08-04
+  received_on: 2014-08-04
+  created_at: 2014-08-04 14:20:45.736106000 Z
+  updated_at: 2014-08-04 15:20:45.736106000 Z
+Purchase_231:
+  id: 232
+  created_at: 2014-08-04 16:12:50.164989000 Z
+  updated_at: 2014-08-04 17:12:50.164989000 Z
+Purchase_232:
+  id: 233
+  ordered_on: 2014-08-07
+  received_on: 2014-08-07
+  created_at: 2014-08-07 08:09:43.396886000 Z
+  updated_at: 2014-08-07 09:09:43.396886000 Z
+Purchase_233:
+  id: 234
+  ordered_on: 2014-08-08
+  received_on: 2014-08-08
+  created_at: 2014-08-08 13:31:25.208173000 Z
+  updated_at: 2014-08-08 14:31:25.208173000 Z
+Purchase_234:
+  id: 235
+  ordered_on: 2014-08-09
+  received_on: 2014-08-09
+  created_at: 2014-08-09 10:40:20.066461000 Z
+  updated_at: 2014-08-09 11:40:20.066461000 Z
+Purchase_235:
+  id: 236
+  ordered_on: 2014-08-09
+  received_on: 2014-08-09
+  created_at: 2014-08-09 12:22:41.909514000 Z
+  updated_at: 2014-08-09 13:22:41.909514000 Z
+Purchase_236:
+  id: 237
+  ordered_on: 2014-08-14
+  received_on: 2014-08-14
+  created_at: 2014-08-14 08:48:07.473330000 Z
+  updated_at: 2014-08-14 09:48:07.473330000 Z
+Purchase_237:
+  id: 238
+  ordered_on: 2014-08-15
+  received_on: 2014-08-15
+  created_at: 2014-08-15 08:20:34.001557000 Z
+  updated_at: 2014-08-15 09:20:34.001557000 Z
+Purchase_238:
+  id: 239
+  ordered_on: 2014-08-19
+  received_on: 2014-08-19
+  created_at: 2014-08-19 13:08:39.855580000 Z
+  updated_at: 2014-08-19 14:08:39.855580000 Z
+Purchase_239:
+  id: 240
+  ordered_on: 2014-08-19
+  received_on: 2014-08-19
+  created_at: 2014-08-19 13:19:24.556500000 Z
+  updated_at: 2014-08-19 14:19:24.556500000 Z
+Purchase_240:
+  id: 241
+  ordered_on: 2014-08-20
+  received_on: 2014-08-20
+  created_at: 2014-08-20 11:01:37.757054000 Z
+  updated_at: 2014-08-20 12:01:37.757054000 Z
+Purchase_241:
+  id: 242
+  ordered_on: 2014-08-22
+  received_on: 2014-08-22
+  created_at: 2014-08-22 08:41:19.133325000 Z
+  updated_at: 2014-08-22 09:41:19.133325000 Z
+Purchase_242:
+  id: 243
+  ordered_on: 2014-08-22
+  received_on: 2014-08-22
+  created_at: 2014-08-22 12:00:38.400949000 Z
+  updated_at: 2014-08-22 13:00:38.400949000 Z
+Purchase_243:
+  id: 244
+  ordered_on: 2014-08-22
+  received_on: 2014-08-22
+  created_at: 2014-08-22 13:52:34.572648000 Z
+  updated_at: 2014-08-22 14:52:34.572648000 Z
+Purchase_244:
+  id: 245
+  ordered_on: 2014-08-25
+  received_on: 2014-08-25
+  created_at: 2014-08-25 10:24:50.378020000 Z
+  updated_at: 2014-08-25 11:24:50.378020000 Z
+Purchase_245:
+  id: 246
+  ordered_on: 2014-09-01
+  received_on: 2014-09-01
+  created_at: 2014-09-01 13:11:19.431473000 Z
+  updated_at: 2014-09-01 14:11:19.431473000 Z
+Purchase_246:
+  id: 247
+  ordered_on: 2014-09-02
+  received_on: 2014-09-02
+  created_at: 2014-09-02 08:43:04.740233000 Z
+  updated_at: 2014-09-02 09:43:04.740233000 Z
+Purchase_247:
+  id: 248
+  ordered_on: 2014-09-02
+  received_on: 2014-09-02
+  created_at: 2014-09-02 15:55:33.601835000 Z
+  updated_at: 2014-09-02 16:55:33.601835000 Z
+Purchase_248:
+  id: 249
+  ordered_on: 2014-09-04
+  received_on: 2014-09-04
+  created_at: 2014-09-04 12:55:29.630695000 Z
+  updated_at: 2014-09-04 13:55:29.630695000 Z
+Purchase_249:
+  id: 250
+  ordered_on: 2014-09-06
+  received_on: 2014-09-06
+  created_at: 2014-09-06 12:16:35.782442000 Z
+  updated_at: 2014-09-06 13:16:35.782442000 Z
+Purchase_250:
+  id: 251
+  ordered_on: 2014-09-08
+  received_on: 2014-09-08
+  created_at: 2014-09-08 10:57:52.847074000 Z
+  updated_at: 2014-09-08 11:57:52.847074000 Z
+Purchase_251:
+  id: 252
+  ordered_on: 2014-09-08
+  received_on: 2014-09-08
+  created_at: 2014-09-08 17:17:56.414001000 Z
+  updated_at: 2014-09-08 18:17:56.414001000 Z
+Purchase_252:
+  id: 253
+  ordered_on: 2014-09-08
+  received_on: 2014-09-08
+  created_at: 2014-09-08 17:20:33.888179000 Z
+  updated_at: 2014-09-08 18:20:33.888179000 Z
+Purchase_253:
+  id: 254
+  ordered_on: 2014-09-09
+  received_on: 2014-09-09
+  created_at: 2014-09-09 09:52:01.038266000 Z
+  updated_at: 2014-09-09 10:52:01.038266000 Z
+Purchase_254:
+  id: 255
+  ordered_on: 2014-09-10
+  received_on: 2014-09-10
+  created_at: 2014-09-10 08:35:07.302735000 Z
+  updated_at: 2014-09-10 09:35:07.302735000 Z
+Purchase_255:
+  id: 256
+  ordered_on: 2014-09-12
+  received_on: 2014-09-12
+  created_at: 2014-09-12 10:08:09.876896000 Z
+  updated_at: 2014-09-12 11:08:09.876896000 Z
+Purchase_256:
+  id: 257
+  ordered_on: 2014-09-12
+  received_on: 2014-09-12
+  created_at: 2014-09-12 10:09:12.917403000 Z
+  updated_at: 2014-09-12 11:09:12.917403000 Z
+Purchase_257:
+  id: 258
+  ordered_on: 2014-09-12
+  received_on: 2014-09-12
+  created_at: 2014-09-12 11:54:48.380387000 Z
+  updated_at: 2014-09-12 12:54:48.380387000 Z
+Purchase_258:
+  id: 259
+  ordered_on: 2014-09-12
+  received_on: 2014-09-12
+  created_at: 2014-09-12 12:14:58.995535000 Z
+  updated_at: 2014-09-12 13:14:58.995535000 Z
+Purchase_259:
+  id: 260
+  ordered_on: 2014-09-13
+  received_on: 2014-09-13
+  created_at: 2014-09-13 08:28:29.386822000 Z
+  updated_at: 2014-09-13 09:28:29.386822000 Z
+Purchase_260:
+  id: 261
+  ordered_on: 2014-09-13
+  received_on: 2014-09-13
+  created_at: 2014-09-13 13:04:32.562610000 Z
+  updated_at: 2014-09-13 14:04:32.562610000 Z
+Purchase_261:
+  id: 262
+  created_at: 2014-09-14 10:40:28.802673000 Z
+  updated_at: 2014-09-14 11:40:28.802673000 Z
+Purchase_262:
+  id: 263
+  ordered_on: 2014-09-18
+  received_on: 2014-09-18
+  created_at: 2014-09-18 13:38:41.926720000 Z
+  updated_at: 2014-09-18 14:38:41.926720000 Z
+Purchase_263:
+  id: 264
+  ordered_on: 2014-09-22
+  received_on: 2014-09-22
+  created_at: 2014-09-22 11:53:31.637286000 Z
+  updated_at: 2014-09-22 12:53:31.637286000 Z
+Purchase_264:
+  id: 265
+  ordered_on: 2014-09-24
+  received_on: 2014-09-24
+  created_at: 2014-09-24 16:20:27.301885000 Z
+  updated_at: 2014-09-24 17:20:27.301885000 Z
+Purchase_265:
+  id: 266
+  ordered_on: 2014-09-25
+  received_on: 2014-09-25
+  created_at: 2014-09-25 14:02:28.891880000 Z
+  updated_at: 2014-09-25 15:02:28.891880000 Z
+Purchase_266:
+  id: 267
+  ordered_on: 2014-09-26
+  received_on: 2014-09-26
+  created_at: 2014-09-26 09:41:56.869418000 Z
+  updated_at: 2014-09-26 10:41:56.869418000 Z
+Purchase_267:
+  id: 268
+  ordered_on: 2014-09-26
+  received_on: 2014-09-26
+  created_at: 2014-09-26 13:06:37.585344000 Z
+  updated_at: 2014-09-26 14:06:37.585344000 Z
+Purchase_268:
+  id: 269
+  ordered_on: 2014-09-27
+  received_on: 2014-09-27
+  created_at: 2014-09-27 08:29:48.313289000 Z
+  updated_at: 2014-09-27 09:29:48.313289000 Z
+Purchase_269:
+  id: 270
+  ordered_on: 2014-09-30
+  received_on: 2014-09-30
+  created_at: 2014-09-30 11:32:59.383698000 Z
+  updated_at: 2014-09-30 12:32:59.383698000 Z
+Purchase_270:
+  id: 271
+  ordered_on: 2014-09-30
+  received_on: 2014-09-30
+  created_at: 2014-09-30 13:24:08.956429000 Z
+  updated_at: 2014-09-30 14:24:08.956429000 Z
+Purchase_271:
+  id: 272
+  ordered_on: 2014-09-30
+  received_on: 2014-09-30
+  created_at: 2014-09-30 13:36:03.772020000 Z
+  updated_at: 2014-09-30 14:36:03.772020000 Z
+Purchase_272:
+  id: 273
+  ordered_on: 2014-09-30
+  received_on: 2014-09-30
+  created_at: 2014-09-30 14:39:19.083341000 Z
+  updated_at: 2014-09-30 15:39:19.083341000 Z
+Purchase_273:
+  id: 274
+  ordered_on: 2014-09-30
+  received_on: 2014-09-30
+  created_at: 2014-09-30 14:56:23.255963000 Z
+  updated_at: 2014-09-30 15:56:23.255963000 Z
+Purchase_274:
+  id: 275
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 08:50:12.123157000 Z
+  updated_at: 2014-10-01 09:50:12.123157000 Z
+Purchase_275:
+  id: 276
+  created_at: 2014-10-01 08:59:34.538714000 Z
+  updated_at: 2014-10-01 09:59:34.538714000 Z
+Purchase_276:
+  id: 277
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 09:05:59.601168000 Z
+  updated_at: 2014-10-01 10:05:59.601168000 Z
+Purchase_277:
+  id: 278
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 09:09:49.482347000 Z
+  updated_at: 2014-10-01 10:09:49.482347000 Z
+Purchase_278:
+  id: 279
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 09:21:34.014732000 Z
+  updated_at: 2014-10-01 10:21:34.014732000 Z
+Purchase_279:
+  id: 280
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 09:23:43.988366000 Z
+  updated_at: 2014-10-01 10:23:43.988366000 Z
+Purchase_280:
+  id: 281
+  ordered_on: 2014-10-01
+  received_on: 2014-10-01
+  created_at: 2014-10-01 10:40:42.879019000 Z
+  updated_at: 2014-10-01 11:40:42.879019000 Z
+Purchase_281:
+  id: 282
+  ordered_on: 2014-10-02
+  received_on: 2014-10-02
+  created_at: 2014-10-02 08:24:35.090639000 Z
+  updated_at: 2014-10-02 09:24:35.090639000 Z
+Purchase_282:
+  id: 283
+  ordered_on: 2014-10-02
+  received_on: 2014-10-02
+  created_at: 2014-10-02 09:30:32.461723000 Z
+  updated_at: 2014-10-02 10:30:32.461723000 Z
+Purchase_283:
+  id: 284
+  ordered_on: 2014-10-02
+  received_on: 2014-10-02
+  created_at: 2014-10-02 11:42:21.802568000 Z
+  updated_at: 2014-10-02 12:42:21.802568000 Z
+Purchase_284:
+  id: 285
+  ordered_on: 2014-10-02
+  received_on: 2014-10-02
+  created_at: 2014-10-02 12:52:52.913391000 Z
+  updated_at: 2014-10-02 13:52:52.913391000 Z
+Purchase_285:
+  id: 286
+  created_at: 2014-10-02 14:48:33.890048000 Z
+  updated_at: 2014-10-02 15:48:33.890048000 Z
+Purchase_286:
+  id: 287
+  ordered_on: 2014-10-02
+  received_on: 2014-10-02
+  created_at: 2014-10-02 14:55:25.333360000 Z
+  updated_at: 2014-10-02 15:55:25.333360000 Z
+Purchase_287:
+  id: 288
+  ordered_on: 2014-10-03
+  received_on: 2014-10-03
+  created_at: 2014-10-03 12:39:59.688155000 Z
+  updated_at: 2014-10-03 13:39:59.688155000 Z
+Purchase_288:
+  id: 289
+  ordered_on: 2014-10-03
+  received_on: 2014-10-03
+  created_at: 2014-10-03 14:46:58.880648000 Z
+  updated_at: 2014-10-03 15:46:58.880648000 Z
+Purchase_289:
+  id: 290
+  ordered_on: 2014-10-04
+  received_on: 2014-10-04
+  created_at: 2014-10-04 08:29:41.240330000 Z
+  updated_at: 2014-10-04 09:29:41.240330000 Z
+Purchase_290:
+  id: 291
+  ordered_on: 2014-10-06
+  received_on: 2014-10-06
+  created_at: 2014-10-06 08:21:11.224705000 Z
+  updated_at: 2014-10-06 09:21:11.224705000 Z
+Purchase_291:
+  id: 292
+  ordered_on: 2014-10-09
+  received_on: 2014-10-09
+  created_at: 2014-10-09 11:01:41.310449000 Z
+  updated_at: 2014-10-09 12:01:41.310449000 Z
+Purchase_292:
+  id: 293
+  ordered_on: 2014-10-17
+  received_on: 2014-10-17
+  created_at: 2014-10-17 09:38:55.065333000 Z
+  updated_at: 2014-10-17 10:38:55.065333000 Z
+Purchase_293:
+  id: 294
+  ordered_on: 2014-10-17
+  received_on: 2014-10-17
+  created_at: 2014-10-17 09:42:17.895609000 Z
+  updated_at: 2014-10-17 10:42:17.895609000 Z
+Purchase_294:
+  id: 295
+  ordered_on: 2014-10-17
+  received_on: 2014-10-17
+  created_at: 2014-10-17 18:39:08.705039000 Z
+  updated_at: 2014-10-17 19:39:08.705039000 Z
+Purchase_295:
+  id: 296
+  ordered_on: 2014-10-18
+  received_on: 2014-10-18
+  created_at: 2014-10-18 12:22:10.572211000 Z
+  updated_at: 2014-10-18 13:22:10.572211000 Z
+Purchase_296:
+  id: 297
+  ordered_on: 2014-10-20
+  received_on: 2014-10-20
+  created_at: 2014-10-20 12:38:25.117336000 Z
+  updated_at: 2014-10-20 13:38:25.117336000 Z
+Purchase_297:
+  id: 298
+  ordered_on: 2014-10-21
+  received_on: 2014-10-21
+  created_at: 2014-10-21 08:50:23.803697000 Z
+  updated_at: 2014-10-21 09:50:23.803697000 Z
+Purchase_298:
+  id: 299
+  ordered_on: 2014-10-23
+  received_on: 2014-10-23
+  created_at: 2014-10-23 12:21:11.042092000 Z
+  updated_at: 2014-10-23 12:21:14.628776000 Z
+Purchase_299:
+  id: 300
+  ordered_on: 2014-10-31
+  received_on: 2014-10-31
+  created_at: 2014-10-31 09:11:28.539175000 Z
+  updated_at: 2014-10-31 09:11:36.838973000 Z
+Purchase_300:
+  id: 301
+  ordered_on: 2014-10-31
+  received_on: 2014-10-31
+  created_at: 2014-10-31 10:16:52.841900000 Z
+  updated_at: 2014-10-31 10:16:55.650055000 Z
+Purchase_301:
+  id: 302
+  ordered_on: 2014-11-03
+  received_on: 2014-11-03
+  created_at: 2014-11-03 16:41:54.535359000 Z
+  updated_at: 2014-11-03 16:42:04.729787000 Z
+Purchase_302:
+  id: 303
+  ordered_on: 2014-11-04
+  received_on: 2014-11-04
+  created_at: 2014-11-04 15:37:39.956531000 Z
+  updated_at: 2014-11-04 15:37:43.511642000 Z
+Purchase_303:
+  id: 304
+  ordered_on: 2014-11-04
+  received_on: 2014-11-04
+  created_at: 2014-11-04 21:28:23.140319000 Z
+  updated_at: 2014-11-04 21:28:25.611690000 Z
+Purchase_304:
+  id: 305
+  ordered_on: 2014-11-07
+  received_on: 2014-11-07
+  created_at: 2014-11-07 15:37:38.289132000 Z
+  updated_at: 2014-11-07 15:37:41.590501000 Z
+Purchase_305:
+  id: 306
+  ordered_on: 2014-11-07
+  received_on: 2014-11-07
+  created_at: 2014-11-07 15:38:47.885881000 Z
+  updated_at: 2014-11-07 15:38:51.554457000 Z
+Purchase_306:
+  id: 307
+  ordered_on: 2014-11-07
+  received_on: 2014-11-07
+  created_at: 2014-11-07 16:27:40.237810000 Z
+  updated_at: 2014-11-07 16:27:42.914761000 Z
+Purchase_307:
+  id: 308
+  ordered_on: 2014-11-07
+  received_on: 2014-11-07
+  created_at: 2014-11-07 16:30:53.635740000 Z
+  updated_at: 2014-11-07 16:30:56.611519000 Z
+Purchase_308:
+  id: 309
+  ordered_on: 2014-11-08
+  received_on: 2014-11-08
+  created_at: 2014-11-08 09:04:24.743595000 Z
+  updated_at: 2014-11-08 09:04:31.495266000 Z
+Purchase_309:
+  id: 310
+  ordered_on: 2014-11-10
+  received_on: 2014-11-10
+  created_at: 2014-11-10 14:12:58.289472000 Z
+  updated_at: 2014-11-10 14:13:21.894912000 Z
+Purchase_310:
+  id: 311
+  ordered_on: 2014-11-10
+  received_on: 2014-11-10
+  created_at: 2014-11-10 14:37:00.681064000 Z
+  updated_at: 2014-11-10 14:37:03.709053000 Z
+Purchase_311:
+  id: 312
+  ordered_on: 2014-11-11
+  received_on: 2014-11-11
+  created_at: 2014-11-11 08:38:55.673521000 Z
+  updated_at: 2014-11-11 08:39:02.162265000 Z
+Purchase_312:
+  id: 313
+  ordered_on: 2014-11-11
+  received_on: 2014-11-11
+  created_at: 2014-11-11 11:24:23.888638000 Z
+  updated_at: 2014-11-11 11:24:27.465307000 Z
+Purchase_313:
+  id: 314
+  ordered_on: 2014-11-13
+  received_on: 2014-11-13
+  created_at: 2014-11-13 10:30:02.203594000 Z
+  updated_at: 2014-11-13 10:30:06.036475000 Z
+Purchase_314:
+  id: 315
+  ordered_on: 2014-11-13
+  received_on: 2014-11-13
+  created_at: 2014-11-13 12:19:57.457359000 Z
+  updated_at: 2014-11-13 12:20:00.812821000 Z
+Purchase_315:
+  id: 316
+  ordered_on: 2014-11-14
+  received_on: 2014-11-14
+  created_at: 2014-11-14 13:18:34.873615000 Z
+  updated_at: 2014-11-14 13:18:38.436254000 Z
+Purchase_316:
+  id: 317
+  ordered_on: 2014-11-14
+  received_on: 2014-11-14
+  created_at: 2014-11-14 14:13:44.815578000 Z
+  updated_at: 2014-11-14 14:13:47.399378000 Z
+Purchase_317:
+  id: 318
+  ordered_on: 2014-11-14
+  received_on: 2014-11-14
+  created_at: 2014-11-14 14:53:08.309992000 Z
+  updated_at: 2014-11-14 14:53:10.573902000 Z
+Purchase_318:
+  id: 319
+  ordered_on: 2014-11-14
+  received_on: 2014-11-14
+  created_at: 2014-11-14 14:57:16.909708000 Z
+  updated_at: 2014-11-14 14:57:19.307753000 Z
+Purchase_319:
+  id: 320
+  ordered_on: 2014-11-14
+  received_on: 2014-11-14
+  created_at: 2014-11-14 16:47:24.532252000 Z
+  updated_at: 2014-11-14 16:47:28.434047000 Z
+Purchase_320:
+  id: 321
+  ordered_on: 2014-11-15
+  received_on: 2014-11-15
+  created_at: 2014-11-15 09:38:31.764741000 Z
+  updated_at: 2014-11-15 09:38:34.711861000 Z
