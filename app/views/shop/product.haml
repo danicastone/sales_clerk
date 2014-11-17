@@ -1,13 +1,5 @@
 .row
-  .col-md-3.tex
-    - parents(@group).each do | group|
-      .group-wrapper.side
-        = link_to shop_group_path(group.link) do
-          = image_tag group.main_picture.url(:list)
-          %h5= group.name
-    
-    .intro2
-      %p.description= markdown( @group.description) rescue ""
+  =render "parents"
   
   .col-md-8
     %br/
