@@ -1,14 +1,9 @@
 source 'https://rubygems.org'
 
-# extensions, reporting, printing
-#gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
-#gem 'accountant_clerk' , path: "../accountant_clerk"
-
-#gem 'print_clerk' , github: "rubyclerks/print_clerk"
-#gem 'print_clerk' , path: "../print_clerk"
-
-#gem 'post_clerk' , github: "rubyclerks/post_clerk"
-#gem 'post_clerk' , path: "../post_clerk"
+# extensions, reporting, printing (all depend on office_clerk)
+gem 'accountant_clerk' , "0.4" # path: "../accountant_clerk"
+gem 'print_clerk' , "0.3" #path: "../print_clerk"
+gem 'post_clerk' , "0.4" # path: "../post_clerk"
 
 #misc
 gem "valid_email" , :require => 'valid_email/email_validator' #no mx checking
@@ -35,10 +30,6 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
 #  gem "jeweler", "> 1.6.4"
-end
-group :development, :test do
-  gem "spring"
-  gem "spring-commands-rspec"
 end
 
 #asset / production reelated
