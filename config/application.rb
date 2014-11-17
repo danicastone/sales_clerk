@@ -20,5 +20,11 @@ module SalesClerk
 
       g.helper_specs false
     end
+
+    config.to_prepare do
+      Dir.glob("app/**/*_decorator.rb").each do |c|
+        require_dependency(c)
+      end
+    end
   end
 end
