@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 # extensions, reporting, printing (all depend on office_clerk)
-gem 'accountant_clerk' , "0.4" # path: "../accountant_clerk"
-gem 'print_clerk' , "0.3" #path: "../print_clerk"
-gem 'post_clerk' , "0.4" # path: "../post_clerk"
+gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
+gem 'print_clerk' , github: "rubyclerks/print_clerk"
+gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
 #misc
 gem "valid_email" , :require => 'valid_email/email_validator' #no mx checking
@@ -37,7 +37,6 @@ gem "therubyracer"
 gem "libv8" , "3.16.14.3"
 gem "rb-readline"
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails'
 
 
 group :test do
