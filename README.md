@@ -3,7 +3,7 @@
 The online shop of rubyclerks serves two major functions:
 
 - functionally it is the online store
-- technically it is you main repository (see installation)
+- technically it is your main repository (see installation)
 
 
 ## Rubyclerks, OfficeClerk
