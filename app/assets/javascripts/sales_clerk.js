@@ -28,3 +28,8 @@ $(function() {
   $("input[name='order[shipment_type]']").click(shipmentSelected);
   $("#fill_address").click(fillAddress);
 });
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+

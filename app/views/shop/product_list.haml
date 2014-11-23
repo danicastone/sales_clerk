@@ -26,7 +26,7 @@
                   .col-md-4
                     .square-image
                       =image_tag product.main_picture.url
-                  .col-md-8
+                  .col-md-8.bottom
                     .product-fact
                       =link_to shop_product_path( :link => product.link ) , :class => :info do
                         %p= markdown product.description[0..120]
