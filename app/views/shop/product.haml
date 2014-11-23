@@ -34,20 +34,35 @@
                       %button#add-to-cart-button.btn.btn-primary{:type => :submit}
                         = t(:add_to_basket)
     
-        .row
-          .col-md-12
-            %br/
-            %table.table-striped.table-condensed
-              %thead.highlight
-                %tr
-                  %th Muita tuotteita samassa tuoteryhmässä
-              %tbody
-                - in_group(@product).each do |p|
-                  %tr
-                    %td
-                      =link_to shop_product_path(:link => p.link ) do
-                        = p.name
-            
+    .row
+      .col-md-12
+        %br/
+        %h6.highlight Muita tuotteita samassa tuoteryhmässä
+        %table.table-condensed.product-hints
+          %tbody
+            - in_group(@product).each do |p|
+              %tr
+                %td.picture.tdpic 
+                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
+                %td.tdtex
+                  =link_to shop_product_path(:link => p.link ) do
+                    = p.name
+                %td.picture.tdpic  
+                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
+                %td.tdtex
+                  =link_to shop_product_path(:link => p.link ) do
+                    = p.name
+                %td.picture.tdpic  
+                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
+                %td.tdtex
+                  =link_to shop_product_path(:link => p.link ) do
+                    = p.name
+                %td.picture.tdpic 
+                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
+                %td.tdtex
+                  =link_to shop_product_path(:link => p.link ) do
+                    = p.name
+                
             
           
   .col-md-1

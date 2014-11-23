@@ -64,11 +64,16 @@ ul.cat {
   padding-left: 70px;
   padding-right: 70px;
   line-height: 140%;
-	font-size: .9em;
+	font-size: 1.2em;
 	strong, b {
   color: $highlight;
   }  
 }
+
+.footer2 {
+font-size: .9em;
+}
+
 
 .menus {
   padding: 8px;
@@ -108,6 +113,7 @@ width: 220px;  }
   padding: 7px;
   width: 220px;
 }
+
 
 .group-wrapper.checkout h5 {
 color: #F19711;
@@ -228,6 +234,9 @@ h4.text {
   font-size: 16px;
 }
 
+h5.text {
+background: none;
+}
 
 h1.product-title {
 	font-size: 2.3rem;
@@ -430,3 +439,21 @@ top: -2px;
 right: -21px;
 color: inherit;
 }
+
+.product-hints {
+  border: 2px solid #E6E5FA;
+}
+
+.product-hints td {
+  border-top: 2px solid #E6E5FA;
+}
+
+.tdpic td {
+  border-left: 2px solid #E6E5FA; }
+
+.tdtex {
+  border-right: 2px solid #E6E5FA;
+  font-size: .95em;
+  } 
+
+
