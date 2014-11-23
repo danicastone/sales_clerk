@@ -60,10 +60,10 @@ ul.cat {
 }
 
 .footer {
-  padding-top: 30px;
-  padding-left: 70px;
-  padding-right: 70px;
-  line-height: 140%;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 120%;
 	font-size: 1.2em;
 	strong, b {
   color: $highlight;
@@ -72,6 +72,10 @@ ul.cat {
 
 .footer2 {
 font-size: .9em;
+}
+
+b.footer {
+margin-bottom: 12px;
 }
 
 
@@ -438,6 +442,10 @@ position: relative;
 top: -2px;
 right: -21px;
 color: inherit;
+}
+
+h6.product-hint {
+  font-size: 1.6rem;
 }
 
 .product-hints {

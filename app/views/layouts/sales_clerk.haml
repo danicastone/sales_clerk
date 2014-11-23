@@ -90,23 +90,35 @@
           .col-md-12
             = yield
 
-
-      .row
-        .col-md-6
-          .footer
-            Suunnittelu ja toteutus Ruby Design    
-            %br/
+            
+      .row.footer
+        
+        %hr
+        .col-md-4
+          %h4 Suunnittelu ja toteutus 
+          %b Ruby Design  
+            
+          .footer2
             Powered by
             %a{href: "http://rubyclerks.com/"} RubyClerks
-        .col-md-6
-          .footer.right
-            %b> AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
-            %br/
-            Fredrikinkatu 19 (Viiskulma), Helsinki
-            %br/
-            puh +358- (0)9- 621 7001 | Y-tunnus 2380478-1
-            %br/
-            %br/
+        .col-md-4
+          .text-center
+            %h4.highlight Like us on Facebook!
+            %img{:src => "/assets/kauppa/facebook.gif"}/
+            
+              
+        .col-md-4
+          .right
+            %h4.highlight  AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
+            .footer2
+              Fredrikinkatu 19 (Viiskulma), Helsinki
+              %br/
+              sähköposti 
+              %img{:src => "/assets/kauppa/email.png"}/
+              %br/
+              puh 09- 621 7001 | Y-tunnus 2380478-1
+              %br/
+              %br/
             
             
         = render "layouts/google" if Rails.env.production?
