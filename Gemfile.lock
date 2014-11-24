@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/accountant_clerk.git
-  revision: 79fce21538bd9f6232369d38af6e415ceed421ba
+  revision: 27d7b55c69f1c1ebdc52fc972e1197ed3fd49ea0
   specs:
     accountant_clerk (0.5)
       flot-rails (~> 0.0.6)
@@ -26,9 +26,9 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 22424febadda4efb945782a77ecca1e8c10dc0f6
+  revision: 2a91c852206cc99b2e9fc9e973f7e5c04e909458
   specs:
-    office_clerk (0.4)
+    office_clerk (0.5)
       bcrypt-ruby (~> 3.1)
       bootstrap-sass (~> 3.1)
       bootstrap_form (~> 2.2)
@@ -42,19 +42,18 @@ GIT
       rails (~> 4.0, >= 4.0.1)
       rails-i18n (~> 4.0)
       sass-rails (~> 4.0)
-      simple_form (~> 3.0)
       will_paginate-bootstrap (~> 1.0)
 
 GIT
   remote: git://github.com/rubyclerks/post_clerk.git
-  revision: 90af6434bb61bb3934f8d86da7497697fa706600
+  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
   specs:
     post_clerk (0.4)
       office_clerk (~> 0.1)
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 95ba1149e7d578054dc88e3fee314df50f0e0b47
+  revision: 6c1d91d0f061b90293e1410058732a94b761bcd0
   specs:
     print_clerk (0.4)
       barby
@@ -294,9 +293,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    simple_form (3.0.2)
-      actionpack (~> 4.0)
-      activemodel (~> 4.0)
     simplecov (0.9.1)
       docile (~> 1.1.0)
       multi_json (~> 1.0)
@@ -308,7 +304,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.2.0)
+    sprockets-rails (2.2.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -365,6 +361,7 @@ DEPENDENCIES
   print_clerk!
   quiet_assets
   rack-attack
+  rails (= 4.0.11)
   rails_layout
   ransack!
   rb-readline

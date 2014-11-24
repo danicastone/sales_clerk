@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
 gem 'print_clerk' , github: "rubyclerks/print_clerk"
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
+
 gem "office_clerk", github: "rubyclerks/office_clerk"
 
 #misc
@@ -13,7 +14,7 @@ gem 'db_fixtures_dump' , :github => 'rubyclerks/db_fixtures_dump' #backup
 gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4"
 
 gem 'sqlite3'
-
+gem "rails" ,  "4.0.11"
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
