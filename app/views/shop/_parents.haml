@@ -6,11 +6,13 @@
         %h5= group.name
     .intro-text    
       %p.description
-        = markdown short group.description
+        = markdown group.summary
 
   .intro2.group-wrapper.side
     = link_to shop_group_path(@group.link) do
       = image_tag @group.main_picture.url(:list)
       %h5= @group.name
   .intro-text    
-    %p.description= markdown @group.description
+    %p.description
+      = markdown @group.summary
+      = markdown @group.description
