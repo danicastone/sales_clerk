@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: efa43ebd695744372a90245dc72a7e6190e82846
+  revision: 28b236d6bcf88c781850d28ec14fc111cc1f7f4f
   specs:
     office_clerk (0.5)
       bcrypt-ruby (~> 3.1)
@@ -288,7 +288,7 @@ GEM
       simplecov-html (~> 0.8.0)
     simplecov-html (0.8.0)
     slop (3.6.0)
-    sprockets (2.11.3)
+    sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
