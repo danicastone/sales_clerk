@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/rubyclerks/sales_clerk.svg?branch=master)](https://travis-ci.org/rubyclerks/sales_clerk)
+[![Code Climate](https://codeclimate.com/github/rubyclerks/sales_clerk/badges/gpa.svg)](https://codeclimate.com/github/rubyclerks/sales_clerk)
+[![Test Coverage](https://codeclimate.com/github/rubyclerks/sales_clerk/badges/coverage.svg)](https://codeclimate.com/github/rubyclerks/sales_clerk)
+
 # Sales Clerk
 
 The online shop of rubyclerks serves two major functions:
@@ -5,6 +9,7 @@ The online shop of rubyclerks serves two major functions:
 - functionally it is the online store
 - technically it is your main repository (see installation)
 
+This is a bit like a skin/template for a shop. There will be others with different styles and only for product display. 
 
 ## Rubyclerks, OfficeClerk
 
