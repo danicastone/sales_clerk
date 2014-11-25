@@ -6,6 +6,7 @@ class Categories < ActiveRecord::Migration
       t.boolean     :online, :default => false
       t.string      :name
       t.string      :description
+      t.text        :summary      , :default => ""
       t.integer     :position , :default => 1
       t.string      :link
       t.attachment  :main_picture

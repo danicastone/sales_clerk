@@ -20,7 +20,7 @@ module SalesClerk
 
     config.to_prepare do
       Dir.glob("app/**/*_decorator.rb").each do |c|
-        require_dependency(c)
+        load(c)
       end
     end
   end

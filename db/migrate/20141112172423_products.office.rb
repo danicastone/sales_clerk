@@ -6,6 +6,7 @@ class Products < ActiveRecord::Migration
       t.string      :name       , :null => false
       t.string      :link        
       t.text        :description
+      t.text        :summary      , :default => ""
       t.attachment  :main_picture
       t.attachment  :extra_picture
       t.boolean     :online ,       :default => false
