@@ -13,24 +13,8 @@ GIT
     db_fixtures_dump (0.0.9)
 
 GIT
-  remote: git://github.com/rubyclerks/post_clerk.git
-  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
-  specs:
-    post_clerk (0.4)
-      office_clerk (~> 0.1)
-
-GIT
-  remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 6c1d91d0f061b90293e1410058732a94b761bcd0
-  specs:
-    print_clerk (0.4)
-      barby
-      chunky_png
-      office_clerk (~> 0.4)
-      prawn
-
-PATH
-  remote: ../office_clerk
+  remote: git://github.com/rubyclerks/office_clerk.git
+  revision: efa43ebd695744372a90245dc72a7e6190e82846
   specs:
     office_clerk (0.5)
       bcrypt-ruby (~> 3.1)
@@ -49,6 +33,23 @@ PATH
       sass-rails (~> 4.0)
       valid_email
       will_paginate-bootstrap (~> 1.0)
+
+GIT
+  remote: git://github.com/rubyclerks/post_clerk.git
+  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
+  specs:
+    post_clerk (0.4)
+      office_clerk (~> 0.1)
+
+GIT
+  remote: git://github.com/rubyclerks/print_clerk.git
+  revision: 6c1d91d0f061b90293e1410058732a94b761bcd0
+  specs:
+    print_clerk (0.4)
+      barby
+      chunky_png
+      office_clerk (~> 0.4)
+      prawn
 
 GEM
   remote: https://rubygems.org/
@@ -276,10 +277,10 @@ GEM
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
     sass (3.2.19)
-    sass-rails (4.0.4)
+    sass-rails (4.0.5)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.2.2)
-      sprockets (~> 2.8, < 2.12)
+      sprockets (~> 2.8, < 3.0)
       sprockets-rails (~> 2.0)
     simplecov (0.9.1)
       docile (~> 1.1.0)
