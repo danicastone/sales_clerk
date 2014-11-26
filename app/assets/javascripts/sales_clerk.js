@@ -27,7 +27,4 @@ $(function() {
   $("#fill_address").click(fillAddress);
 });
 
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
 

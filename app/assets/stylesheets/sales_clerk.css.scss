@@ -57,7 +57,7 @@ ul.cat {
 }
 
 .footer {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
   line-height: 120%;
@@ -71,8 +71,8 @@ ul.cat {
 font-size: .9em;
 }
 
-b.footer {
-margin-bottom: 12px;
+.footer h4{
+font-weight: 500;
 }
 
 
@@ -95,7 +95,7 @@ margin-bottom: 12px;
   color: #FFF;
   background: black;
   /* fallback color */
-  background: rgba(31, 113, 202, 0.54);
+  background: rgba(84, 214, 255, 0.54);
 	text-shadow: black 1px 1px 03px;
   margin: 0px;
 	width: 100%;
