@@ -59,7 +59,7 @@
       .main
         .row   
           .col-md-12
-            -# .alert-notice.row
+            .alert-notice.row
               .col-md-9
               .col-md-3
                 .alert.alert-dismissible.alert-message.alert-shop
@@ -100,11 +100,12 @@
             
           .footer2
             Powered by
-            %a{href: "http://rubyclerks.com/"} RubyClerks
+            %a{href: "http://rubyclerks.com/", :target => "blank"} RubyClerks
         .col-md-4
           .text-center
             %h4.highlight Like us on Facebook!
-            %img{:src => "/assets/kauppa/facebook.gif"}/
+            %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
+              %img{:src => "/assets/kauppa/facebook.gif"}/
             
               
         .col-md-4
@@ -114,7 +115,7 @@
               Fredrikinkatu 19 (Viiskulma), Helsinki
               %br/
               sähköposti 
-              %img{:src => "/assets/kauppa/email.png"}/
+              %a{href: "mailto: info@auringostaitaan.fi"} info@auringostaitaan.fi
               %br/
               puh 09- 621 7001 | Y-tunnus 2380478-1
               %br/

@@ -16,8 +16,6 @@
         .row
           .col-md-12
             = markdown @product.description rescue ""
-            %a{"data-content" => "Suuri osa Farfallan luomukosmetiikasta ja sen tehokkaista, vaikuttavista ainesosista on sertifioitu kansainvälisen NaTrue -luomu- ja luonnonkosmetiikkasertifikaatin mukaan. Kaikilla muilla Farfallan tuotteilla on saksalainen BDIH -sertifikaatti.", "data-toggle" => "popover",  :title => "NaTrue"} Lue lisää
-            %br
             
             
         .row
@@ -40,25 +38,10 @@
         %h6.highlight.product-hint Muita tuotteita samassa tuoteryhmässä
         %table.table-condensed.product-hints
           %tbody
-            - in_group(@product).each do |p|
-              %tr
+            %tr
+              - in_group(@product).each do |p|
                 %td.picture.tdpic 
-                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
-                %td.tdtex
-                  =link_to shop_product_path(:link => p.link ) do
-                    = p.name
-                %td.picture.tdpic  
-                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
-                %td.tdtex
-                  =link_to shop_product_path(:link => p.link ) do
-                    = p.name
-                %td.picture.tdpic  
-                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
-                %td.tdtex
-                  =link_to shop_product_path(:link => p.link ) do
-                    = p.name
-                %td.picture.tdpic 
-                  %img{:alt => "Iflahja", :src => "/images/5033/thumb/iFlahja.jpg?1395071348"}/
+                  =image_tag p.main_picture.url(:thumb)
                 %td.tdtex
                   =link_to shop_product_path(:link => p.link ) do
                     = p.name
