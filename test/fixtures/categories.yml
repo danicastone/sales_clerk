@@ -150,14 +150,14 @@ Category_11:
     voivat sopia myös henkilöille, joille kemialliset tuoksut aiheuttavat allergioita.
     Farfallan luomuparfyymeilla on NaTrue -sertifikaatti, ja luomuprosentti kaikista
     aineista on 98%.'
-  position: 4
+  position: 6
   link: luomu-parfyymit
   main_picture_file_name: menu-parfyymit.jpg
   main_picture_content_type: image/jpeg
   main_picture_file_size: 25916
   main_picture_updated_at: 2014-04-12 06:05:29.320992000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-11-09 11:07:20.621160000 Z
+  updated_at: 2014-11-23 07:34:10.119952000 Z
 Category_12:
   id: 35
   category_id: 73
@@ -227,14 +227,14 @@ Category_16:
   name: Miehille
   description: "**Selkeä ja käytännöllinen, raikas ja tehokas - FEEL GREAT!**<br>\r\nLuomutuotteet
     miehille päivittäiseen puhtauteen ja hoitoon."
-  position: 5
+  position: 4
   link: miehille
   main_picture_file_name: menu-men.jpg
   main_picture_content_type: image/jpeg
   main_picture_file_size: 18205
   main_picture_updated_at: 2014-04-12 05:36:58.189101000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-11-09 11:07:05.350096000 Z
+  updated_at: 2014-11-23 07:34:16.738188000 Z
 Category_17:
   id: 41
   category_id: 75
@@ -254,14 +254,14 @@ Category_18:
     perusöljyt, miedosti tuoksuvat ihoöljyt, upeat  jalokiviöljyt - kaikki luomua.\r\nFarfallan
     öljyillä on kolmen tähden NaTrue -sertifikaatti (100% luonnollisista aineista,
     joista vähintään 98% sertifioitua luomua)."
-  position: 6
+  position: 5
   link: oljyt
   main_picture_file_name: menu-oljy.jpg
   main_picture_content_type: image/jpeg
   main_picture_file_size: 26047
   main_picture_updated_at: 2014-04-12 05:37:15.898181000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-11-09 11:07:13.197132000 Z
+  updated_at: 2014-11-23 07:34:23.306671000 Z
 Category_19:
   id: 43
   category_id: 27

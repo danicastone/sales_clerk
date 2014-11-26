@@ -1,10 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
-require "active_record/railtie"
-require "action_controller/railtie"
-require "action_mailer/railtie"
-require "sprockets/railtie"
+require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -23,7 +20,7 @@ module SalesClerk
 
     config.to_prepare do
       Dir.glob("app/**/*_decorator.rb").each do |c|
-        require_dependency(c)
+        load(c)
       end
     end
   end

@@ -1,7 +1,5 @@
-
-//= require jquery.min
+//= require jquery
 //= require jquery-ui
-//= require jquery_ujs
 //= require bootstrap
 //= require bootstrap/dropdown
 //= require_self

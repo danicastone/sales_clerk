@@ -42709,3 +42709,194 @@ Basket_4748:
   created_at: 2014-11-15 11:56:19.646703000 Z
   updated_at: 2014-11-15 11:56:43.938515000 Z
   locked: 2014-11-15
+Basket_4749:
+  id: 21321
+  kori_type: Order
+  total_price: 0.0
+  total_tax: 0.0
+  created_at: 2014-11-16 22:32:57.463953000 Z
+  updated_at: 2014-11-17 13:32:56.031696000 Z
+Basket_4750:
+  id: 21322
+  kori_id: 20634
+  kori_type: Order
+  total_price: 13.5
+  total_tax: 3.24
+  created_at: 2014-11-17 11:23:19.037535000 Z
+  updated_at: 2014-11-17 11:23:29.061045000 Z
+  locked: 2014-11-17
+Basket_4751:
+  id: 21323
+  kori_id: 322
+  kori_type: Purchase
+  total_price: 122.55
+  total_tax: 29.42
+  created_at: 2014-11-17 13:33:01.705954000 Z
+  updated_at: 2014-11-17 13:36:36.692415000 Z
+  locked: 2014-11-17
+Basket_4752:
+  id: 21324
+  kori_id: 20635
+  kori_type: Order
+  total_price: 70.0
+  total_tax: 16.8
+  created_at: 2014-11-17 14:45:52.403721000 Z
+  updated_at: 2014-11-17 14:47:28.678262000 Z
+  locked: 2014-11-17
+Basket_4753:
+  id: 21325
+  kori_id: 323
+  kori_type: Purchase
+  total_price: 59.94
+  total_tax: 14.39
+  created_at: 2014-11-17 15:19:08.147840000 Z
+  updated_at: 2014-11-17 15:20:00.819793000 Z
+  locked: 2014-11-17
+Basket_4754:
+  id: 21326
+  kori_id: 324
+  kori_type: Purchase
+  total_price: 57.85
+  total_tax: 13.88
+  created_at: 2014-11-17 16:12:43.961898000 Z
+  updated_at: 2014-11-17 16:19:43.410459000 Z
+  locked: 2014-11-17
+Basket_4755:
+  id: 21327
+  kori_id: 325
+  kori_type: Purchase
+  total_price: 241.55
+  total_tax: 57.98
+  created_at: 2014-11-18 14:32:09.321688000 Z
+  updated_at: 2014-11-18 14:35:24.088054000 Z
+  locked: 2014-11-18
+Basket_4756:
+  id: 21328
+  kori_id: 20636
+  kori_type: Order
+  total_price: 56.0
+  total_tax: 13.44
+  created_at: 2014-11-18 15:24:39.510141000 Z
+  updated_at: 2014-11-18 15:26:13.372966000 Z
+  locked: 2014-11-18
+Basket_4757:
+  id: 21329
+  kori_id: 20637
+  kori_type: Order
+  total_price: 40.0
+  total_tax: 9.6
+  created_at: 2014-11-18 15:50:32.341332000 Z
+  updated_at: 2014-11-18 15:51:58.480260000 Z
+  locked: 2014-11-18
+Basket_4758:
+  id: 21330
+  kori_id: 326
+  kori_type: Purchase
+  total_price: 303.92
+  total_tax: 71.90000000000002
+  created_at: 2014-11-18 16:48:47.010856000 Z
+  updated_at: 2014-11-18 16:57:18.180088000 Z
+  locked: 2014-11-18
+Basket_4759:
+  id: 21331
+  total_price: 0.0
+  total_tax: 0.0
+  created_at: 2014-11-19 09:57:47.894217000 Z
+  updated_at: 2014-11-19 09:57:47.894217000 Z
+Basket_4760:
+  id: 21332
+  kori_id: 20638
+  kori_type: Order
+  total_price: 40.0
+  total_tax: 9.600000000000001
+  created_at: 2014-11-19 10:00:57.625113000 Z
+  updated_at: 2014-11-19 10:01:36.150485000 Z
+  locked: 2014-11-19
+Basket_4761:
+  id: 21333
+  kori_id: 327
+  kori_type: Purchase
+  total_price: 47.15000000000001
+  total_tax: 11.32
+  created_at: 2014-11-20 08:52:53.487254000 Z
+  updated_at: 2014-11-20 08:56:00.757851000 Z
+  locked: 2014-11-20
+Basket_4762:
+  id: 21334
+  kori_id: 20639
+  kori_type: Order
+  total_price: 102.0
+  total_tax: 24.49
+  created_at: 2014-11-20 11:05:35.319341000 Z
+  updated_at: 2014-11-20 11:06:54.765776000 Z
+  locked: 2014-11-20
+Basket_4763:
+  id: 21335
+  kori_id: 20640
+  kori_type: Order
+  total_price: 38.9
+  total_tax: 9.34
+  created_at: 2014-11-20 14:37:03.155806000 Z
+  updated_at: 2014-11-20 14:38:07.249336000 Z
+  locked: 2014-11-20
+Basket_4764:
+  id: 21336
+  kori_id: 328
+  kori_type: Purchase
+  total_price: 24.0
+  total_tax: 5.76
+  created_at: 2014-11-20 14:41:26.757801000 Z
+  updated_at: 2014-11-20 14:42:34.440849000 Z
+  locked: 2014-11-20
+Basket_4765:
+  id: 21337
+  kori_id: 329
+  kori_type: Purchase
+  total_price: 12.0
+  total_tax: 2.88
+  created_at: 2014-11-20 18:19:58.455278000 Z
+  updated_at: 2014-11-20 18:20:26.604929000 Z
+  locked: 2014-11-20
+Basket_4766:
+  id: 21338
+  kori_id: 20641
+  kori_type: Order
+  total_price: 53.4
+  total_tax: 12.82
+  created_at: 2014-11-21 09:31:25.852735000 Z
+  updated_at: 2014-11-21 09:35:16.753999000 Z
+  locked: 2014-11-21
+Basket_4767:
+  id: 21339
+  kori_type: Order
+  total_price: 0.0
+  total_tax: 0.0
+  created_at: 2014-11-22 09:13:35.803924000 Z
+  updated_at: 2014-11-22 09:13:35.803924000 Z
+Basket_4768:
+  id: 21340
+  kori_id: 20642
+  kori_type: Order
+  total_price: 34.2
+  total_tax: 8.210000000000001
+  created_at: 2014-11-22 11:30:05.246405000 Z
+  updated_at: 2014-11-22 11:32:07.301989000 Z
+  locked: 2014-11-22
+Basket_4769:
+  id: 21341
+  kori_id: 20643
+  kori_type: Order
+  total_price: 10.5
+  total_tax: 1.47
+  created_at: 2014-11-22 12:48:11.238978000 Z
+  updated_at: 2014-11-22 12:48:45.451461000 Z
+  locked: 2014-11-22
+Basket_4770:
+  id: 21342
+  kori_id: 20644
+  kori_type: Order
+  total_price: 0.0
+  total_tax: 0.0
+  created_at: 2014-11-22 13:28:30.575672000 Z
+  updated_at: 2014-11-22 13:28:46.748042000 Z
+  locked: 2014-11-22

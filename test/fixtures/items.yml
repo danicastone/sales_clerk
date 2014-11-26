@@ -84559,3 +84559,583 @@ Item_8456:
   basket_id: 21320
   created_at: 2014-11-15 11:56:31.034356000 Z
   updated_at: 2014-11-15 11:56:31.034356000 Z
+Item_8457:
+  id: 16982
+  quantity: 1
+  price: 13.5
+  tax: 24.0
+  name: Luomu Mäkikuismaöljy
+  product_id: 5372
+  basket_id: 21322
+  created_at: 2014-11-17 11:23:22.811053000 Z
+  updated_at: 2014-11-17 11:23:22.811053000 Z
+Item_8458:
+  id: 16984
+  quantity: 1
+  price: 9.1
+  tax: 24.0
+  name: Villiruusu Hiustenhoitoaine
+  product_id: 352
+  basket_id: 21323
+  created_at: 2014-11-17 13:33:05.251267000 Z
+  updated_at: 2014-11-17 13:36:36.651880000 Z
+Item_8459:
+  id: 16985
+  quantity: 2
+  price: 6.6
+  tax: 24.0
+  name: Tasapainottava – Neem-Rhassoul shampoo
+  product_id: 350
+  basket_id: 21323
+  created_at: 2014-11-17 13:33:15.253692000 Z
+  updated_at: 2014-11-17 13:36:36.658010000 Z
+Item_8460:
+  id: 16986
+  quantity: 2
+  price: 6.6
+  tax: 24.0
+  name: Päivittäin – Granaattiomenashampoo
+  product_id: 349
+  basket_id: 21323
+  created_at: 2014-11-17 13:33:30.925536000 Z
+  updated_at: 2014-11-17 13:36:36.663172000 Z
+Item_8461:
+  id: 16987
+  quantity: 2
+  price: 13.45
+  tax: 24.0
+  name: Pure Sensitive Kosteusvoide
+  product_id: 4523
+  basket_id: 21323
+  created_at: 2014-11-17 13:33:44.693637000 Z
+  updated_at: 2014-11-17 13:36:36.668235000 Z
+Item_8462:
+  id: 16988
+  quantity: 1
+  price: 23.2
+  tax: 24.0
+  name: Bliss Cream
+  product_id: 346
+  basket_id: 21323
+  created_at: 2014-11-17 13:33:53.226796000 Z
+  updated_at: 2014-11-17 13:36:36.673457000 Z
+Item_8463:
+  id: 16989
+  quantity: 3
+  price: 8.1
+  tax: 24.0
+  name: Pure Sensitive Käsivoide
+  product_id: 4525
+  basket_id: 21323
+  created_at: 2014-11-17 13:34:01.918557000 Z
+  updated_at: 2014-11-17 13:36:36.678476000 Z
+Item_8464:
+  id: 16990
+  quantity: 1
+  price: 7.45
+  tax: 24.0
+  name: Luomu Manteliöljy
+  product_id: 4996
+  basket_id: 21323
+  created_at: 2014-11-17 13:34:31.015175000 Z
+  updated_at: 2014-11-17 13:36:36.683553000 Z
+Item_8465:
+  id: 16991
+  quantity: 1
+  price: 5.2
+  tax: 24.0
+  name: Luomu Jojobaöljy
+  product_id: 5127
+  basket_id: 21323
+  created_at: 2014-11-17 13:34:55.914253000 Z
+  updated_at: 2014-11-17 13:36:36.688323000 Z
+Item_8466:
+  id: 16992
+  quantity: 2
+  price: 35.0
+  tax: 24.0
+  name: 'Ruusuköynnösvalot : l.valkoinen (OS)'
+  product_id: 1405
+  basket_id: 21324
+  created_at: 2014-11-17 14:46:37.425521000 Z
+  updated_at: 2014-11-17 14:46:48.229580000 Z
+Item_8467:
+  id: 16993
+  quantity: 18
+  price: 3.33
+  tax: 24.0
+  name: Teekuppi Sophie
+  product_id: 754
+  basket_id: 21325
+  created_at: 2014-11-17 15:19:28.019320000 Z
+  updated_at: 2014-11-17 15:20:00.816155000 Z
+Item_8468:
+  id: 16994
+  quantity: 1
+  price: 34.5
+  tax: 24.0
+  name: Chiyo japanese matcha-set
+  product_id: 6101
+  basket_id: 21326
+  created_at: 2014-11-17 16:15:09.994934000 Z
+  updated_at: 2014-11-17 16:19:43.393096000 Z
+Item_8469:
+  id: 16995
+  quantity: 3
+  price: 3.95
+  tax: 24.0
+  name: Teepurkki Caroline
+  product_id: 6099
+  basket_id: 21326
+  created_at: 2014-11-17 16:15:23.200780000 Z
+  updated_at: 2014-11-17 16:19:43.399241000 Z
+Item_8470:
+  id: 16996
+  quantity: 2
+  price: 5.75
+  tax: 24.0
+  name: Teepurkki Ida
+  product_id: 6100
+  basket_id: 21326
+  created_at: 2014-11-17 16:15:38.405771000 Z
+  updated_at: 2014-11-17 16:19:43.405159000 Z
+Item_8471:
+  id: 16997
+  quantity: 1
+  price: 9.4
+  tax: 24.0
+  name: kylpyvaahto -setti
+  product_id: 5047
+  basket_id: 21327
+  created_at: 2014-11-18 14:32:36.233631000 Z
+  updated_at: 2014-11-18 14:35:24.025950000 Z
+Item_8472:
+  id: 16998
+  quantity: 1
+  price: 23.35
+  tax: 24.0
+  name: silhouette miracle Kiinteyttävä geeli
+  product_id: 4504
+  basket_id: 21327
+  created_at: 2014-11-18 14:32:54.112281000 Z
+  updated_at: 2014-11-18 14:35:24.031530000 Z
+Item_8473:
+  id: 16999
+  quantity: 3
+  price: 6.6
+  tax: 24.0
+  name: Hellävarainen Villiruusushampoo
+  product_id: 348
+  basket_id: 21327
+  created_at: 2014-11-18 14:33:15.364107000 Z
+  updated_at: 2014-11-18 14:35:24.036836000 Z
+Item_8474:
+  id: 17000
+  quantity: 2
+  price: 9.1
+  tax: 24.0
+  name: Villiruusu Hiustenhoitoaine
+  product_id: 352
+  basket_id: 21327
+  created_at: 2014-11-18 14:33:31.842716000 Z
+  updated_at: 2014-11-18 14:35:24.041998000 Z
+Item_8475:
+  id: 17001
+  quantity: 3
+  price: 6.6
+  tax: 24.0
+  name: Kiilto ja Volyymi – Frangipani shampoo
+  product_id: 347
+  basket_id: 21327
+  created_at: 2014-11-18 14:33:53.491653000 Z
+  updated_at: 2014-11-18 14:35:24.046942000 Z
+Item_8476:
+  id: 17002
+  quantity: 1
+  price: 11.2
+  tax: 24.0
+  name: daily refresh Puhdistusemulsio
+  product_id: 304
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:06.579118000 Z
+  updated_at: 2014-11-18 14:35:24.052472000 Z
+Item_8477:
+  id: 17003
+  quantity: 1
+  price: 18.7
+  tax: 24.0
+  name: intense moisture Kevyt kosteusvoide
+  product_id: 313
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:10.951367000 Z
+  updated_at: 2014-11-18 14:35:24.057567000 Z
+Item_8478:
+  id: 17004
+  quantity: 1
+  price: 15.5
+  tax: 24.0
+  name: intense moisture Ravitseva kasvonaamio
+  product_id: 314
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:13.983764000 Z
+  updated_at: 2014-11-18 14:35:24.062558000 Z
+Item_8479:
+  id: 17005
+  quantity: 3
+  price: 6.1
+  tax: 24.0
+  name: Aroma Roll-On Instant Rescue
+  product_id: 5066
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:23.153769000 Z
+  updated_at: 2014-11-18 14:35:24.068091000 Z
+Item_8480:
+  id: 17006
+  quantity: 1
+  price: 15.5
+  tax: 24.0
+  name: in balance Tehoseerumi epäpuhtauksien hoitoon
+  product_id: 311
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:42.278098000 Z
+  updated_at: 2014-11-18 14:35:24.073097000 Z
+Item_8481:
+  id: 17007
+  quantity: 2
+  price: 23.2
+  tax: 24.0
+  name: Bliss Cream
+  product_id: 346
+  basket_id: 21327
+  created_at: 2014-11-18 14:34:56.081906000 Z
+  updated_at: 2014-11-18 14:35:24.077960000 Z
+Item_8482:
+  id: 17008
+  quantity: 1
+  price: 25.4
+  tax: 24.0
+  name: age miracle Tehokkaasti ravitseva anti-age -voide
+  product_id: 5313
+  basket_id: 21327
+  created_at: 2014-11-18 14:35:10.230586000 Z
+  updated_at: 2014-11-18 14:35:24.083230000 Z
+Item_8483:
+  id: 17009
+  quantity: 1
+  price: 18.6
+  tax: 24.0
+  name: daily refresh Kosteuttava kasvovesi
+  product_id: 307
+  basket_id: 21328
+  created_at: 2014-11-18 15:25:11.173261000 Z
+  updated_at: 2014-11-18 15:25:11.173261000 Z
+Item_8484:
+  id: 17010
+  quantity: 1
+  price: 37.4
+  tax: 24.0
+  name: pure sensitive Rauhoittava kosteusvoide
+  product_id: 319
+  basket_id: 21328
+  created_at: 2014-11-18 15:25:13.706827000 Z
+  updated_at: 2014-11-18 15:25:13.706827000 Z
+Item_8485:
+  id: 17011
+  quantity: 1
+  price: 14.0
+  tax: 24.0
+  name: Luomu Manteliöljy
+  product_id: 4996
+  basket_id: 21329
+  created_at: 2014-11-18 15:50:40.470380000 Z
+  updated_at: 2014-11-18 15:51:42.223890000 Z
+Item_8486:
+  id: 17012
+  quantity: 2
+  price: 13.0
+  tax: 24.0
+  name: Luomu Jojobaöljy
+  product_id: 5127
+  basket_id: 21329
+  created_at: 2014-11-18 15:50:47.204000000 Z
+  updated_at: 2014-11-18 15:50:53.093364000 Z
+Item_8487:
+  id: 17013
+  quantity: 2
+  price: 5.2
+  tax: 14.0
+  name: Mausteinen kaakao
+  product_id: 5740
+  basket_id: 21330
+  created_at: 2014-11-18 16:48:51.612540000 Z
+  updated_at: 2014-11-18 16:57:18.137823000 Z
+Item_8488:
+  id: 17014
+  quantity: 1
+  price: 37.5
+  tax: 24.0
+  name: Kori Bambo Pyöreä
+  product_id: 6094
+  basket_id: 21330
+  created_at: 2014-11-18 16:49:15.600597000 Z
+  updated_at: 2014-11-18 16:57:18.143573000 Z
+Item_8489:
+  id: 17015
+  quantity: 1
+  price: 24.5
+  tax: 24.0
+  name: 'Kori Bambo S : Valkoinen'
+  product_id: 6093
+  basket_id: 21330
+  created_at: 2014-11-18 16:49:41.801297000 Z
+  updated_at: 2014-11-18 16:57:18.149318000 Z
+Item_8490:
+  id: 17016
+  quantity: 3
+  price: 24.5
+  tax: 24.0
+  name: 'Kori Bambo S : Oranssi'
+  product_id: 6092
+  basket_id: 21330
+  created_at: 2014-11-18 16:52:06.901563000 Z
+  updated_at: 2014-11-18 16:57:18.154641000 Z
+Item_8491:
+  id: 17017
+  quantity: 2
+  price: 34.5
+  tax: 24.0
+  name: 'Kori Bambo M : Oranssi'
+  product_id: 6090
+  basket_id: 21330
+  created_at: 2014-11-18 16:52:32.220163000 Z
+  updated_at: 2014-11-18 16:57:18.159870000 Z
+Item_8492:
+  id: 17018
+  quantity: 1
+  price: 39.5
+  tax: 24.0
+  name: 'Kori Bambo L : Valkoinen'
+  product_id: 6088
+  basket_id: 21330
+  created_at: 2014-11-18 16:52:56.667112000 Z
+  updated_at: 2014-11-18 16:57:18.165173000 Z
+Item_8493:
+  id: 17019
+  quantity: 1
+  price: 39.5
+  tax: 24.0
+  name: 'Kori Bambo L : Oranssi'
+  product_id: 6087
+  basket_id: 21330
+  created_at: 2014-11-18 16:53:40.297312000 Z
+  updated_at: 2014-11-18 16:57:18.170455000 Z
+Item_8494:
+  id: 17020
+  quantity: 6
+  price: 1.67
+  tax: 24.0
+  name: Teemuki Klimt
+  product_id: 745
+  basket_id: 21330
+  created_at: 2014-11-18 16:55:54.583632000 Z
+  updated_at: 2014-11-18 16:57:18.175826000 Z
+Item_8495:
+  id: 17021
+  quantity: 1
+  price: 22.0
+  tax: 24.0
+  name: Sormus helmiäinen 1
+  product_id: 4711
+  basket_id: 21332
+  created_at: 2014-11-19 10:01:18.111879000 Z
+  updated_at: 2014-11-19 10:01:18.111879000 Z
+Item_8496:
+  id: 17022
+  quantity: 1
+  price: 18.0
+  tax: 24.0
+  name: Teemuki Klimt
+  product_id: 745
+  basket_id: 21332
+  created_at: 2014-11-19 10:01:28.444699000 Z
+  updated_at: 2014-11-19 10:01:28.444699000 Z
+Item_8497:
+  id: 17023
+  quantity: 1
+  price: 8.75
+  tax: 24.0
+  name: Luomu Mustakuminaöljy
+  product_id: 5865
+  basket_id: 21333
+  created_at: 2014-11-20 08:55:39.919552000 Z
+  updated_at: 2014-11-20 08:56:00.667599000 Z
+Item_8498:
+  id: 17024
+  quantity: 1
+  price: 5.4
+  tax: 24.0
+  name: Luomu Mäkikuismaöljy
+  product_id: 5372
+  basket_id: 21333
+  created_at: 2014-11-20 08:55:42.282408000 Z
+  updated_at: 2014-11-20 08:56:00.674541000 Z
+Item_8499:
+  id: 17025
+  quantity: 1
+  price: 18.7
+  tax: 24.0
+  name: pure sensitive Rauhoittava kosteusvoide
+  product_id: 319
+  basket_id: 21333
+  created_at: 2014-11-20 08:55:45.350467000 Z
+  updated_at: 2014-11-20 08:56:00.748689000 Z
+Item_8500:
+  id: 17026
+  quantity: 1
+  price: 14.3
+  tax: 24.0
+  name: daily refresh Kosteuttava kasvovesi
+  product_id: 307
+  basket_id: 21333
+  created_at: 2014-11-20 08:55:48.847958000 Z
+  updated_at: 2014-11-20 08:56:00.753734000 Z
+Item_8501:
+  id: 17027
+  quantity: 1
+  price: 38.9
+  tax: 24.0
+  name: age miracle Anti-age Silmänympärysvoide
+  product_id: 5343
+  basket_id: 21334
+  created_at: 2014-11-20 11:05:44.968758000 Z
+  updated_at: 2014-11-20 11:05:44.968758000 Z
+Item_8502:
+  id: 17028
+  quantity: 1
+  price: 49.9
+  tax: 24.0
+  name: age miracle Anti-age Päivävoide
+  product_id: 315
+  basket_id: 21334
+  created_at: 2014-11-20 11:05:47.439864000 Z
+  updated_at: 2014-11-20 11:05:47.439864000 Z
+Item_8503:
+  id: 17029
+  quantity: 1
+  price: 13.2
+  tax: 24.0
+  name: Päivittäin – Granaattiomenashampoo
+  product_id: 349
+  basket_id: 21334
+  created_at: 2014-11-20 11:05:50.627836000 Z
+  updated_at: 2014-11-20 11:05:50.627836000 Z
+Item_8504:
+  id: 17030
+  quantity: 1
+  price: 38.9
+  tax: 24.0
+  name: age miracle Anti-age Silmänympärysvoide
+  product_id: 5343
+  basket_id: 21335
+  created_at: 2014-11-20 14:37:06.956909000 Z
+  updated_at: 2014-11-20 14:37:06.956909000 Z
+Item_8505:
+  id: 17031
+  quantity: 3
+  price: 4.0
+  tax: 24.0
+  name: 'Ekokassi 2 : Forest Bird'
+  product_id: 6108
+  basket_id: 21336
+  created_at: 2014-11-20 14:41:32.614469000 Z
+  updated_at: 2014-11-20 14:42:34.368055000 Z
+Item_8506:
+  id: 17032
+  quantity: 3
+  price: 4.0
+  tax: 24.0
+  name: 'Ekokassi 2 : Eco Circles'
+  product_id: 6107
+  basket_id: 21336
+  created_at: 2014-11-20 14:41:39.200451000 Z
+  updated_at: 2014-11-20 14:42:34.373652000 Z
+Item_8507:
+  id: 17033
+  quantity: 3
+  price: 4.0
+  tax: 24.0
+  name: 'Ekokassi 2 : Forest Fox'
+  product_id: 6109
+  basket_id: 21337
+  created_at: 2014-11-20 18:20:05.784650000 Z
+  updated_at: 2014-11-20 18:20:26.599706000 Z
+Item_8508:
+  id: 17034
+  quantity: 1
+  price: 22.4
+  tax: 24.0
+  name: daily refresh Puhdistusemulsio
+  product_id: 304
+  basket_id: 21338
+  created_at: 2014-11-21 09:34:00.532257000 Z
+  updated_at: 2014-11-21 09:34:00.532257000 Z
+Item_8509:
+  id: 17035
+  quantity: 1
+  price: 31.0
+  tax: 24.0
+  name: age miracle Anti-age Silmänympärysseerumi
+  product_id: 317
+  basket_id: 21338
+  created_at: 2014-11-21 09:34:03.759629000 Z
+  updated_at: 2014-11-21 09:34:03.759629000 Z
+Item_8510:
+  id: 17036
+  quantity: 1
+  price: 16.2
+  tax: 24.0
+  name: Aloe vera geeli Deluxe kasvoille
+  product_id: 5884
+  basket_id: 21340
+  created_at: 2014-11-22 11:30:11.458716000 Z
+  updated_at: 2014-11-22 11:30:11.458716000 Z
+Item_8511:
+  id: 17037
+  quantity: 1
+  price: 18.0
+  tax: 24.0
+  name: 'Kaulakoru Marmori : Punainen'
+  product_id: 302
+  basket_id: 21340
+  created_at: 2014-11-22 11:31:59.158663000 Z
+  updated_at: 2014-11-22 11:31:59.158663000 Z
+Item_8512:
+  id: 17038
+  quantity: 1
+  price: 4.9
+  tax: 14.0
+  name: Sencha Vihreä tee
+  product_id: 434
+  basket_id: 21341
+  created_at: 2014-11-22 12:48:20.793406000 Z
+  updated_at: 2014-11-22 12:48:20.793406000 Z
+Item_8513:
+  id: 17039
+  quantity: 1
+  price: 5.6
+  tax: 14.0
+  name: Angel's Kiss Tee
+  product_id: 726
+  basket_id: 21341
+  created_at: 2014-11-22 12:48:25.319581000 Z
+  updated_at: 2014-11-22 12:48:25.319581000 Z
+Item_8514:
+  id: 17040
+  quantity: 1
+  price: 0.0
+  tax: 24.0
+  name: Energisoiva aloe vera geeli jaloille
+  product_id: 5886
+  basket_id: 21342
+  created_at: 2014-11-22 13:28:33.733935000 Z
+  updated_at: 2014-11-22 13:28:43.926884000 Z

@@ -29,9 +29,8 @@
                   .col-md-8.bottom
                     .product-fact
                       =link_to shop_product_path( :link => product.link ) , :class => :info do
-                        %p= markdown product.description[0..120]
+                        %p= markdown product.summary
                         .price.selling
-                          = product.price
-                          €
+                          = euros product.price
     
               

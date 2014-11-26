@@ -27,7 +27,7 @@
                   %td.name
                     = link_to shop_product_path(:link => item.product.link ) do
                       = item.name
-                  %td= number_to_currency item.product.price
+                  %td= euros item.product.price
                   %td
                     = link_to cart_remove_path( :id => item.product.id ) do
                       = image_tag "down-icon.png" , :width => 16 , :height => 16
