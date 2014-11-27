@@ -57,35 +57,16 @@
                           %li= link_to t(:sign_in), office.sign_in_path
           
       .main
-        .row   
-          .col-md-12
-            .alert-notice.row
-              .col-md-9
-              .col-md-3
-                .alert.alert-dismissible.alert-message.alert-shop
-                  %button.close{"data-dismiss" => "alert", :type => "button"}
-                    %span{"aria-hidden" => "true"} ×
-                    %span.sr-only Close
-                  %strong Tuote lisätty ostoskoriin
-                  %br
-                  Melissa-Merilevä shampoo
-                  
-          
-          - if not flash[:notice].blank? then
-            .col-md-12
-              .alert-notice.row
-                .col-md-9
-                .col-md-3.alert-shop
-                  .alert-message!= flash[:notice]
-          - if not flash[:error].blank? then
-            .col-md-12.alert-shop
-              .alert-error.row.alert-shop
-                .col-md-1
-                  .alert-heading= t(:info) + " :"
-                .col-md-11
-                  .alert-message!= flash[:notice]
-      
-
+        - message = flash[:notice].blank? ? flash[:error] : flash[:notice] 
+        - unless message.blank?
+          .row.alert-notice
+            .col-md-6
+            .col-md-6.alert-shop
+              .alert.alert-dismissible.alert-message.alert-shop
+                %button.close{"data-dismiss" => "alert", :type => "button"}
+                  %span{"aria-hidden" => "true"} ×
+                  %span.sr-only Close
+                = message
         .row
           .col-md-12
             = yield
