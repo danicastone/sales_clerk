@@ -1,0 +1,32 @@
+.row.footer
+
+  %hr
+  .col-md-4
+    %h4 Suunnittelu ja toteutus 
+    %b Ruby Design  
+      
+    .footer2
+      Powered by
+      %a{href: "http://rubyclerks.com/", :target => "blank"} RubyClerks
+  .col-md-4
+    .text-center
+      %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
+        %h4.highlight Like us on Facebook!
+      
+        %img{:src => "/assets/kauppa/facebook.gif"}/
+    
+      
+  .col-md-4
+    .right
+      %h4.highlight  AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
+      .footer2
+        Fredrikinkatu 19 (Viiskulma), Helsinki
+        %br/
+        sähköposti 
+        %a{href: "mailto: info@auringostaitaan.fi"} info@auringostaitaan.fi
+        %br/
+        puh 09- 621 7001 | Y-tunnus 2380478-1
+        %br/
+        %br/
+
+= render "layouts/google" if Rails.env.production?

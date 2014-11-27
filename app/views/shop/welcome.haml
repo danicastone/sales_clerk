@@ -78,29 +78,5 @@
                     = image_tag group.main_picture.url(:product) , :class => "img-responsive"
                     %h3= group.name
 
-      .row
-        .col-md-6
-          .footer
-            Suunnittelu ja toteutus Ruby Design    
-            %br/
-            Powered by
-            %a{href: "http://rubyclerks.com/"} RubyClerks
-        .col-md-6
-          .footer.right
-            %b> AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
-            %br/
-            Fredrikinkatu 19 (Viiskulma), Helsinki
-            %br/
-            puh +358- (0)9- 621 7001 | Y-tunnus 2380478-1
-            %br/
-            %br/
-            
-            
-        :javascript
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-12603339-1', 'auringostaitaan.fi');
-          ga('send', 'pageview');
+        =render "layouts/footer"
+        
