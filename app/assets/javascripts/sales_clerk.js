@@ -27,10 +27,14 @@ $(function() {
 });
 
 $(document).ready(function(){
-    $('.navbar .dropdown').hover(function() {
-        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
-    }, function() {
-        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
-    });
-n})
+  $('.navbar .dropdown').hover(function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+  }, function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+  });
+});
 
+$(document).ready(function(){
+  $(".alert-shop").delay(5000).fadeOut(400);
+});
+  
