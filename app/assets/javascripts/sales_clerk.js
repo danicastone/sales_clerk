@@ -1,5 +1,5 @@
-//= require bootstrap
 //= require jquery
+//= require bootstrap
 //= require bootstrap/dropdown
 //= require jquery-ui
 //= require_self

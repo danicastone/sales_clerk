@@ -13,8 +13,24 @@ GIT
     db_fixtures_dump (0.0.9)
 
 GIT
-  remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 2da7e17324d8cb242a45b09a08fe7029e7e66d1a
+  remote: git://github.com/rubyclerks/post_clerk.git
+  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
+  specs:
+    post_clerk (0.4)
+      office_clerk (~> 0.1)
+
+GIT
+  remote: git://github.com/rubyclerks/print_clerk.git
+  revision: 1d47b1c02b7b21ec7141c0e48c99f71c6945b58f
+  specs:
+    print_clerk (0.4)
+      barby
+      chunky_png
+      office_clerk (~> 0.4)
+      prawn
+
+PATH
+  remote: ../office_clerk
   specs:
     office_clerk (0.5)
       bcrypt-ruby (~> 3.1)
@@ -33,23 +49,6 @@ GIT
       sass-rails (~> 4.0)
       valid_email
       will_paginate-bootstrap (~> 1.0)
-
-GIT
-  remote: git://github.com/rubyclerks/post_clerk.git
-  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
-  specs:
-    post_clerk (0.4)
-      office_clerk (~> 0.1)
-
-GIT
-  remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 1d47b1c02b7b21ec7141c0e48c99f71c6945b58f
-  specs:
-    print_clerk (0.4)
-      barby
-      chunky_png
-      office_clerk (~> 0.4)
-      prawn
 
 GEM
   remote: https://rubygems.org/
