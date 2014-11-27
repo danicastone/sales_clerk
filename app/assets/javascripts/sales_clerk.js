@@ -1,7 +1,7 @@
-//= require jquery
-//= require jquery-ui
 //= require bootstrap
+//= require jquery
 //= require bootstrap/dropdown
+//= require jquery-ui
 //= require_self
 
 function shipmentSelected(){
@@ -27,4 +27,11 @@ $(function() {
   $("#fill_address").click(fillAddress);
 });
 
+$(document).ready(function(){
+    $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+    }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
+    });
+n})
 
