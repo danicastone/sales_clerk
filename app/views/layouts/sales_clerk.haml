@@ -22,7 +22,7 @@
               .row.taustalogo
                 .col-md-6
                   %a{href: "/"}
-                    %img{:src => "/assets/sales_clerk/spacer.gif", :height => "80", :width => "650"}/
+                    =image_tag "sales_clerk/spacer.gif", :height => "80", :width => "650"
                   
                 .col-md-6
                   %ul.nav.navbar-nav.navbar-right
@@ -57,70 +57,21 @@
                           %li= link_to t(:sign_in), office.sign_in_path
           
       .main
-        .row   
-          .col-md-12
-            .alert-notice.row
-              .col-md-9
-              .col-md-3
-                .alert.alert-dismissible.alert-message.alert-shop
-                  %button.close{"data-dismiss" => "alert", :type => "button"}
-                    %span{"aria-hidden" => "true"} ×
-                    %span.sr-only Close
-                  %strong Tuote lisätty ostoskoriin
-                  %br
-                  Melissa-Merilevä shampoo
-                  
-          
-          - if not flash[:notice].blank? then
-            .col-md-12
-              .alert-notice.row
-                .col-md-9
-                .col-md-3.alert-shop
-                  .alert-message!= flash[:notice]
-          - if not flash[:error].blank? then
-            .col-md-12.alert-shop
-              .alert-error.row.alert-shop
-                .col-md-1
-                  .alert-heading= t(:info) + " :"
-                .col-md-11
-                  .alert-message!= flash[:notice]
-      
-
+        - message = flash[:notice].blank? ? flash[:error] : flash[:notice] 
+        - unless message.blank?
+          .row.alert-notice
+            .col-md-6
+            .col-md-6.alert-shop
+              .alert.alert-dismissible.alert-message.alert-shop
+                %button.close{"data-dismiss" => "alert", :type => "button"}
+                  %span{"aria-hidden" => "true"} ×
+                  %span.sr-only Close
+                = message
         .row
           .col-md-12
             = yield
 
             
-      .row.footer
-        
-        %hr
-        .col-md-4
-          %h4 Suunnittelu ja toteutus 
-          %b Ruby Design  
-            
-          .footer2
-            Powered by
-            %a{href: "http://rubyclerks.com/", :target => "blank"} RubyClerks
-        .col-md-4
-          .text-center
-            %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
-              %h4.highlight Like us on Facebook!
-              
-              %img{:src => "/assets/kauppa/facebook.gif"}/
+
+        =render "layouts/footer"
             
-              
-        .col-md-4
-          .right
-            %h4.highlight  AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
-            .footer2
-              Fredrikinkatu 19 (Viiskulma), 00120 Helsinki
-              %br/
-              sähköposti 
-              %a{href: "mailto: info@auringostaitaan.fi"} info@auringostaitaan.fi
-              %br/
-              puh 09- 621 7001 | Y-tunnus 2380478-1
-              %br/
-              %br/
-            
-            
-        = render "layouts/google" if Rails.env.production?

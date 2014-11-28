@@ -6,7 +6,7 @@
     = stylesheet_link_tag "sales_clerk" , :media => "all"
   %body
     .row
-      %img{:src => "/assets/sales_clerk/spacer.gif"}/
+      =image_tag  "sales_clerk/spacer.gif"
   
       .receipt.no-screen
         #header
@@ -24,7 +24,7 @@
     .row
       .col-md-3.no-print
         .group-wrapper.side.checkout
-          %img{:src => "/assets/sales_clerk/checkout-im.jpg"}/
+          =image_tag  "sales_clerk/checkout-im.jpg"
           %h5 Tilausvahvistus
 
       .col-md-9

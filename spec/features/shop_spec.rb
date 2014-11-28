@@ -42,7 +42,7 @@ describe ShopController  do
     click_button "add-to-cart-button"
     visit_path shop_checkout_path
     click_button "make_order"
-    expect(page).to have_content("Error")
+    expect(page).to have_content( I18n.t(:fix_errors))
     ensure_path shop_checkout_path
   end
   it "checks out with email" do
