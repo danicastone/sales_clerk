@@ -35,9 +35,11 @@
     .row
       .col-md-12
         %br/
-        %h6.highlight.product-hint Muita tuotteita samassa tuoteryhmässä
+        %h6.highlight.product-hint 
         %table.table-condensed.product-hints
           %tbody
+            %tr 
+              %th{:colspan => "8"}  Muita tuotteita samassa tuoteryhmässä
             %tr
               - in_group(@product).each do |p|
                 %td.picture.tdpic 

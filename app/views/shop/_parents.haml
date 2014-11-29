@@ -1,5 +1,9 @@
 .col-md-3
   - parents(@group).each do | group|
+    .group-wrapper.side-tex
+      %a{href: "/"}
+        %h5 kotisivulle
+      
     .group-wrapper.side
       = link_to shop_group_path(group.link) do
         = image_tag group.main_picture.url(:list)
