@@ -12,6 +12,10 @@
     .row
       .col-md-3.picture
         =image_tag @product.main_picture.url(:product) , :class => "img-responsive-prod"
+        %br
+        .product-price.text-center
+          %h3.highlight
+            %span.price.selling= euros @product.price
       #product-description.col-md-9
         .row
           .col-md-12
@@ -19,10 +23,6 @@
             = markdown @product.description rescue ""
 
         .row
-          .col-md-4.product-price
-            %h4
-              =t(:price)
-              %span.price.selling= euros @product.price
           .col-md-8
             = form_tag(cart_add_url(:id => @product.id)) do
               #inside-product-cart-form
