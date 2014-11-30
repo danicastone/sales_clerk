@@ -118,10 +118,10 @@ width: 220px;  }
 }
 
 .group-wrapper.side-tex h5 {
-  font-size: 13px;
+  font-size: 16px;
   width: 220px;
   color: #ffffff;
-  background: #FF9854;
+  background: #54B4FF;
   text-shadow: none;
   padding: 5px 0 8px 8px;
   text-shadow: black 1px 1px 03px;
@@ -234,6 +234,7 @@ width: 556px;  }
 
 .product-fact	p {
 	font-size: 1.2rem;
+	font-weight: 500;
 	color: #000000; 
 	line-height: 110%;
 	margin-bottom: 3px;
@@ -277,8 +278,8 @@ h1.product-title {
   font-size: 2.6rem;
   text-align: right;
   position: relative;
-  bottom: -156px;
-  right: 8px; }
+  bottom: -76px;
+  right: 22px; }
 
 .breadcrumb {
   margin: 8px 15px 20px;
@@ -464,29 +465,44 @@ h6.product-hint {
   font-size: 1.6rem;
 }
 
-.product-hints {
+.product-hints, .product-hint-box {
   border: 1px solid #94cef6;
   box-shadow: 2px 2px 5px #E8EDF0;
+	height: 60px;
+	width: 188px;
+	float: left;
+	margin-right: 12px;
+	padding: 2px;
+	line-height: 16px;
+	font-size: 14px;
 }
 
-
-.product-hints th {
-  background: #94cef6;
-  border-top: 6px solid #94cef6;
-  padding: 0 0 3px 6px !important;
+.product-hint-pic {
+	width: 40px;
+	float: left;
+	text-align: center;
 }
+
+.product-hint-tex {
+	width: 130px;
+	float: left;
+}
+
 
 .tdpic td {
-  border-left: 2px solid #94cef6; 
+  border-left: 1px solid #94cef6; 
   width: 50px;
   }
 
 .tdtex {
-  border-right: 2px solid #94cef6;
+  border-right: 1px solid #94cef6;
   font-size: .95em;
   width: 250px;
   
   } 
+
+  
+  
 
 .text-black a {
   color: #000000;
