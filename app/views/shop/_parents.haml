@@ -1,9 +1,17 @@
 .col-md-3
+  .group-wrapper.side-tex
+    %a{href: "/"}
+      %h5 etusivulle
+  
   - parents(@group).each do | group|
+      
     .group-wrapper.side
       = link_to shop_group_path(group.link) do
         = image_tag group.main_picture.url(:list)
         %h5= group.name
+    -# .group-wrapper.side.extrapic
+      = image_tag group.extra_picture.url(:list)
+    
     .intro-text    
       %p.description
         = markdown group.summary
