@@ -27,12 +27,11 @@
                     .square-image
                       =image_tag product.main_picture.url
                   .col-md-8
-                    .row
-                      .product-fact
-                        =link_to shop_product_path( :link => product.link ) , :class => :info do
-                          %p= markdown product.summary
-                    .row
-                      .product-list-price
-                        = euros product.price
-    
+                    .product-fact
+                      =link_to shop_product_path( :link => product.link ) , :class => :info do
+                        %p= markdown product.summary
+                .row
+                  .product-list-price
+                    = euros product.price
+
               

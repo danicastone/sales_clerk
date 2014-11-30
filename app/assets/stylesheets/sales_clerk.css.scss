@@ -276,8 +276,8 @@ h1.product-title {
   font-weight: 400;
   font-size: 2.6rem;
   text-align: right;
-  position: relative;
-  bottom: -76px;
+  position: absolute;
+  bottom: 2px;
   right: 22px; }
 
 .breadcrumb {
@@ -468,7 +468,7 @@ h6.product-hint {
   border-top: 1px dotted #108bad;
   box-shadow: 1px 1px 6px #D0E1EB;
   height: 60px;
-  width: 188px;
+  width: 190px;
   float: left;
   margin-right: 12px;
   padding: 2px;
