@@ -1,11 +1,11 @@
-guard :bundler do
-  watch('Gemfile')
-  # Uncomment next line if your Gemfile contains the `gemspec' command.
-  # watch(/^.+\.gemspec/)
+command = "rspec"
+begin
+  require "rubygems"
+  require "spring/version" #safe to try
+  command = "spring rspec"
+rescue LoadError
 end
-
-
-guard :rspec , :cmd => "./bin/rspec" do
+guard :rspec , :cmd => command do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
