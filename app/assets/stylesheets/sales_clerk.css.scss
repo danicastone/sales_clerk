@@ -137,18 +137,17 @@ background: rgba(212, 232, 245, 0.45);
 text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 }
 
-.group-wrapper.side .extrapic img {
-height: auto;
-width: 556px;  }
-
 .extrapic {
-	position: relative;
-  left: 562px;
-  bottom: 228px;
-	z-index: 10000;
-	text-align: right;
+  position: fixed;
+  left: 677px;
+  top: 25px;
+  z-index: 10000;
+  text-align: right;
 }
 
+.group-wrapper.extrapic img {
+  height: auto;
+  width: 500px; }
 
 .intro {
   padding-top: 20px;
@@ -466,26 +465,33 @@ h6.product-hint {
 }
 
 .product-hints, .product-hint-box {
-  border: 1px solid #94cef6;
-  box-shadow: 2px 2px 5px #E8EDF0;
-	height: 60px;
-	width: 188px;
-	float: left;
-	margin-right: 12px;
-	padding: 2px;
-	line-height: 16px;
-	font-size: 14px;
-}
+  border-top: 1px dotted #108bad;
+  box-shadow: 1px 1px 6px #D0E1EB;
+  height: 60px;
+  width: 188px;
+  float: left;
+  margin-right: 12px;
+  padding: 2px;
+  line-height: 15px;
+  font-size: 13px;
+  overflow: hidden; }
 
 .product-hint-pic {
-	width: 40px;
-	float: left;
-	text-align: center;
-}
+  width: 40px;
+  float: left;
+  text-align: center; 
+  margin-right: 5px;
+  }
+
+.product-hint-pic img{
+  max-width: 40px;
+  height: auto
+    }
 
 .product-hint-tex {
-	width: 130px;
-	float: left;
+  width: 130px;
+  float: left;
+	padding-top: 4px;
 }
 
 
