@@ -14,10 +14,11 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 94ee80f0315c7b66af25c0a8e1449a21f2fa1d26
+  revision: fefb67358c20039689941e9ea87bb6f808cd54fb
   specs:
-    office_clerk (0.5)
+    office_clerk (0.7)
       bcrypt-ruby (~> 3.1)
+      best_in_place
       bootstrap-sass (~> 3.1)
       bootstrap_form (~> 2.2)
       coffee-rails
@@ -43,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 1d47b1c02b7b21ec7141c0e48c99f71c6945b58f
+  revision: 68850d071176a50db69036cd4d35597d51944013
   specs:
     print_clerk (0.4)
       barby
@@ -86,6 +87,9 @@ GEM
     bcrypt (3.1.9)
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
+    best_in_place (3.0.0)
+      actionpack (>= 3.2)
+      railties (>= 3.2)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -245,7 +249,7 @@ GEM
       activesupport (= 4.1.8)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.4.0)
+    rake (10.4.2)
     ransack (1.5.1)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
