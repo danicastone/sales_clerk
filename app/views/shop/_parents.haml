@@ -1,12 +1,12 @@
 .col-md-3
+  -if @group.extra_picture.url
+    .group-wrapper.extrapic
+      = image_tag @group.extra_picture.url(:original)
   .group-wrapper.side-tex
     %a{href: "/"}
       %h5 etusivulle      
   
-  - parents(@group).each do | group|
-    .group-wrapper.extrapic
-      = image_tag group.extra_picture.url(:original)
-      
+  - parents(@group).each do | group|      
     .group-wrapper.side
       = link_to shop_group_path(group.link) do
         = image_tag group.main_picture.url(:list)

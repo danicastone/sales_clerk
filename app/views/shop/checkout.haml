@@ -57,6 +57,11 @@
                 .frame.bg-high8
                   %b= t(:notice) + "!"
                   = t(:order_more_for_free_shipping , :more => extra.round(2))
+              - if extra < 0
+                .frame.bg-high8
+                  %b= t(:notice) + "!"
+                  = t(:order_enough_for_free_shipping)
+                  
 
     .col-md-9
       .row
@@ -147,7 +152,7 @@
             %label
               %input{:type => "checkbox"}/
               Olen lukenut ja hyväksynyt 
-              %a{:href => "/page/toimitusehdot"} toimitusehdot 
+              %a{:href => "/page/toimitusehdot" , :target => "blank"} toimitusehdot 
               
           %button.btn.btn-primary.btn-lg#make_order{:type => "submit"} Tee tilaus
           
