@@ -1,0 +1,52 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title= t("receipt.header")
+    = stylesheet_link_tag "print-receipt", :media => "all"
+  %body{onload: "self.print()"}
+    .receipt
+      #header
+        = render :partial => "orders/receipt_header"
+      .info
+        - date = @order.ordered_on || @order.ordered_on
+        =l(date.to_date) 
+        /
+        =t(:order)
+        =@order.number
+        %br/
+      .wrapper
+        .line_items
+          %table.line_items
+            %thead
+              %tr
+                %th Tuote
+                %th Määrä
+                %th Loppusumma
+            %tbody
+              - @order.basket.items.each do |i|
+                %tr
+                  %td.cell= i.product.full_name
+                  %td.cell.qty= i.quantity
+                  %td.cell.total= euros i.total
+        .spacer
+           
+        .totals
+          %table.totals
+            %tbody
+              %tr
+                %td.cel1.bold
+                  %strong= t(:order_total)
+                %td.cel2.cell{align: "right"}
+                  %strong
+                    %span#summary-order-total= euros @order.total_price
+              %tr
+                %td.cel1
+                %td.cel2
+              -@order.taxes.each do |tax_rate , amount|
+                %tr.total
+                  %td.cel1.bold
+                    = t(:vat) + " " + tax_rate.to_s + " % "
+                  %td.cel2.cell{align: "right"}= euros amount
+      .footer
+        = render :partial => "orders/receipt_footer"
