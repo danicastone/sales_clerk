@@ -10,7 +10,7 @@
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
     %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1", name: "viewport"}
     %meta{content: "Sisustus, Lifestyle, luomukosmetiikka , luonnonkosmetiikka , farfalla", name: "keywords"}
-    = stylesheet_link_tag "sales_clerk"
+    = stylesheet_link_tag "sales_clerk" , :media => "all"
     = javascript_include_tag "sales_clerk"
     = csrf_meta_tags
   %body
@@ -25,7 +25,7 @@
                     =image_tag "sales_clerk/spacer.gif", :height => "80", :width => "650"
                   
                 .col-md-6
-                  %ul.nav.navbar-nav.navbar-right
+                  %ul.nav.navbar-nav.navbar-right.hidden-print
                     %li.dropdown 
                       %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
                         Auringosta Itään, Kuusta Länteen
