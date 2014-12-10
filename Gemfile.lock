@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: f934cf82a4b6341b860ca16c0ff8b2d6cc2559b2
+  revision: 65969997d4051ddfb10095aa68c61571f569d707
   specs:
     office_clerk (0.7)
       bcrypt-ruby (~> 3.1)
@@ -115,7 +115,7 @@ GEM
     chunky_png (1.3.3)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    cocaine (0.5.4)
+    cocaine (0.5.5)
       climate_control (>= 0.0.3, < 1.0)
     codeclimate-test-reporter (0.4.1)
       simplecov (>= 0.7.1, < 1.0.0)
@@ -209,7 +209,7 @@ GEM
     multi_json (1.10.1)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
-    paperclip (4.2.0)
+    paperclip (4.2.1)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
