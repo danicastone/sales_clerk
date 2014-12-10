@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rubyclerks/accountant_clerk.git
-  revision: 99ef9e61ba755e8d2a0f89cf362157e4e50b5428
+  revision: cb44e884d6f941e58269ee01315d5401fcb36ca9
   specs:
     accountant_clerk (0.5)
       flot-rails (~> 0.0.6)
@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 8b1e67182e57cece1db2d5336a8da22fe69f02bf
+  revision: fdd0f3fda2ded0e39be9004ae0b800cb0b020d67
   specs:
     office_clerk (0.7)
       bcrypt-ruby (~> 3.1)
@@ -44,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 68850d071176a50db69036cd4d35597d51944013
+  revision: 17340f63057c10692118d7d4506f84d1fcb31f2e
   specs:
     print_clerk (0.4)
       barby
