@@ -9,6 +9,13 @@ Bundler.require(*Rails.groups)
 
 module SalesClerk
   class Application < Rails::Application
+
+    #indicate that we have stylesheet/js stuff to be added to office, with the given name
+    # files (css + js) must exist in asset path
+    def office_assets
+      "sales_office"
+    end
+
     # don't generate RSpec tests for views and helpers
     config.generators do |g|
 
