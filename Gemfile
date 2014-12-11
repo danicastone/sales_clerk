@@ -33,6 +33,7 @@ gem "libv8" , "3.16.14.3"
 gem "rb-readline"
 gem 'uglifier', '>= 1.3.0'
 
+gem "newrelic_rpm"
 
 group :test do
 #  gem "poltergeist"
