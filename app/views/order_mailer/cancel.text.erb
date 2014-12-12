@@ -1,0 +1,10 @@
+Hei,
+
+Tilauksesi <%= @order.number %> on peruttu <%= date(@order.canceled_on) %>.
+
+<%=render :partial => "order_mailer/order"%>
+
+Ystävällisin terveisin 
+
+Auringosta Itään, Kuusta länteen
+

@@ -1,0 +1,18 @@
+Hyvä asiakkaamme,
+
+Tilauksesi <%= @order.number %> on postitettu <%= date(@order.shipped_on) %>.
+
+<% unless @order.shipment_info.blank? %>
+Postin seurantatunnus on <%=@order.shipment_info%>
+<%end%>
+  
+<%=render :partial => "order_mailer/order"%>
+
+Kiitos tilauksestasi!
+
+Ystävällisin terveisin Auringosta Itään, Kuusta länteen
+
+
+
+
+
