@@ -34,6 +34,7 @@ gem "rb-readline"
 gem 'uglifier', '>= 1.3.0'
 
 gem "newrelic_rpm"
+gem 'rack-google-analytics'
 
 group :test do
 #  gem "poltergeist"
