@@ -1,4 +1,4 @@
-unless Clerk.where( :email =>  "admin@important.me").first
-  admin = Clerk.new( :email =>  "admin@important.me" , :admin => true , :password => "password" ) 
-   admin.save!
+unless Clerk.where( :email =>  "info@auringostaitaan.fi").first
+  admin = Clerk.new( :email =>  "info@auringostaitaan.fi" , :admin => true , :password => "password" ) 
+  admin.save!
 end

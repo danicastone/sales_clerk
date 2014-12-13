@@ -17,7 +17,7 @@ ActiveRecord::Migration.check_pending!
 RSpec.configure do |config|
   config.include PageHelper  
 
-  config.include OfficeClerk::Engine.routes.url_helpers
+  config.include Rails.application.routes.url_helpers
 
   config.infer_base_class_for_anonymous_controllers = false
   config.infer_spec_type_from_file_location!
