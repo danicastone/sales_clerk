@@ -1,6 +1,7 @@
-class ShopController < OfficeController
+class ShopController < ApplicationController
   layout "sales_clerk"
-
+  include OfficeHelper
+  
   def welcome
     @groups = Category.online.where( :category_id => nil )
     render :layout => false

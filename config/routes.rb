@@ -1,6 +1,7 @@
-SalesClerk::Application.routes.draw do
-  mount OfficeClerk::Engine => "/"
+Rails.application.routes.draw do
 
+ root :to => 'shop#group'
+ 
   #shop
   get 'group/:link' => 'shop#group', :as => :shop_group
   get 'prod/:link' => 'shop#product', :as => :shop_product
@@ -13,5 +14,7 @@ SalesClerk::Application.routes.draw do
   get "history" => "shop#history" , :as => :shop_history
 
   get "/404", :to => "application#error"
+
+  mount OfficeClerk::Engine => "/"
 
 end
