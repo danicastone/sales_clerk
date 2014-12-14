@@ -1,48 +1,42 @@
-.a4
-  .row
-    .col-md-9
-      = image_tag "receipt-logo.gif",  :id => "logo"
+.invoice
+  .row.header
+    .col-xs-6
+      = image_tag "kauppa/invoice-logo.gif",  :id => "logo"
       .sender
-        %b Auringosta Itään, Kuusta Länteen
         Fiskarsintie 513, 10480 Antskog 
-    
-      .address
-        - addresses = [ @order.name ,   @order.street,   @order.city ,  @order.phone  ]
-
-        %table.address
-          %tr
-            %td{:width => "17%"}
-            %td.shipping_header.bold{:width => "45%"}
-          - addresses.each do |row|
-            %tr
-              %td.cell{:height => "15px", :width => "45%"}
-                = row
-              %td{:width => "17%"}
-              %td.cell{:height => "15px", :width => "45%"}
-                = "   "
-    
-    
-      
-      
-    .col-md-3.text-right  
+      %br  
+    .col-xs-6.text-right 
       %p.title= I18n.t("#{@template}.header")
-      %p.bold= I18n.t(:order_number).to_s + " " + @order.number
-      %p.bold
-        = I18n.l(@order.ordered_on.to_date) if @order.ordered_on
-  
-  .row.invoice-wrapper
+      %b= I18n.t(:order_number).to_s + " " + @order.number  
+      &nbsp;/&nbsp;
+      = I18n.l(@order.ordered_on.to_date) if @order.ordered_on
+      
+      
+  .row.address    
+    - addresses = [ @order.name ,   @order.street,   @order.city ,  @order.phone  ]
+
+    %table
+      %tr
+        %td{:width => "17%"}
+        %td.shipping_header.bold{:width => "45%"}
+      - addresses.each do |row|
+        %tr
+          %td.cell{:height => "15px", :width => "45%"}
+            = row
+          %td{:width => "17%"}
+          %td.cell{:height => "15px", :width => "45%"}
+            = "   "
+
+
+  .row.wrapper
     .items
       = render :partial => "orders/#{@template}_items"
-    .thanks
-      = render :partial => "orders/invoice_thanks"
     .spacer
       \&nbsp;
-    .totals
-      = render :partial => "orders/invoice_totals" unless @slip
-  %table.invoice-footer
-    %tr
-      %td.cel1.bold{:valign => "top"}= raw I18n.t(:footer_left)
-      %td.cel2.cell{:valign => "top"}= raw I18n.t(:footer_left2)
-      %td.cel3.bold{:valign => "top"}
-        = raw I18n.t(:footer_right)
-      %td.cel4.cell{:valign => "top"}= raw I18n.t(:footer_right2)
+    .row
+      .totals
+        = render :partial => "orders/invoice_totals" unless @slip
+    .thanks
+      = render :partial => "orders/invoice_thanks"
+
+  = render :partial => "orders/invoice_footer"
