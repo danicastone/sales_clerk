@@ -12,24 +12,7 @@ fi:
   qty: Määrä
   total: Yhteensä
   item_total: Tuotteet
-  
-
   order_number: Tilausnumero
 
-  invoice:
-    header: Lasku
-    thanks: Kiitos tilauksestasi!
-    print: Lasku
-  packaging_slip:
-    header: Kuormakirja
-    print: Kuormakirja
-    thanks: Tarkistathan tilauksen välittömästi. Kiitos tilauksestasi!
-  reminder:
-    header: Maksumuistutus
-    print: Maksumuistutus
-    thanks: "Kirjanpitomme mukaan emme ole saaneet suoritustanne tästä
-            laskusta.<br/> <br/>Pyydämme maksamaan laskun heti. <br/><br/>
-            Mikäli lasku on jo maksettu, tämä maksuhuomautus on aiheeton."
-  receipt:
-    header: Kuitti
-    print: Kuitti
+  thanks: Kiitos tilauksestasi!
+  must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
