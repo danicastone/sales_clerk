@@ -80,7 +80,7 @@
 
             %b 
               Valittu toimitustapa: 
-              = t(@order.shipment_type)
+              = shipping_method(@order.shipment_type).name
 
             
     .row

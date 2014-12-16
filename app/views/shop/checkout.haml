@@ -129,13 +129,13 @@
           .frame#previous_address
             -if current_clerk
               - address = current_clerk.last_address
-              %span.name=address.name 
+              %span.name=address[:name]
               %br/ 
-              %span.street= address.street
+              %span.street= address[:street]
               %br/
-              %span.city= address.city
+              %span.city= address[:city]
               %br/
-              %span.phone= address.phone  
+              %span.phone= address[:phone]
               %br/
               %br/
               %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
