@@ -1,6 +1,8 @@
 class ShopController < ApplicationController
   layout "sales_clerk"
   include OfficeHelper
+
+  force_ssl :if => :has_ssl? , :only => :sign_out
   
   def welcome
     @groups = Category.online.where( :category_id => nil )
@@ -51,6 +53,10 @@ class ShopController < ApplicationController
     end
   end
 
+  def history
+    
+  end
+
   def add
     prod = Product.find( params[:id]) # no id will raise which in turn will show home page
     current_basket.add_product(prod)
@@ -83,8 +89,11 @@ class ShopController < ApplicationController
   def page
     @products = Product.shop_products.limit(50)
     template = params[:id]
-    template = "tuotteista" if template.blank?
-    render template
+    if template.blank?
+      redirect_to root_path
+    else
+      render "page/#{template}"
+    end
   end
 
 end
