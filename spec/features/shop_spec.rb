@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ShopController  do
+describe "shop checkout"  do
   def prepare_check
     prod = create :shop_product
     visit_path shop_product_path(prod.link)
@@ -17,7 +17,7 @@ describe ShopController  do
   it "checks out with email" do
     prepare_check
     choose(:validation)
-    fill_in :order_email , :with => "some@valid.it"
+    fill_in :order_email , :with => "info@auringostaitaan.fi"
     click_button "make_order"
     ensure_path shop_order_path
   end
@@ -27,11 +27,14 @@ describe ShopController  do
     expect(page).to have_content( I18n.t(:must_accept))
     ensure_path shop_checkout_path
   end
-
-  it "shows a page" do
-    visit_path shop_page_path :tuotteista
+  it "checks out when signed in" do
+    sign_in
+    prepare_check
+    choose(:validation)
+    click_button "make_order"
+    ensure_path shop_order_path
   end
-  it "renders welcome page" do
-    visit_path shop_welcome_path
+  it "redirects when accessing history without login" do
+    visit_path shop_history_path
   end
 end
