@@ -14,8 +14,14 @@ describe "shop order handling"  do
     visit shop_history_path
     ensure_path office.sign_in_path
   end
-  it "shows history when loged in" do
+  it "redirects from history when no orders" do
     sign_in
+    visit shop_history_path
+    ensure_path root_path
+  end
+  it "shows history when loged in and orders" do
+    clerk = sign_in
+    create :order, :email => clerk.email
     visit_path shop_history_path
   end
 end

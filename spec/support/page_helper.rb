@@ -24,6 +24,7 @@ module PageHelper
     fill_in "password" , :with => "password"
     click_button I18n.t(:sign_in)
     expect(page).to have_content I18n.t(:basket)
+    clerk
   end
 
   def expect_basket_total price

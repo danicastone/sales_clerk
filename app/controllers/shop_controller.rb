@@ -54,10 +54,11 @@ class ShopController < ApplicationController
 
   def history
     clerk = current_clerk
-    unless clerk
-      redirect_to office.sign_in_path
-      return
-    end
+    return redirect_to office.sign_in_path unless clerk
+    all = Order.where( :email => current_clerk.email).limit(10).to_a
+    @last = all.pop
+    @orders = all
+    return redirect_to(root_path , :notice => "You have no orders yet") if @last.blank? 
   end
 
   def add

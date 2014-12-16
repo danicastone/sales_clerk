@@ -15,8 +15,4 @@ module ShopHelper
     prods.delete(product)
     prods.sample(get)
   end
-  def last_orders
-    all = Order.where( :email => current_clerk.email).limit(10).to_a
-    [ all.pop , all ]
-  end
 end
