@@ -35,6 +35,7 @@ describe "shop checkout"  do
     ensure_path shop_order_path
   end
   it "redirects when accessing history without login" do
-    visit_path shop_history_path
+    visit shop_history_path
+    ensure_path office.sign_in_path
   end
 end

@@ -54,7 +54,11 @@ class ShopController < ApplicationController
   end
 
   def history
-    
+    clerk = current_clerk
+    unless clerk
+      redirect_to office.sign_in_path
+      return
+    end
   end
 
   def add
