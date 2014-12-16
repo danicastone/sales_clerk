@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
- root :to => 'shop#group'
  
   #group / products
+  get 'main' => 'shop#main', :as => :shop_main
   get 'group/:link' => 'shop#group', :as => :shop_group
   get 'prod/:link' => 'shop#product', :as => :shop_product
 
@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get 'page/:id' => 'shop#page', :as => :shop_page
 
 
+  root :to => 'shop#main'
   get "/404", :to => "application#error"
 
   mount OfficeClerk::Engine => "/"

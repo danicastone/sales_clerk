@@ -12,7 +12,7 @@ describe ShopController  do
   it "redirects for non product" do
     prod = create :shop_product
     visit shop_product_path("no_such_thing")
-    ensure_path shop_group_path("no_such_thing")
+    ensure_path shop_main_path
   end
   it "shows a group" do
     prod = create :shop_product

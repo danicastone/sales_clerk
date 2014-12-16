@@ -77,17 +77,15 @@ class ShopController < ApplicationController
     redirect_to shop_checkout_path
   end
 
+  def main
+    @groups = Category.online.where( :category_id => nil )
+  end
+
   def group
     @group = Category.online.where(:link => params[:link]).first 
-    if @group
-      @products = @group.shop_products
-      template = "product_list"
-      @groups = @group.categories.online
-    else
-      @groups = Category.online.where( :category_id => nil )
-      template = "main_group"
-    end
-    render template
+    return redirect_to(shop_main_path) unless @group
+    @products = @group.shop_products
+    @groups = @group.categories.online
   end
 
   def page

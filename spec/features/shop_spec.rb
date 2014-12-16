@@ -38,4 +38,8 @@ describe "shop checkout"  do
     visit shop_history_path
     ensure_path office.sign_in_path
   end
+  it "shows history when loged in" do
+    sign_in
+    visit_path shop_history_path
+  end
 end

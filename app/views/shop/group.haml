@@ -1,9 +1,37 @@
-- @groups.in_groups_of(3).each do |array|
-  .row
-    -array.each do |group|
-      .col-md-4
-        -next unless group
-        .group-wrapper
-          =link_to shop_group_path(group.link) do
-            = image_tag( group.main_picture.url(:product) , :class => "img-responsive")
-            %h3= group.name
+.row
+  =render "parents"
+
+  .col-md-9
+    .row
+      - @groups.in_groups_of(3).each do |array|
+        .row
+          -array.each do |group|
+            .col-lg-4
+              -next unless group
+              .group-wrapper.sub
+                =link_to shop_group_path(group.link) do
+                  = image_tag group.main_picture.url(:product)                  
+                  %h3= group.name
+  .row.list
+    -@products.in_groups_of(3).each do |three|
+      .row.product-listing
+        -three.each do |product|
+          .col-md-4
+            -next unless product
+            .product-container
+              =link_to shop_product_path(:link => product.link ) do
+                %h4.product-name
+                  = product.name
+                .row
+                  .col-md-4
+                    .square-image
+                      =image_tag product.main_picture.url
+                  .col-md-8
+                    .product-fact
+                      =link_to shop_product_path( :link => product.link ) , :class => :info do
+                        %p= markdown product.summary
+                .row
+                  .product-list-price
+                    = euros product.price
+
+              
