@@ -149,7 +149,7 @@ div.receipt-footer {
 .invoice .footer {
   border-top:1px dotted grey;
   padding-top: 8px;
-  font-size: .8em;
+  font-size: 11px;
   .col-xs-4 { padding-left: 0px; }
 }
 
@@ -162,7 +162,11 @@ div.receipt-footer {
 
 
 
+@media screen {
+.invoice {max-width: 690px;}
 
+
+}
 
 
 
