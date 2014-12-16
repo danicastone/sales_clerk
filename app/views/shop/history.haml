@@ -1,5 +1,5 @@
+- last , orders = last_orders
 .row
-
   .col-md-3
     .group-wrapper.side.checkout
       =image_tag "sales_clerk/checkout-im.jpg"
@@ -7,60 +7,62 @@
 
   .col-md-9
     .row
-      %br
-        %h4.highlight Uusin tilauksesi    
-        %b Tilaus 
-        No 123123123 
-        vastaanotettu 
-        23.11.2014 klo 16
-      %br
-      %div
-        %table.table.table-condensed
-          %thead            
-            %tr
-              %th tuote
-              %th 
-              %th hinta
-              %th määrä
-              %th yhteishinta
-          %tbody
-            %tr
-              %td.picture.text-center
-                %img{:alt => "Earl grey", :src => "/images/5771/thumb/earl_grey.gif?1411309551"}/
-              %td.name
-                %a{:href => "/prod/musta-tee-ceylon"}
-                  Musta tee Ceylon
-              %td 4,30 €
-              %td 1
-              %td 4,30 €            
-            %tr
-              %td.picture.text-center
-                %img{:alt => "Farfalla shampoo granaattiomena", :src => "/images/349/thumb/farfalla_shampoo_granaattiomena.jpg?1408201748"}/
-              %td.name
-                %a{:href => "/prod/paeivittaein-granaattiomena-shampoo"}
-                  Päivittäin – Granaattiomenashampoo
-              %td 13,20 €
-              %td 1
-              %td 13,20 €
+      -if last
+      - else
+        %br
+          %h4.highlight Uusin tilauksesi    
+          %b Tilaus No 
+          123123123 
+          vastaanotettu 
+          23.11.2014 klo 16
+        %br
+        %div
+          %table.table.table-condensed
+            %thead            
+              %tr
+                %th tuote
+                %th 
+                %th hinta
+                %th määrä
+                %th yhteishinta
+            %tbody
+              %tr
+                %td.picture.text-center
+                  %img{:alt => "Earl grey", :src => "/images/5771/thumb/earl_grey.gif?1411309551"}/
+                %td.name
+                  %a{:href => "/prod/musta-tee-ceylon"}
+                    Musta tee Ceylon
+                %td 4,30 €
+                %td 1
+                %td 4,30 €            
+              %tr
+                %td.picture.text-center
+                  %img{:alt => "Farfalla shampoo granaattiomena", :src => "/images/349/thumb/farfalla_shampoo_granaattiomena.jpg?1408201748"}/
+                %td.name
+                  %a{:href => "/prod/paeivittaein-granaattiomena-shampoo"}
+                    Päivittäin – Granaattiomenashampoo
+                %td 13,20 €
+                %td 1
+                %td 13,20 €
         
-            %tr
-              %th 
-              %th Tuotteet yhteensä
-              %th
-              %th
-              %th 111,22 €
-            %tr
-              %td 
-              %td Toimituskulut
-              %td
-              %td
-              %td 8,25 €
-            %tr
-              %th 
-              %th Tilaus yhteensä
-              %th
-              %th
-              %th 111,22 €
+              %tr
+                %th 
+                %th Tuotteet yhteensä
+                %th
+                %th
+                %th 111,22 €
+              %tr
+                %td 
+                %td Toimituskulut
+                %td
+                %td
+                %td 8,25 €
+              %tr
+                %th 
+                %th Tilaus yhteensä
+                %th
+                %th
+                %th 111,22 €
         
         .row
           .col-md-6

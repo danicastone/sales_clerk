@@ -42,15 +42,14 @@ class ShopController < ApplicationController
   end
 
   def order
+    notice = "No order found."
     if( session[:order])
       @order = Order.find( session[:order] )
+      notice += " Please log in to see history"
     elsif clerk = current_clerk
-      @order = clerk.last_order
+      @order = Order.where(:email => clerk.email).first
     end
-    if @order.blank?
-      redirect_to sign_in_path , :notice => "No order found, please log in"
-      return
-    end
+    return redirect_to(office.sign_in_path , :notice => notice) if @order.blank?
   end
 
   def history

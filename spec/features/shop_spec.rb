@@ -34,12 +34,4 @@ describe "shop checkout"  do
     click_button "make_order"
     ensure_path shop_order_path
   end
-  it "redirects when accessing history without login" do
-    visit shop_history_path
-    ensure_path office.sign_in_path
-  end
-  it "shows history when loged in" do
-    sign_in
-    visit_path shop_history_path
-  end
 end
