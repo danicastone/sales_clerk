@@ -4,7 +4,12 @@ en:
 
 fi: 
   order_enough_for_free_shipping: "Tilauksesi ylittää rahtirajan, ilmainen toimitus!"
+  kauppa: "Auringosta Itään, Kuusta Länteen"
+  tukku: "Auringosta Itään, Kuusta Länteen Tukku"
   
+  kauppa_osoite: "Fredrikinkatu 19, 00120 Helsinki"
+  tukku_osoite: "Fiskarsintie 513, 10480 Antskog"
+
   footer_left: "Auringosta Itään, Kuusta Länteen"
   footer_left2: "IBAN FI1017 4530 0013 2474<br/>BIC NDEAFIHH (Nordea)"
   footer_center: "Päätoiminimi Lightning Raisa & Torsten Oy<br/>Y-Tunnus 2380478-1<br/>Maksuehto 14 päivää netto<br/>Viivästyskorko 12 %"
