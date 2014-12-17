@@ -11,7 +11,7 @@ gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 gem "office_clerk", github: "rubyclerks/office_clerk"
 #gem "office_clerk", path: "../office_clerk"
 
-gem 'db_fixtures_dump' , :github => 'rubyclerks/db_fixtures_dump' #backup
+gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
 gem 'sqlite3'
 gem "rails" ,  "4.1.8"

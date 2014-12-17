@@ -1,16 +1,16 @@
 GIT
+  remote: git://github.com/dancinglightning/db_fixtures_dump.git
+  revision: 339495475e7542b5586bb9066755507a060b7431
+  specs:
+    db_fixtures_dump (0.1.1)
+
+GIT
   remote: git://github.com/rubyclerks/accountant_clerk.git
   revision: cb44e884d6f941e58269ee01315d5401fcb36ca9
   specs:
     accountant_clerk (0.5)
       flot-rails (~> 0.0.6)
       office_clerk (~> 0.4)
-
-GIT
-  remote: git://github.com/rubyclerks/db_fixtures_dump.git
-  revision: 2d00815c8cb4a9bf143564a8a1de082b6e30282c
-  specs:
-    db_fixtures_dump (0.0.9)
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
