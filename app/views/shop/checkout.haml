@@ -127,17 +127,20 @@
           %b Tallennetut osoitteet
           
           .frame#previous_address
-            %span.name Anna Asiakas 
-            %br/ 
-            %span.street Mallikatu 3  
-            %br/
-            %span.city 10300 Karjaa  
-            %br/
-            %span.phone 040 333 4455  
-            %br/
-            %br/
-            %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
-      
+            -if current_clerk
+              - address = current_clerk.last_address
+              %span.name=address[:name]
+              %br/ 
+              %span.street= address[:street]
+              %br/
+              %span.city= address[:city]
+              %br/
+              %span.phone= address[:phone]
+              %br/
+              %br/
+              %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
+            -else
+              Log in to use previous addresses
     .col-md-9
       .row
         .col-md-9#address_form
@@ -150,7 +153,7 @@
           %hr 
           .checkbox
             %label
-              %input{:type => "checkbox"}/
+              = radio_button_tag :validation , true , !params[:validation].blank?
               Olen lukenut ja hyväksynyt 
               %a{:href => "/page/toimitusehdot" , :target => "blank"} toimitusehdot 
               

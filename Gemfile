@@ -11,7 +11,7 @@ gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 gem "office_clerk", github: "rubyclerks/office_clerk"
 #gem "office_clerk", path: "../office_clerk"
 
-gem 'db_fixtures_dump' , :github => 'rubyclerks/db_fixtures_dump' #backup
+gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
 gem 'sqlite3'
 gem "rails" ,  "4.1.8"
@@ -25,16 +25,17 @@ group :development do
   gem "i18n-tasks"
   gem 'quiet_assets'
   gem "thin"
+  gem "rb-readline"
 end
 
-#asset / production reelated
-gem "therubyracer" 
-gem "libv8" , "3.16.14.3"
-gem "rb-readline"
-gem 'uglifier', '>= 1.3.0'
+group  :production do
+  gem "therubyracer" 
+  gem "libv8" , "3.16.14.3"
+  gem 'uglifier', '>= 1.3.0'
 
-gem "newrelic_rpm"
-gem 'rack-google-analytics'
+  gem "newrelic_rpm"
+  gem 'rack-google-analytics'
+end
 
 group :test do
 #  gem "poltergeist"

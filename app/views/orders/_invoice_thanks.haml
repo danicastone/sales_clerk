@@ -1,18 +1,7 @@
 - base = @order.number[1 .. -1]
 - viite = open("http://www1.nordea.fi/P636V/H636VTXT.asp?action=tekstiLista&lkm=1&alkuViite=#{base}&L=1").read[/\d+ \d+/]
 - unless @slip
-  %table
-    %tr
-      %td{:colspan => "2"}
-        \&nbsp;
-    %tr
-      %td{:colspan => "2"}
-        Maksaessasi käytä viitenumeroa: #{viite}
-%table.thanks_table
-  %tr
-    %td.cell{:cellspan => "2"}
-    %td.cell &nbsp;
-  %tr
-    %td.thanks.cell{:cellspan => "2"}
-      = raw t("#{@template}.thanks" )
-    %td.cell &nbsp;
+  Maksaessasi käytä viitenumeroa: #{viite}
+%br
+%b
+  = raw t("#{@template}.thanks" )

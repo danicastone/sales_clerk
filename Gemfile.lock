@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/dancinglightning/db_fixtures_dump.git
+  revision: 339495475e7542b5586bb9066755507a060b7431
+  specs:
+    db_fixtures_dump (0.1.1)
+
+GIT
   remote: git://github.com/rubyclerks/accountant_clerk.git
   revision: cb44e884d6f941e58269ee01315d5401fcb36ca9
   specs:
@@ -7,14 +13,8 @@ GIT
       office_clerk (~> 0.4)
 
 GIT
-  remote: git://github.com/rubyclerks/db_fixtures_dump.git
-  revision: 2d00815c8cb4a9bf143564a8a1de082b6e30282c
-  specs:
-    db_fixtures_dump (0.0.9)
-
-GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 7e8070e40b37f01972b69fcd378ef96a3d54de8c
+  revision: 7c94a4f202cb835e712ba22ae51817fdf3701abe
   specs:
     office_clerk (0.7)
       bcrypt-ruby (~> 3.1)
@@ -205,7 +205,7 @@ GEM
     method_source (0.8.2)
     mime-types (2.4.3)
     mini_portile (0.6.0)
-    minitest (5.4.3)
+    minitest (5.5.0)
     multi_json (1.10.1)
     newrelic_rpm (3.9.8.273)
     nokogiri (1.6.3.1)

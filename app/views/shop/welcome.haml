@@ -37,7 +37,7 @@
                           %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"} Toimitusehdot
 
                     %li#link-to-cart
-                      %a{href: office.shop_checkout_path}
+                      %a{href: shop_checkout_path}
                         = t(:basket)
                         - if current_basket_or_nil.nil? or current_basket.items.count == 0
                           = t(:empty)
