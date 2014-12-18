@@ -32,7 +32,7 @@ fi:
   street: Jakeluosoite
   city: Postinumero ja -toimipaikka
   
-  
+  register: Rekisteröidy
   no_order_found: "Tilausta ei löytynyt"
   log_in_see_history: "Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään."
   no_orders_yet: "Sinulla ei ole vielä tilauksia"
