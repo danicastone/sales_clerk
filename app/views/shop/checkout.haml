@@ -29,11 +29,11 @@
                       = item.name
                   %td= euros item.product.price
                   %td
-                    = link_to cart_remove_path( :id => item.product.id ) do
-                      = image_tag "down-icon.png" , :width => 16 , :height => 16
-                    = item.quantity
                     = link_to cart_add_path( :id => item.product.id ) do
                       = image_tag "up-icon.png" , :width => 16 , :height => 16
+                    = item.quantity
+                    = link_to cart_remove_path( :id => item.product.id ) do
+                      = image_tag "down-icon.png" , :width => 16 , :height => 16
                   %td= number_to_currency item.total
 
               %tr
@@ -140,7 +140,7 @@
               %br/
               %button.btn.btn-primary.btn-xs#fill_address{:type => "button"} Käytä tätä osoitetta
             -else
-              Log in to use previous addresses
+              =t(:login_addresses)
     .col-md-9
       .row
         .col-md-9#address_form

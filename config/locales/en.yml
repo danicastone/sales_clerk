@@ -1,6 +1,11 @@
 
 en:
-  hello: "Hello world"
+  log_in_see_history: "Please log in to see history."
+  no_order_found: "No order found"
+  no_orders_yet: "You have no orders yet" 
+  login_addresses: Log in to use previous addresses
+  
+  
 
 fi: 
   order_enough_for_free_shipping: "Tilauksesi ylittää rahtirajan, ilmainen toimitus!"
@@ -21,3 +26,14 @@ fi:
 
   thanks: Kiitos tilauksestasi!
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
+  
+  
+  name: Etu- ja sukunimi
+  street: Jakeluosoite
+  city: Postinumero ja -toimipaikka
+  
+  
+  no_order_found: "Tilausta ei löytynyt"
+  log_in_see_history: "Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään."
+  no_orders_yet: "Sinulla ei ole vielä tilauksia"
+  login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta. 

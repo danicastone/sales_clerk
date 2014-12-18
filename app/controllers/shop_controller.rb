@@ -42,10 +42,10 @@ class ShopController < ApplicationController
   end
 
   def order
-    notice = "No order found."
+    notice = I18n.t(:no_order_found)
     if( session[:order])
       @order = Order.find( session[:order] )
-      notice += " Please log in to see history"
+      notice += I18n.t(:log_in_see_history)
     elsif clerk = current_clerk
       @order = Order.where(:email => clerk.email).first
     end
@@ -58,7 +58,7 @@ class ShopController < ApplicationController
     all = Order.where( :email => current_clerk.email).limit(10).to_a
     @last = all.pop
     @orders = all
-    return redirect_to(root_path , :notice => "You have no orders yet") if @last.blank? 
+    return redirect_to(root_path , :notice => I18n.t(:no_orders_yet)) if @last.blank? 
   end
 
   def add
