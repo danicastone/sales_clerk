@@ -14,13 +14,6 @@ describe "shop checkout"  do
     expect(page).to have_content( I18n.t(:fix_errors))
     ensure_path shop_checkout_path
   end
-  it "checks out with email" do
-    prepare_check
-    choose(:validation)
-    fill_in :order_email , :with => "info@auringostaitaan.fi"
-    click_button "make_order"
-    ensure_path shop_order_path
-  end
   it "doesnt checkout without accepting" do
     prepare_check
     click_button "make_order"
@@ -33,5 +26,36 @@ describe "shop checkout"  do
     choose(:validation)
     click_button "make_order"
     ensure_path shop_order_path
+  end
+  def prepare_check_and_order email = "info@auringostaitaan.fi"
+    prepare_check
+    choose(:validation)
+    fill_in :order_email , :with => email
+    click_button "make_order"
+    ensure_path shop_order_path
+  end
+  it "checks out with email" do
+    prepare_check_and_order
+  end
+  it "allows registration after order" do
+    prepare_check_and_order
+    fill_in(:clerk_password , :with => "password")
+    fill_in(:clerk_password_confirmation , :with => "password")
+    find("#submit").click
+    ensure_path root_path
+    expect(Clerk.find_by_email("info@auringostaitaan.fi")).not_to be nil
+  end
+  it "checks password for registration" do
+    prepare_check_and_order
+    fill_in(:clerk_password , :with => "password")
+    fill_in(:clerk_password_confirmation , :with => "pass_word")
+    find("#submit").click
+    ensure_path office.sign_up_path
+    expect(Clerk.find_by_email("info@auringostaitaan.fi")).to be nil
+  end
+  it "doesnt allow registration if logged in" do
+    clerk = sign_in 
+    prepare_check_and_order clerk.email
+    expect {find("#submit")}.to raise_error Capybara::ElementNotFound
   end
 end

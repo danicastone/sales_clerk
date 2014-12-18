@@ -45,6 +45,7 @@ class ShopController < ApplicationController
     notice = "No order found."
     if( session[:order])
       @order = Order.find( session[:order] )
+      @clerk = Clerk.new :email => @order.email
       notice += " Please log in to see history"
     elsif clerk = current_clerk
       @order = Order.where(:email => clerk.email).first
