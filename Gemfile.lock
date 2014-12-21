@@ -13,14 +13,8 @@ GIT
       office_clerk (~> 0.4)
 
 GIT
-  remote: git://github.com/rubyclerks/post_clerk.git
-  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
-  specs:
-    post_clerk (0.4)
-      office_clerk (~> 0.1)
-
-PATH
-  remote: ../office_clerk
+  remote: git://github.com/rubyclerks/office_clerk.git
+  revision: fddd61ebaca1847ecfe44e595c3f4f050efbc841
   specs:
     office_clerk (0.8)
       bcrypt-ruby (~> 3.1)
@@ -40,6 +34,13 @@ PATH
       sass-rails (~> 4.0)
       valid_email (~> 0.0, >= 0.0.10)
       will_paginate-bootstrap (~> 1.0)
+
+GIT
+  remote: git://github.com/rubyclerks/post_clerk.git
+  revision: dbdb71c2247bc7c43b427c75d7e8870eba552dbc
+  specs:
+    post_clerk (0.4)
+      office_clerk (~> 0.1)
 
 PATH
   remote: ../print_clerk
