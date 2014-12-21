@@ -8,8 +8,8 @@ gem 'print_clerk' , github: "rubyclerks/print_clerk"
 
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
-gem "office_clerk", github: "rubyclerks/office_clerk"
-#gem "office_clerk", path: "../office_clerk"
+#gem "office_clerk", github: "rubyclerks/office_clerk"
+gem "office_clerk", path: "../office_clerk"
 
 gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
@@ -34,7 +34,6 @@ group  :production do
   gem 'uglifier', '>= 1.3.0'
 
   gem "newrelic_rpm"
-  gem 'rack-google-analytics'
 end
 
 group :test do

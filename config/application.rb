@@ -30,7 +30,5 @@ module SalesClerk
         load(c)
       end
     end
-    
-    config.middleware.use Rack::GoogleAnalytics, :tracker => ENV["KAUPPA_ID"] unless ENV["KAUPPA_ID"].blank?
   end
 end
