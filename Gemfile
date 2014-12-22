@@ -16,6 +16,7 @@ gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
 gem 'sqlite3'
 gem "rails" ,  "4.1.8"
+gem 'rails-i18n', '~> 4.0.0'
 
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
