@@ -27,11 +27,7 @@ fi:
   thanks: Kiitos tilauksestasi!
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
   
-  
-  name: Etu- ja sukunimi
-  street: Jakeluosoite
-  city: Postinumero ja -toimipaikka
-  
+    
   register: Rekisteröidy
   no_order_found: "Tilausta ei löytynyt"
   log_in_see_history: "Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään."
