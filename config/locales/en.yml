@@ -37,3 +37,4 @@ fi:
   log_in_see_history: "Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään."
   no_orders_yet: "Sinulla ei ole vielä tilauksia"
   login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta. 
+  signed_up: Tili luotu
