@@ -30,7 +30,9 @@ module SalesClerk
         load(c)
       end
     end
-    
-    config.middleware.use Rack::GoogleAnalytics, :tracker => ENV["KAUPPA_ID"] unless ENV["KAUPPA_ID"].blank?
+
+    config.i18n.available_locales = :fi
+    config.i18n.default_locale = :fi
+
   end
 end

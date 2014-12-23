@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # extensions, reporting, printing (all depend on office_clerk)
 gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
+#gem 'accountant_clerk' , path: "../accountant_clerk"
 
 gem 'print_clerk' , github: "rubyclerks/print_clerk"
 #gem 'print_clerk' , path: "../print_clerk"
@@ -15,6 +16,7 @@ gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
 gem 'sqlite3'
 gem "rails" ,  "4.1.8"
+gem 'rails-i18n', '~> 4.0.0'
 
 #one wishes one would not need it. alas . . .
 gem 'rack-attack'
@@ -34,7 +36,6 @@ group  :production do
   gem 'uglifier', '>= 1.3.0'
 
   gem "newrelic_rpm"
-  gem 'rack-google-analytics'
 end
 
 group :test do

@@ -157,5 +157,6 @@
               Olen lukenut ja hyväksynyt 
               %a{:href => "/page/toimitusehdot" , :target => "blank"} toimitusehdot 
               
-          %button.btn.btn-primary.btn-lg#make_order{:type => "submit"} Tee tilaus
-          
+          %button.btn.btn-primary.btn-lg#make_order{:type => "submit" , :disabled => @order.basket.items.length == 0 }
+            Tee tilaus
+            
