@@ -3,12 +3,12 @@ config:
   shipping:
     kotiinkuljetus:
       weight_table: '1 2 5 10 15 30'
-      price_table: '11 11.5 12.5 13.50 15 18'
+      price_table: '9.9 10.9 12.5 14 15 19'
       name: Postin kotiinkuljetus
       class: "OfficeClerk::Post"
     post:
       weight_table: '1 2 5 10 15 30'
-      price_table: '7.5 8 9 10 11 15'
+      price_table: '5.9 6.9 8.5 10 11 15'
       name: Nouto lähimmästä postikonttorista
       class: "OfficeClerk::Post"
     maksikirje:
