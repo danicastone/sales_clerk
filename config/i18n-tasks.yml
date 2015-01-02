@@ -60,9 +60,9 @@ search:
   # include: ["*.rb", "*.html.slim"]
 
 ## Google Translate
-# translation:
 #   # Get an API key and set billing info at https://code.google.com/apis/console to use Google Translate
-#   api_key: "AbC-dEf5"
+translation:
+  api_key: "AIzaSyCRjToD-btZK_eaaLeqKNmoh1fPoqhbAtQ"
 
 ## Consider these keys not missing
 # ignore_missing:

@@ -1,42 +1,11 @@
 ---
 en:
-  add_to_basket: Add to basket
-  basket: Basket
-  city: City
-  email: Email
-  empty: Empty
-  fix_errors: Fix errors
-  footer_center: Päätoiminimi Lightning Raisa & Torsten Oy<br/>Y-Tunnus 2380478-1<br/>Maksuehto 14 päivää netto<br/>Viivästyskorko 12 %
-  footer_left: Auringosta Itään, Kuusta Länteen
-  footer_left2: IBAN FI1017 4530 0013 2474<br/>BIC NDEAFIHH (Nordea)
-  footer_right: Fredrikinkatu 19, 00120 Helsinki<br/>info@auringostaitaan.fi<br/>puh 09- 621 7001
-  item_total: Tuotteet
-  items: Items
-  kauppa: Auringosta Itään, Kuusta Länteen
-  kauppa_osoite: Fredrikinkatu 19, 00120 Helsinki
   log_in_see_history: Please log in to see history.
   login_addresses: Log in to use previous addresses
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
-  name: Name
   no_order_found: No order found
   no_orders_yet: You have no orders yet
-  notice: Notice
-  order: Order
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
-  order_more_for_free_shipping: Order more for free shipping
-  order_number: Tilausnumero
-  phone: Phone
-  product_added: Product added
-  qty: Määrä
   register: Register
-  sign_in: Sign in
-  sign_out: Sign out
-  sign_up: Sign up
-  signed_in: Signed in
-  signed_up: Tili luotu
-  street: Street
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
-  tukku: Auringosta Itään, Kuusta Länteen Tukku
-  tukku_osoite: Fiskarsintie 513, 10480 Antskog
-  vat: Vat
