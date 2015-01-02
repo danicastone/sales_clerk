@@ -6,7 +6,7 @@ fi:
   no_order_found: Tilausta ei löytynyt
   no_orders_yet: Sinulla ei ole vielä tilauksia
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
+  order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"
   register: Rekisteröidy
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
-  order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"

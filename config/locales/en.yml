@@ -6,7 +6,7 @@ en:
   no_order_found: No order found
   no_orders_yet: You have no orders yet
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
+  order_more_for_free_shipping: Order %{more} €  for free shipping
   register: Register
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
-  order_more_for_free_shipping: Order %{more} €  for free shipping
