@@ -29,8 +29,8 @@ describe 'I18n' do
 
   it 'does not have missing keys' do
     # needs work
-#    expect(missing_keys).to be_empty,
- #                           "Missing #{missing_keys.leaves.count} i18n keys, run `i18n-tasks missing' to show them"
+    expect(missing_keys).to be_empty,
+                            "Missing #{missing_keys.leaves.count} i18n keys, run `i18n-tasks missing' to show them"
   end
 
   it 'does not have unused keys' do

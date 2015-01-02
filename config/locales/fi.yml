@@ -9,3 +9,4 @@ fi:
   register: Rekisteröidy
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
+  order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"

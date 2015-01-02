@@ -9,3 +9,4 @@ en:
   register: Register
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
+  order_more_for_free_shipping: Order %{more} €  for free shipping

@@ -65,7 +65,27 @@ translation:
   api_key: "AIzaSyCRjToD-btZK_eaaLeqKNmoh1fPoqhbAtQ"
 
 ## Consider these keys not missing
-# ignore_missing:
+ignore_missing:
+  - vat
+  - email
+  - name
+  - city
+  - phone
+  - street
+  - signed_up
+  - signed_in
+  - sign_up
+  - sign_out
+  - sign_in
+  - basket
+  - product_added
+  - order
+  - empty
+  - add_to_basket
+  - fix_errors
+  - items
+  - notice
+  
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'
 

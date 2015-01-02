@@ -4,3 +4,10 @@
 require File.expand_path('../config/application', __FILE__)
 
 SalesClerk::Application.load_tasks
+
+desc 'Rebuild test and run specs'
+task :full_test do
+  system("rake db:drop db:migrate RAILS_ENV=test && rspec")
+end
+
+task :default => 'full_test'
