@@ -1,6 +1,7 @@
+---
 en:
-  log_in_see_history: "Please log in to see history."
-  no_order_found: "No order found"
-  no_orders_yet: "You have no orders yet" 
+  log_in_see_history: Please log in to see history.
   login_addresses: Log in to use previous addresses
+  no_order_found: No order found
+  no_orders_yet: You have no orders yet
   register: Register
