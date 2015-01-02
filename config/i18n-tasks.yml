@@ -85,6 +85,7 @@ ignore_missing:
   - fix_errors
   - items
   - notice
+  - signed_out
   
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'

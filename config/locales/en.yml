@@ -1,14 +1,14 @@
 ---
 en:
-  log_in_see_history: Please log in to see history.
-  login_addresses: Log in to use previous addresses
+  empty: Empty
+  log_in_see_history: Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään.
+  login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta.
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
-  no_order_found: No order found
-  no_orders_yet: You have no orders yet
+  no_order_found: Tilausta ei löytynyt
+  no_orders_yet: Sinulla ei ole vielä tilauksia
+  notice: 'Note:'
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
   order_more_for_free_shipping: Order %{more} €  for free shipping
-  register: Register
+  register: Rekisteröidy
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
-  empty: Empty
-  notice: "Note:"
