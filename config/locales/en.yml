@@ -10,3 +10,5 @@ en:
   register: Register
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
+  empty: Empty
+  notice: "Note:"

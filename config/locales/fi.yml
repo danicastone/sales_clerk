@@ -10,3 +10,5 @@ fi:
   register: Rekisteröidy
   thanks: Kiitos tilauksestasi!
   total: Yhteensä
+  empty: Tyhjä
+  notice: Huom
