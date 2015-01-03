@@ -14,7 +14,7 @@
       Valittu toimitustapa: 
       = shipping_method(@last.shipment_type).name
     %br
-      = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(",")
+      = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
     
 .row
   %hr 
@@ -43,3 +43,5 @@
 
     .col-md-9
       = render :partial => "order_9" , :locals => { :order => order }
+  %hr 
+      
