@@ -3,7 +3,7 @@
 base_locale: en
 ## i18n-tasks detects locales automatically from the existing locale files
 ## uncomment to set locales explicitly
-# locales: [en, es, fr]
+locales: [en, fi]
 
 ## i18n-tasks report locale, default: en, available: en, ru
 # internal_locale: ru
@@ -22,7 +22,7 @@ data:
   # key => file routes, matched top to bottom
   write:
     ## E.g., write devise and simple form keys to their respective files
-    # - ['{devise, simple_form}.*', 'config/locales/\1.%{locale}.yml']
+    - ['{config}.*', 'config/locales/\1.%{locale}.yml']
     # Catch-all
     - config/locales/%{locale}.yml
     # `i18n-tasks normalize -p` will force move the keys according to these rules
@@ -60,12 +60,39 @@ search:
   # include: ["*.rb", "*.html.slim"]
 
 ## Google Translate
-# translation:
 #   # Get an API key and set billing info at https://code.google.com/apis/console to use Google Translate
-#   api_key: "AbC-dEf5"
+translation:
+  api_key: "AIzaSyCRjToD-btZK_eaaLeqKNmoh1fPoqhbAtQ"
 
 ## Consider these keys not missing
-# ignore_missing:
+ignore_missing:
+  - vat
+  - email
+  - name
+  - city
+  - phone
+  - street
+  - signed_up
+  - signed_in
+  - sign_up
+  - sign_out
+  - sign_in
+  - basket
+  - product_added
+  - order
+  - empty
+  - add_to_basket
+  - fix_errors
+  - items
+  - notice
+  - signed_out
+  - choose_shipment
+  - contact_details
+  - price
+  - product
+  - quantity
+  - total_price
+  
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'
 
@@ -85,5 +112,5 @@ search:
 #     - common.brand
 
 ## Exclude these keys from all of the reports
-# ignore:
+#ignore:
 #  - kaminari.*

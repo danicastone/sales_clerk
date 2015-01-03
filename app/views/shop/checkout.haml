@@ -5,21 +5,21 @@
     .col-md-3
       .group-wrapper.side.checkout
         =image_tag  "sales_clerk/checkout-im.jpg"
-        %h5 Ostoskori
+        %h5=t(:basket)
 
     .col-md-9
       .row
         %br
-        %h4 Ostoskorisi sisältö
+        %h4=t(:basket_contents)
         %div
           %table.table.table-hover.table-condensed
             %thead            
               %tr
-                %th tuote
+                %th= t(:product)
                 %th 
-                %th hinta 
-                %th määrä
-                %th yhteishinta
+                %th= t(:price)
+                %th= t(:quantity)
+                %th= t(:quantity)
             %tbody
               -current_basket.items.each do |item|
                 %tr
@@ -38,7 +38,7 @@
 
               %tr
                 %th 
-                %th tuotteet yhteensä
+                %th= t(:products_total)
                 %th
                 %th
                 %th= number_to_currency current_basket.total_price
@@ -48,7 +48,7 @@
   
     .col-md-3
       %h4.highlight
-        Valitse toimitustapa
+        =t(:choose_shipment)
         .row
           .col-md-10
             %br
@@ -66,9 +66,7 @@
     .col-md-9
       .row
         .col-md-7
-          %h4
-            Valitse toimitustapa
-            = @order.shipment_type              
+          %h4=t(:choose_shipment)
           - OfficeClerk::ShippingMethod.all.each_value do |s|
             .radio
               = radio_button_tag "order[shipment_type]" , s.type , s.type.to_s == @order.shipment_type , "data-price" => s.price_for(current_basket).round(2)
@@ -84,13 +82,13 @@
           %table.table.table-condensed.basket-total
             %thead
               %tr
-                %th Tuotteet yhteensä
+                %th= t(:products_total)
                 %td.text-right
                   %span#basket_total= current_basket.total_price.round(2)
                   €
             %tbody
               %tr 
-                %th Toimituskulut 
+                %th= t(:shipping_cost) 
                 %td.text-right
                   %span#shipping_cost= @order.shipment_price
                   €
@@ -111,9 +109,8 @@
     .col-md-9
       .row
         .col-md-9
-          %h4
-            Ostoksen maksaminen
-          Tällä hetkellä verkkokaupassamme maksutapana on ennakkolasku. Tilauksen tehtyäsi saat sähköpostiin tilausvahvistuksen jossa on maksun tiedot. Kun maksusi näkyy tilillämme, toimitamme tilaamasi tuotteet, normaalisti 1-3 arkipäivän kuluessa.
+          %h4= t(:payment_header)
+          = t(:payment_description_text)
             
         
   .row
@@ -121,10 +118,10 @@
     .col-md-3
       .row
         .col-md-9
-          %h4.highlight Anna yhteystiedot
+          %h4.highlight=t(:contact_details)
           %br/
           
-          %b Tallennetut osoitteet
+          %b=t(:previous_addresses)
           
           .frame#previous_address
             -if current_clerk
@@ -144,7 +141,7 @@
     .col-md-9
       .row
         .col-md-9#address_form
-          %h4 Yhteystiedot 
+          %h4= t(:contact_details) 
           = f.text_field :name , :placeholder => t(:name)
           = f.text_field :street , :placeholder => t(:street)
           = f.text_field :city , :placeholder => t(:city)
@@ -154,9 +151,9 @@
           .checkbox
             %label
               = radio_button_tag :validation , true , !params[:validation].blank?
-              Olen lukenut ja hyväksynyt 
-              %a{:href => "/page/toimitusehdot" , :target => "blank"} toimitusehdot 
+              = t(:read_and_agree)
+              = link_to( t(:terms) , "/page/toimitusehdot",  :target => "blank") 
               
           %button.btn.btn-primary.btn-lg#make_order{:type => "submit" , :disabled => @order.basket.items.length == 0 }
-            Tee tilaus
+            =t(:make_order)
             

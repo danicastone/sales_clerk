@@ -8,10 +8,10 @@
     .row
       .col-md-6
         %i 
-          %h4.highlight Uusin tilauksesi    
+          %h4.highlight= t(:latest_order)    
       = render :partial => "order_9" , :locals => { :order => @last }
     %b 
-      Valittu toimitustapa: 
+      =t(:choosen_shipment) +" :" 
       = shipping_method(@last.shipment_type).name
     %br
       = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
@@ -19,7 +19,7 @@
 .row
   %hr 
   .col-md-3
-    %h4.highlight Aiemmat tilauksesi
+    %h4.highlight=t(:previous_orders)
 
 -@orders.each do |order|
   .row

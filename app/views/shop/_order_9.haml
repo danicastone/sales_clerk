@@ -1,19 +1,19 @@
 .row
   .col-md-6
-    %b Tilaus 
+    %b= t(:order)
     =order.number
-    vastaanotettu 
+    = t(:received) 
     =date(order.ordered_on || Date.today)
 %br
 %div
   %table.table.table-condensed
     %thead            
       %tr
-        %th tuote
+        %th= t(:product)
         %th 
-        %th hinta
-        %th määrä
-        %th yhteishinta
+        %th= t(:price)
+        %th= t(:quantity)
+        %th= t(:total_price)
     %tbody
       -order.basket.items.each do |item|
         %tr
@@ -26,19 +26,19 @@
           %td= number_to_currency item.total
       %tr
         %th 
-        %th Tuotteet yhteensä
+        %th=t(:products_total)
         %th
         %th
         %th= number_to_currency order.basket.total_price
       %tr
         %td 
-        %td Toimituskulut
+        %td= t(:shipping_cost)
         %td
         %td
         %td= number_to_currency order.shipment_price
       %tr
         %th 
-        %th Tilaus yhteensä
+        %th=t(:order_total)
         %th
         %th
         %th= number_to_currency order.total_price

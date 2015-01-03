@@ -18,22 +18,22 @@
   .col-md-3.no-print
     .group-wrapper.side.checkout
       =image_tag  "sales_clerk/checkout-im.jpg"
-      %h5 Tilausvahvistus
+      %h5= t(:order_confirmation)
 
   .col-md-9
     .row
       .col-md-6
         %i 
-          %h4.highlight Kiitos tilauksestasi!    
+          %h4.highlight=t(:order_thanks)
       .col-md-6.text-right
-        %h4.highlight Tilausvahvistus 
+        %h4.highlight= t(:order_confirmation) 
       = render :partial => "order_9" , :locals => { :order => @order }
         
 .row
   %hr 
   .col-md-3
     %h4.highlight
-      Maksutapa
+      =t(:payment_type)
 
   .col-md-9
     .row
@@ -56,12 +56,12 @@
   %hr 
   .col-md-3
     %h4.highlight
-      Yhteystiedot
+      = t(:contact_details)
 
   .col-md-9
     .row
       .col-md-6
-        %h4 Toimitusosoite     
+        %h4= t(:shipping_address)     
         = @order.name
         %br 
         = @order.street
@@ -74,21 +74,21 @@
         = @order.email   
   
       .col-md-5
-        %h4 Tilaushistoria
-        Aikaisemmat tilauksesi löydät täältä
-        %a{:href => "/history"} auringostaitaan.fi/history
+        %h4= t(:order_history)
+        =t(:previous_orders_here)
+        = link_to shop_history_path , shop_history_path
         
 -unless current_clerk
   .row
     %hr 
     .col-md-3
-      %h4.highlight Rekisteröityminen
+      %h4.highlight= t(:register)
 
     .col-md-9
       .row
         .col-md-5
-          %h4 Rekisteröityminen
-          Jos haluat rekisteröityä asiakkaaksemme, sen voi tehdä tässä. Voit tehdä ostoksia myös ilman rekisteröitymistä. 
+          %h4= t(:register)
+          = t(:register_text)
           %br
           %br
           %b Rekisteröitymisen edut
