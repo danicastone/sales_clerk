@@ -1,14 +1,41 @@
 ---
 fi:
+  latest_order: Uusin tilauksesi
+  basket_contents: Ostoskorisi sisältö
+  choosen_shipment: Valittu toimitustapa
+  close: Close
+  designed_by: Suunnittelu ja toteutus
   empty: Tyhjä
   log_in_see_history: Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään.
   login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta.
+  make_order: Tee tilaus
   must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
   no_order_found: Tilausta ei löytynyt
   no_orders_yet: Sinulla ei ole vielä tilauksia
   notice: Huom
+  order_confirmation: Tilausvahvistus
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
+  order_history: Tilaushistoria
   order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"
-  register: Rekisteröidy
+  order_thanks: Kiitos tilauksestasi!
+  order_total: Tilaus yhteensä
+  our_shop: Liikkeemme
+  payment_description_text: Tällä hetkellä verkkokaupassamme maksutapana on ennakkolasku. Tilauksen tehtyäsi saat sähköpostiin tilausvahvistuksen jossa on maksun tiedot. Kun maksusi näkyy tilillämme, toimitamme tilaamasi tuotteet, normaalisti 1-3 arkipäivän kuluessa.
+  payment_header: Ostoksen maksaminen
+  payment_type: Maksutapa
+  powered_by: Powered by
+  previous_addresses: Tallennetut osoitteet
+  previous_orders: Aiemmat tilauksesi
+  previous_orders_here: Aikaisemmat tilauksesi löydät täältä
+  products_total: Tuotteet yhteensä
+  read_and_agree: Olen lukenut ja hyväksynyt
+  received: vastaanotettu
+  register: Rekisteröityminen
+  register_text: Jos haluat rekisteröityä asiakkaaksemme, sen voi tehdä tässä. Voit tehdä ostoksia myös ilman rekisteröitymistä.
+  shipping_address: Toimitusosoite
+  shipping_cost: Toimituskulut
+  similar_products: Muita tuotteita samassa tuoteryhmässä
+  terms: toimitusehdot
   thanks: Kiitos tilauksestasi!
+  to_hompage: etusivulle
   total: Yhteensä

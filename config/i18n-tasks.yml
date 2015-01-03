@@ -86,6 +86,12 @@ ignore_missing:
   - items
   - notice
   - signed_out
+  - choose_shipment
+  - contact_details
+  - price
+  - product
+  - quantity
+  - total_price
   
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'

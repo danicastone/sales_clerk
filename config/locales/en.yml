@@ -1,14 +1,41 @@
 ---
 en:
+  basket_contents: Baskets contents
+  choosen_shipment: Choosen Shipment
+  close: Close
+  designed_by: Designed by
   empty: Empty
-  log_in_see_history: Nähdäksesi tilaushistorian sinun täytyy kirjautua sisään.
-  login_addresses: Jos kirjaudut sisään voit käyttää edellisen tilauksen osoitetta.
-  must_accept: Toimitusehdot on hyväksyttävä ennen tilausta.
-  no_order_found: Tilausta ei löytynyt
-  no_orders_yet: Sinulla ei ole vielä tilauksia
+  log_in_see_history: To see the order history you need to og in.
+  login_addresses: If you log in you can see your previouly used addresses.
+  make_order: Make Order
+  must_accept: You must accept Terms and Conditions before making an order.
+  no_order_found: Order not found
+  no_orders_yet: You have no orders yet
   notice: 'Note:'
-  order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
+  order_confirmation: Order confirmation
+  order_enough_for_free_shipping: "Your order qualifies for free shipping!"
+  order_history: Order history
   order_more_for_free_shipping: Order %{more} €  for free shipping
-  register: Rekisteröidy
-  thanks: Kiitos tilauksestasi!
-  total: Yhteensä
+  order_thanks: "Thank you for your order!"
+  order_total: Order total
+  our_shop: Shop
+  payment_description_text: Currently the payment method is prepayment by bank. DA DA DA better change this.
+  payment_header: Payment
+  payment_type: Payment
+  powered_by: Powered by
+  previous_addresses: Previous addresses
+  previous_orders: Previous orders
+  previous_orders_here: Previous orders can be found here
+  products_total: Products total
+  read_and_agree: I have read and agree to
+  received: reveived
+  register: Register
+  register_text: If you want to register you may do so here. But you may also make orders without registering
+  shipping_address: Shipping address
+  shipping_cost: Shipping cost
+  similar_products: Same products in this group
+  terms: Term and conditions
+  thanks: Thanks you for your order
+  to_hompage: to homepage
+  total: Total
+  latest_order: Last Order
