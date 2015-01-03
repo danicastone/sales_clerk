@@ -10,4 +10,15 @@ task :full_test do
   system("rake db:drop db:migrate RAILS_ENV=test && rspec")
 end
 
+namespace :db do
+  desc 'Create an admin for the shop'
+  task :create_admin => :environment do
+    if admin = Clerk.where(:admin => true).first
+      puts "Admin alreay present #{admin.email}"
+    else
+      Clerk.create! :email => "admin@example.com" , :password => "password" , :password_confirmation => "password" , :admin => true
+    end
+  end
+end
+
 task :default => 'full_test'
