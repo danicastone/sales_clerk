@@ -31,7 +31,8 @@ module SalesClerk
       end
     end
 
-    config.i18n.available_locales = :fi
+    config.i18n.enforce_available_locales = false
+    config.i18n.available_locales = [:fi , :config]
     config.i18n.default_locale = :fi
 
   end
