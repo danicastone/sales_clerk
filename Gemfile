@@ -34,7 +34,7 @@ group  :production do
   gem "therubyracer" 
   gem "libv8" , "3.16.14.3"
   gem 'uglifier', '>= 1.3.0'
-
+  gem "lograge"
   gem "newrelic_rpm"
 end
 
