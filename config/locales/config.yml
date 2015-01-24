@@ -2,17 +2,17 @@ config:
   has_ssl: true
   shipping:
     post:
-      weight_table: '1 2 5 10 15 30'
+      weight_table: '1 5 10 15 30 40'
       price_table: '5.9 6.9 8.5 10 11 15'
       name: "Postipaketti, nouto postikonttorista"
       class: "OfficeClerk::Post"
     kotiinkuljetus:
-      weight_table: '1 2 5 10 15 30'
+      weight_table: '1 5 10 15 30 40'
       price_table: '9.9 10.9 12.5 14 15 19'
       name: "Postipaketti, kotiinkuljetus"
       class: "OfficeClerk::Post"
     maksikirje:
-      weight_table: '0.4 0.8 1.2'
+      weight_table: '0.4 0.8 1.2 2'
       price_table: '4 5.5 7'
       name: "Maksikirje 2.lk"
       class: "OfficeClerk::Post"
