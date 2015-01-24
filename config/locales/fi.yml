@@ -17,8 +17,6 @@ fi:
   order_enough_for_free_shipping: Tilauksesi ylittää rahtirajan, ilmainen toimitus!
   order_history: Tilaushistoria
   order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"
-  order_city: Postinumero ja -toimipaikka
-  order_name: Etu- ja sukunimi
   order_thanks: Kiitos tilauksestasi!
   order_total: Tilaus yhteensä
   our_shop: Liikkeemme
