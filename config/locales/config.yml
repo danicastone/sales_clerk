@@ -12,7 +12,7 @@ config:
       name: "Postipaketti, kotiinkuljetus"
       class: "OfficeClerk::Post"
     maksikirje:
-      weight_table: '0.4 0.8 1.2 2'
+      weight_table: '0.4 0.8 1.2'
       price_table: '4 5.5 7'
       name: "Maksikirje 2.lk"
       class: "OfficeClerk::Post"
