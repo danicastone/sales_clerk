@@ -1,0 +1,26 @@
+config:
+  has_ssl: true
+  shipping:
+    post:
+      weight_table: '1 5 10 15 30 40'
+      price_table: '5.9 6.9 8.5 10 11 15'
+      name: "Post Office Pickup"
+      class: "OfficeClerk::Post"
+    kotiinkuljetus:
+      weight_table: '1 5 10 15 30 40'
+      price_table: '9.9 10.9 12.5 14 15 19'
+      name: "Home Delivery"
+      class: "OfficeClerk::Post"
+    maksikirje:
+      weight_table: '0.4 0.8 1.2'
+      price_table: '4 5.5 7'
+      name: "Maxi 2.lk"
+      class: "OfficeClerk::Post"
+    pickup:
+      class: "OfficeClerk::Pickup"
+      name: "Store Pickup"
+  defaults:
+    tax: 24.0
+    free_shipping: 100
+  print_styles: "receipt invoice"
+

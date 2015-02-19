@@ -1,0 +1,47 @@
+.row
+  .col-md-3
+    .group-wrapper.side.checkout
+      =image_tag "sales_clerk/checkout-im.jpg"
+      %h5 Tilaushistoria
+
+  .col-md-9
+    .row
+      .col-md-6
+        %i 
+          %h4.highlight= t(:latest_order)    
+      = render :partial => "order_9" , :locals => { :order => @last }
+    %b 
+      =t(:choosen_shipment) +" :" 
+      = shipping_method(@last.shipment_type).name
+    %br
+      = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
+    
+.row
+  %hr 
+  .col-md-3
+    %h4.highlight=t(:previous_orders)
+
+-@orders.each do |order|
+  .row
+    %br 
+    .col-md-3
+      %b= date order.ordered_on
+      %br
+      %br
+      %b= t(:total) 
+      = order.total_price
+      %br
+      %b= shipping_method(order.shipment_type).name
+      %br
+      = order.name
+      %br 
+      = order.street
+      %br 
+      = order.city
+      %br 
+      =order.phone
+
+    .col-md-9
+      = render :partial => "order_9" , :locals => { :order => order }
+  %hr 
+      

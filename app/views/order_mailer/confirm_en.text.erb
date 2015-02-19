@@ -1,0 +1,22 @@
+Hello,
+
+Your order <%= @order.number %> has been received on <%= date(@order.ordered_on) %>.
+Please check that the details are correct:
+
+<%=render :partial => "order_mailer/order"%>
+
+Payment method: Advance payment
+
+Your order will be sent as soon as we receive and process your payment.
+Your account number is FI1017 4530 0013 2474, please mention your order number <%= @order.number %> in all messages or use reference number <%=reference%>. 
+ 
+Once your payment has been processed, your order will ship within 1-3 business days.
+
+Thank you for your order!
+
+Sincerely,
+
+Auringosta Itään, Kuusta länteen
+info@auringostaitaan.fi
+Fredrikinkatu 19 (Viiskulma), 00120 Helsinki 
+

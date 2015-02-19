@@ -27,6 +27,7 @@ group :development do
   gem 'quiet_assets'
   gem "thin"
   gem "rb-readline"
+  gem "sqlite3"
 end
 
 group  :production do

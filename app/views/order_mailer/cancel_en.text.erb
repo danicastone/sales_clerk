@@ -1,0 +1,10 @@
+Hello,
+
+Your order number  <%= @order.number %> has been canceled as of <%= date(@order.canceled_on) %>.
+
+<%=render :partial => "order_mailer/order"%>
+
+Sincerely,
+
+Auringosta Itään, Kuusta Länteen
+

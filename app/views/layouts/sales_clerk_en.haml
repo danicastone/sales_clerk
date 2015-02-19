@@ -1,0 +1,92 @@
+!!!
+/[if lt IE 7 ] <html class="ie ie6" lang="en">
+/[if IE 7 ] <html class="ie ie7" lang="en">
+/[if IE 8 ] <html class="ie ie8" lang="en">
+/[if IE 9 ] <html class="ie ie9" lang="en">
+%html{lang: (I18n.locale || I18n.default_locale)}
+  %head
+    %meta{charset: "utf-8"}/
+    %title Auringosta Itään, Kuusta Länteen
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1", name: "viewport"}
+    %meta{content: "Sisustus, Lifestyle, luomukosmetiikka , luonnonkosmetiikka , farfalla", name: "keywords"}
+    = stylesheet_link_tag "sales_clerk" , :media => "all"
+    = javascript_include_tag "sales_clerk"
+    = csrf_meta_tags
+    -if ENV["PRODUCT_ID"]
+      :javascript
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '#{ENV["PRODUCT_ID"]}', 'auringostaitaan.fi');
+        ga('send', 'pageview');
+  %body
+    .container-fluid
+      %header
+        .row
+          %nav.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
+            .navbar-inner
+              .row.taustalogo
+                .col-md-6
+                  %a{href: "/"}
+                    =image_tag "sales_clerk/spacer.gif", :height => "80", :width => "650"
+                  
+                .col-md-6
+                  %ul.nav.navbar-nav.navbar-right.hidden-print
+                    %li.dropdown 
+                      %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+                        Auringosta Itään, Kuusta Länteen (East of the Sun, West of the Moon)
+                        %b.caret
+                      %ul.dropdown-menu 
+                        %li{:role => "presentation"} 
+                          %a{:href => "/page/our_shop", :role => "menuitem", :tabindex => "-1"}
+                            = t(:our_shop)
+                          
+                        %li{:role => "presentation"} 
+                          %a{:href => "/page/terms", :role => "menuitem", :tabindex => "-1"} 
+                            = t(:terms)
+
+                    %li#link-to-cart
+                      %a{href: main_app.shop_checkout_path}
+                        = t(:basket)
+                        - if current_basket_or_nil.nil? or current_basket.items.count == 0
+                          = t(:empty)
+                        -else
+                          = current_basket.items.count
+                          = t(:items)
+                    %li.dropdown
+                      %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+                        = current_clerk ? current_clerk.email : t(:sign_in)
+                        %b.caret
+                      %ul.dropdown-menu
+                        - if current_clerk
+                          %li= link_to t(:sign_out), office.sign_out_path
+                          %li{:role => "presentation"} 
+                            %a{:href => "/history", :role => "menuitem", :tabindex => "-1"}
+                              = t(:order_history)
+                        - else
+                          %li= link_to t(:sign_up), office.sign_up_path
+                          %li= link_to t(:sign_in), office.sign_in_path                          
+          
+      .main
+        - message = flash[:notice].blank? ? flash[:error] : flash[:notice] 
+        - unless message.blank?
+          .row.alert-notice
+            .col-md-4
+            .col-md-4
+            .col-md-4
+              .alert.alert-dismissible.alert-message.alert-shop
+                %button.close{"data-dismiss" => "alert", :type => "button"}
+                  %span{"aria-hidden" => "true"} ×
+                  %span.sr-only= t(:close)
+                = message
+        .row
+          .col-md-12
+            = yield
+
+            
+
+        =render "layouts/footer"
+            

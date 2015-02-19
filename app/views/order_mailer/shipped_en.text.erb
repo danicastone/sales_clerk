@@ -1,0 +1,20 @@
+Dear customer, 
+
+Your order <%= @order.number %> shipped on <%= date(@order.shipped_on) %>.
+
+<% unless @order.shipment_info.blank? %>
+Your tracking number is <%=@order.shipment_info%>
+<%end%>
+  
+<%=render :partial => "order_mailer/order"%>
+
+Thank you for your order!
+
+Sincerely,
+
+Auringosta Itään, Kuusta länteen
+
+
+
+
+
