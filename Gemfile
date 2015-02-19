@@ -36,6 +36,7 @@ group  :production do
   gem 'uglifier', '>= 1.3.0'
   gem "lograge"
   gem "newrelic_rpm"
+  gem "pg"
 end
 
 group :test do
