@@ -14,7 +14,6 @@ gem "office_clerk", github: "rubyclerks/office_clerk"
 
 gem 'db_fixtures_dump'  , github: "dancinglightning/db_fixtures_dump" #backup
 
-gem 'sqlite3'
 gem "rails" ,  "4.1.8"
 gem 'rails-i18n', '~> 4.0.0'
 
@@ -28,6 +27,7 @@ group :development do
   gem 'quiet_assets'
   gem "thin"
   gem "rb-readline"
+  gem "sqlite3"
 end
 
 group  :production do
@@ -36,6 +36,7 @@ group  :production do
   gem 'uglifier', '>= 1.3.0'
   gem "lograge"
   gem "newrelic_rpm"
+  gem "pg" 
 end
 
 group :test do
