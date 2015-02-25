@@ -1,0 +1,9 @@
+---
+content_path: ".lowerright:text"
+partials:
+  menu: "//div[@class='nav']/text()"
+index_path: index.html
+stylesheet_dir: css
+image_dir: images
+javascript_dir: css/simple-line-icons
+no_sass: false
